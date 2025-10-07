@@ -128,6 +128,14 @@ OverqwilFrames:   INCLUDE "gfx/pokemon/overqwil/frames.asm"
 FarigirafFrames:  INCLUDE "gfx/pokemon/farigiraf/frames.asm"
 ClodsireFrames:   INCLUDE "gfx/pokemon/clodsire/frames.asm"
 AnnihilapeFrames: INCLUDE "gfx/pokemon/annihilape/frames.asm"
+FeebasFrames:     INCLUDE "gfx/pokemon/feebas/frames.asm"
+MiloticFrames:    INCLUDE "gfx/pokemon/milotic/frames.asm"
+BeldumFrames:     INCLUDE "gfx/pokemon/beldum/frames.asm"
+MetangFrames:     INCLUDE "gfx/pokemon/metang/frames.asm"
+MetagrossFrames:  INCLUDE "gfx/pokemon/metagross/frames.asm"
+GibleFrames:      INCLUDE "gfx/pokemon/gible/frames.asm"
+GabiteFrames:     INCLUDE "gfx/pokemon/gabite/frames.asm"
+GarchompFrames:   INCLUDE "gfx/pokemon/garchomp/frames.asm"
 
 EggFrames:        INCLUDE "gfx/pokemon/egg/frames.asm"
 
@@ -161,7 +169,10 @@ UnownExclamationFrames: INCLUDE "gfx/pokemon/unown_exclamation/frames.asm"
 UnownQuestionFrames:    INCLUDE "gfx/pokemon/unown_question/frames.asm"
 
 PichuPlainFrames: INCLUDE "gfx/pokemon/pichu_plain/frames.asm"
+PichuOlderFrames: INCLUDE "gfx/pokemon/pichu_older/frames.asm"
 PichuSpikyFrames: INCLUDE "gfx/pokemon/pichu_spiky/frames.asm"
+
+TogekissCynthiaFrames:   INCLUDE "gfx/pokemon/togekiss_cynthia/frames.asm"
 
 SlowkingPlainFrames:    INCLUDE "gfx/pokemon/slowking_plain/frames.asm"
 SlowkingGalarianFrames: INCLUDE "gfx/pokemon/slowking_galarian/frames.asm"

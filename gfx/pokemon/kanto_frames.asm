@@ -121,6 +121,8 @@ PikachuPikaFrames:   INCLUDE "gfx/pokemon/pikachu_pika/frames.asm"
 PikachuChuchuFrames: INCLUDE "gfx/pokemon/pikachu_chuchu/frames.asm"
 PikachuSparkFrames:  INCLUDE "gfx/pokemon/pikachu_spark/frames.asm"
 
+GengarAgathaFrames:     INCLUDE "gfx/pokemon/gengar_agatha/frames.asm"
+
 ArbokJohtoFrames:  INCLUDE "gfx/pokemon/arbok_johto/frames.asm"
 ArbokKantoFrames:  INCLUDE "gfx/pokemon/arbok_kanto/frames.asm"
 ArbokKogaFrames:   INCLUDE "gfx/pokemon/arbok_koga/frames.asm"
@@ -162,6 +164,7 @@ RaticateAlolanFrames: INCLUDE "gfx/pokemon/raticate_alolan/frames.asm"
 
 RaichuPlainFrames:  INCLUDE "gfx/pokemon/raichu_plain/frames.asm"
 RaichuAlolanFrames: INCLUDE "gfx/pokemon/raichu_alolan/frames.asm"
+RaichuSurgeFrames:  INCLUDE "gfx/pokemon/raichu_surge/frames.asm"
 
 SandshrewPlainFrames:  INCLUDE "gfx/pokemon/sandshrew_plain/frames.asm"
 SandshrewAlolanFrames: INCLUDE "gfx/pokemon/sandshrew_alolan/frames.asm"

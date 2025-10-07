@@ -297,4 +297,12 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
+	mon_cry CRY_GRIMER,      $100,  $091 ; Feebas
+	mon_cry CRY_SPINARAK,   -$091,  $276 ; Milotic
+	mon_cry CRY_DIGLETT,    -$050,  $05a ; Beldum
+	mon_cry CRY_AMPHAROS,    $23b,  $082 ; Metang
+	mon_cry CRY_TYPHLOSION,  $730,  $082 ; Metagross
+	mon_cry CRY_WOOPER,      $060,  $09b ; Gible
+	mon_cry CRY_TYROGUE,    -$080,  $0af ; Gabite
+	mon_cry CRY_TYROGUE,    -$180,  $100 ; Garchomp
 	assert_table_length NUM_SPECIES

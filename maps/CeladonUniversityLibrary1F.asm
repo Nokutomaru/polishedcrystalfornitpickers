@@ -28,7 +28,7 @@ CeladonUniversityLibrary1F_MapScriptHeader:
 
 	def_object_events
 	object_event  6,  3, SPRITE_AROMA_LADY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityLibrary1FLadyText, -1
-	object_event 11,  7, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityLibrary1FGentlemanText, -1
+	object_event 11,  7, SPRITE_GENTLEMAN, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, CeladonUniversityLibrary1FGentlemanScript, -1
 	object_event  0,  5, SPRITE_BATTLE_GIRL, SPRITEMOVEDATA_WANDER, 1, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityLibrary1FCooltrainerfText, -1
 	object_event  9,  5, SPRITE_GAMEBOY_KID, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, CeladonUniversityLibrary1FGameboyKidScript, -1
 	object_event  3,  8, SPRITE_MATRON, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 1, -1, PAL_NPC_GREEN, OBJECTTYPE_COMMAND, jumptextfaceplayer, CeladonUniversityLibrary1FPokefan_fText, -1
@@ -47,9 +47,166 @@ CeladonUniversityLibrary1FLadyText:
 	para "Isn't that great?"
 	done
 
-CeladonUniversityLibrary1FGentlemanText:
-	text "Shh! Can't you see"
-	line "I'm reading here?"
+CeladonUniversityLibrary1FGentlemanScript:
+	faceplayer
+	checkevent EVENT_GOT_FEEBAS_FROM_GENTLEMAN
+	iftruefwd .AlreadyGotFeebas
+	opentext
+	checkevent EVENT_FEEBAS_GENTLEMAN_INTRODUCED
+	iftruefwd .heardfeebasintro
+	writetext .FeebasIntroText
+	waitbutton
+	setevent EVENT_FEEBAS_GENTLEMAN_INTRODUCED
+.heardfeebasintro
+	writetext .FeebasQuestionText
+	yesorno
+	iffalse_jumpopenedtext .FeebasNoText
+	writetext .FeebasYesText
+	promptbutton
+	waitsfx
+	readvar VAR_PARTYCOUNT
+	ifequalfwd PARTY_LENGTH, .FeebasNoRoom
+	givepoke FEEBAS, PLAIN_FORM, 5, NO_ITEM, POKE_BALL
+	setevent EVENT_GOT_FEEBAS_FROM_GENTLEMAN
+	writetext .TakeCareOfFeebasText
+	waitbutton
+	closetext
+	end
+
+.AlreadyGotFeebas
+	opentext
+	writetext .AlreadyGotFeebasText
+	waitbutton
+	closetext
+	end
+
+.FeebasNoRoom:
+	jumpthisopenedtext
+
+	text "You can't carry"
+	line "any more #mon,"
+	cont "though…"
+	done
+
+.FeebasIntroText:
+	text "Have you heard"
+	line "about the"
+	cont "Waterfall Tale?"
+
+	para "Legend has it"
+	line "that a school of"
+
+	para "fish #mon swam"
+	line "against the strong"
+
+	para "currents of a"
+	line "river, then up"
+
+	para "a waterfall, all"
+	line "while facing many"
+
+	para "obstacles along"
+	line "the way."
+
+	para "As a reward for"
+	line "their struggles,"
+
+	para "the gods turned"
+	line "those fish #mon"
+
+	para "into powerful"
+	line "and majestic"
+	cont "dragons."
+
+	para "Some people say"
+	line "it's a tale about"
+
+	para "Magikarp becoming"
+	line "Gyarados, others"
+
+	para "say it's a tale"
+	line "about Feebas"
+	cont "becoming Milotic."
+
+	para "Me? I think it's"
+	line "about both."
+
+	para "Feebas' biology is"
+	line "quite similar to"
+	cont "that of Magikarp."
+
+	para "It starts out"
+	line "shabby and weak."
+
+	para "But, with enough"
+	line "effort, it becomes"
+
+	para "beautiful and"
+	line "strong."
+
+	para "You may be young,"
+	line "but I can see in"
+
+	para "your eyes that"
+	line "you understand"
+
+	para "what it means"
+	line "to work hard to"
+	cont "reach your goals."
+
+	para "So…"
+	done
+
+.FeebasQuestionText:
+	text "I think you're fit"
+	line "to raise a Feebas"
+	cont "of your own…"
+
+	para "…If you're up to"
+	line "the task, that is."
+	done
+
+.FeebasYesText:
+	text "That's the"
+	line "spirit!"
+	done
+
+.TakeCareOfFeebasText:
+	text "Give that Feebas"
+	line "the care it needs"
+
+	para "and watch its"
+	line "true potential"
+	cont "be unveiled!"
+	done
+
+.AlreadyGotFeebasText:
+	text "Regardless of"
+	line "what #mon"
+
+	para "the Waterfall"
+	line "Tale is referring"
+	cont "to…"
+
+	para "It still is an"
+	line "important lesson"
+
+	para "about never"
+	line "giving up on"
+	cont "your dreams."
+
+	para "Be diligent like"
+	line "those fish, and"
+
+	para "one day, you will"
+	line "become strong"
+	cont "like a dragon!"
+	done
+
+.FeebasNoText:
+	text "There's no such"
+	line "thing as success"
+	cont "without effort."
 	done
 
 CeladonUniversityLibrary1FCooltrainerfText:
@@ -129,11 +286,9 @@ CeladonUniversityLibrary1FTeacherText:
 	done
 
 CeladonUniversityLibrary1FBookText:
-	text "It's a book about"
-	line "flower arranging."
-
-	para "A Sunflora is on"
-	line "the cover."
+	text "“Kurohyou”"
+	line "is written on"
+	cont "the cover."
 	done
 
 CeladonUniversityLibrary1FSignpost1Text:

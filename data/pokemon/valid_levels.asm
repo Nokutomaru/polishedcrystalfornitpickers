@@ -296,4 +296,12 @@ endc
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
+	db 255, 255 ; Feebas
+	db 255, 255 ; Milotic
+	db 255, 255 ; Beldum
+	db 255, 255 ; Metang
+	db 255, 255 ; Metagross
+	db 255, 255 ; Gible
+	db 255, 255 ; Gabite
+	db 255, 255 ; Garchomp
 	assert_table_length NUM_SPECIES

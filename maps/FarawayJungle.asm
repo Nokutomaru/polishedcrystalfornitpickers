@@ -24,7 +24,7 @@ FarawayJungleMew:
 	cry MEW
 	pause 15
 	closetext
-	loadwildmon MEW, 30
+	loadwildmon MEW, 70
 	loadvar VAR_BATTLETYPE, BATTLETYPE_LEGENDARY
 	startbattle
 	disappear FARAWAYJUNGLE_MEW

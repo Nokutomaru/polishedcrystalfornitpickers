@@ -2895,6 +2895,86 @@ AnnihilapePokedexEntry::
 	next "ttered by its"
 	next "physical body.@"
 
+SECTION "FeebasPokedexEntry", ROMX
+FeebasPokedexEntry::
+	db "Fish@"
+	db   "It is a shabby and"
+	next "ugly #mon."
+	next "However, it is"
+	page "very hardy and can"
+	next "survive on little"
+	next "water.@"
+
+SECTION "MiloticPokedexEntry", ROMX
+MiloticPokedexEntry::
+	db "Tender@"
+	db   "It is the world's"
+	next "most beautiful"
+	next "#mon. There are"
+	page "many works of"
+	next "art featuring"
+	next "Milotic.@"
+
+SECTION "BeldumPokedexEntry", ROMX
+BeldumPokedexEntry::
+	db "Iron Ball@"
+	db   "It converses with"
+	next "others by using"
+	next "magnetic pulses."
+	page "In a swarm, they"
+	next "move in perfect"
+	next "unison.@"
+
+SECTION "MetangPokedexEntry", ROMX
+MetangPokedexEntry::
+	db "Iron Claw@"
+	db   "It is formed by"
+	next "two Beldum joining"
+	next "together. Its two"
+	page "brains are linked,"
+	next "amplifying its"
+	next "psychic power.@"
+
+SECTION "MetagrossPokedexEntry", ROMX
+MetagrossPokedexEntry::
+	db "Iron Leg@"
+	db   "It folds its four"
+	next "legs when flying."
+	next "Its four brains"
+	page "are said to be"
+	next "superior to a"
+	next "supercomputer.@"
+
+SECTION "GiblePokedexEntry", ROMX
+GiblePokedexEntry::
+	db "Land Shark@"
+	db   "It attacks using"
+	next "its huge mouth."
+	next "While its attacks"
+	page "are powerful, it"
+	next "hurts itself out of"
+	next "clumsiness, too.@"
+
+SECTION "GabitePokedexEntry", ROMX
+GabitePokedexEntry::
+	db "Cave@"
+	db   "It habitually digs"
+	next "up and hoards gems"
+	next "in its nest."
+	page "Its loot is"
+	next "constantly targeted"
+	next "by thieves.@"
+
+SECTION "GarchompPokedexEntry", ROMX
+GarchompPokedexEntry::
+	db "Mach@"
+	db   "Its body is covered"
+	next "in fine scales that"
+	next "reduce wind resis-"
+	page "tance, enabling it"
+	next "to fly at high"
+	next "speeds.@"
+
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"
@@ -2914,6 +2994,26 @@ MewtwoArmoredPokedexEntry::
 	page "amplified by its"
 	next "armor, Mewtwo's pow-"
 	next "er is unstoppable.@"
+
+SECTION "PichuOlderPokedexEntry", ROMX
+PichuOlderPokedexEntry::
+	db "Tiny Mouse@"
+	db   "Its odd coloration"
+	next "seems to be a res-"
+	next "ult of time travel."
+	page "It cannot evolve,"
+	next "but it is tougher"
+	next "than other Pichu.@"
+
+SECTION "PichuSpikyPokedexEntry", ROMX
+PichuSpikyPokedexEntry::
+	db "Tiny Mouse@"
+	db   "Excessive time tra-"
+	next "vels have resulted"
+	next "in this Pichu being"
+	page "unable to evolve."
+	next "However, that also"
+	next "made it stronger.@"
 
 SECTION "RattataAlolanPokedexEntry", ROMX
 RattataAlolanPokedexEntry::
@@ -3181,12 +3281,12 @@ MrMimeGalarianPokedexEntry::
 SECTION "ArticunoGalarianPokedexEntry", ROMX
 ArticunoGalarianPokedexEntry::
 	db "Cruel@"
-	db   "Known as Articuno,"
-	next "this #mon fires"
-	next "beams that can im-"
-	page "mobilize opponents"
-	next "as if they had"
-	next "been frozen solid.@"
+	db   "Its feather-like"
+	next "blades are compos-"
+	next "ed of psychic"
+	page "energy and can cut"
+	next "through metal as"
+	next "if it is paper.@"
 
 SECTION "ZapdosGalarianPokedexEntry", ROMX
 ZapdosGalarianPokedexEntry::
@@ -3201,12 +3301,12 @@ ZapdosGalarianPokedexEntry::
 SECTION "MoltresGalarianPokedexEntry", ROMX
 MoltresGalarianPokedexEntry::
 	db "Malevolent@"
-	db   "The sinister aura"
-	next "that blazes like"
-	next "molten fire around"
-	page "this #mon is"
-	next "what inspired the"
-	next "name Moltres.@"
+	db   "This #mon's"
+	next "sinister, flame-"
+	next "like aura will"
+	page "consume the spirit"
+	next "of any creature"
+	next "it hits.@"
 
 SECTION "SlowkingGalarianPokedexEntry", ROMX
 SlowkingGalarianPokedexEntry::
@@ -3346,3 +3446,4 @@ UrsalunaBloodmoonPokedexEntry::
 	page "itself with mud"
 	next "that is as hard as"
 	next "iron.@"
+

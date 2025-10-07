@@ -184,6 +184,23 @@ WonderTradeReceptionistScript:
 	waitbutton
 	setevent EVENT_INTRODUCED_TEALA
 .introduced
+	checkevent EVENT_GOT_PIKACHU_COLORED_PICHU
+	iftruefwd .introduced2
+	writetext WonderTradeExplanationText
+	promptbutton
+	special WonderTrade
+	iffalsefwd .done
+	playmusic MUSIC_POKECOM_CENTER
+	writetext WonderTradeCompleteText
+	playsound SFX_DEX_FANFARE_80_109
+	waitsfx
+	ifnotequal 2, .done
+	setevent EVENT_GOT_PIKACHU_COLORED_PICHU
+	playmusic MUSIC_SPIKY_EARED_PICHU_HGSS
+	writetext WonderTradeForOlderFormPichuText
+	waitbutton
+	sjumpfwd .done
+.introduced2
 	writetext WonderTradeExplanationText
 	promptbutton
 	special WonderTrade
@@ -234,7 +251,7 @@ WonderTradeGoodbyeText:
 	line "again."
 	done
 
-WonderTradeForGSBallPichuText:
+WonderTradeForOlderFormPichuText:
 	text "…But what's this?"
 	line "Is something wrong"
 
@@ -259,6 +276,29 @@ WonderTradeForGSBallPichuText:
 	para "through space,"
 	line "not time…"
 
+	para "It may be unusual,"
+	line "but a #mon"
+	cont "is a #mon."
+
+	para "Please look after"
+	line "it carefully."
+	done
+
+WonderTradeForGSBallPichuText:
+	text "…But this isn't"
+	line "right…"
+
+	para "It seems like you"
+	line "just traded a"
+
+	para "#mon with"
+	line "yourself yet"
+	cont "again."
+
+	para "How is this"
+	line "possible not once,"
+	cont "but twice…?"
+
 	para "And what is that"
 	line "strange Ball it's"
 
@@ -276,6 +316,7 @@ WonderTradeForGSBallPichuText2:
 	para "Please look after"
 	line "it carefully."
 	done
+
 
 InfoSignScript:
 	jumpthistext

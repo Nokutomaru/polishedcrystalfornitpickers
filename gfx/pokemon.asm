@@ -282,7 +282,9 @@ HaunterBackpic:  INCBIN "gfx/pokemon/haunter/back.2bpp.lz"
 
 SECTION "Gengar Pics", ROMX
 GengarFrontpic: INCBIN "gfx/pokemon/gengar/front.animated.2bpp.lz"
-GengarBackpic:  INCBIN "gfx/pokemon/gengar/back.2bpp.lz"
+GengarAgathaFrontpic: INCBIN "gfx/pokemon/gengar_agatha/front.animated.2bpp.lz"
+GengarBackpic:
+GengarAgathaBackpic:  INCBIN "gfx/pokemon/gengar/back.2bpp.lz"
 
 SECTION "Onix Pics", ROMX
 OnixFrontpic: INCBIN "gfx/pokemon/onix/front.animated.2bpp.lz"
@@ -366,7 +368,9 @@ TogeticBackpic:  INCBIN "gfx/pokemon/togetic/back.2bpp.lz"
 
 SECTION "Togekiss Pics", ROMX
 TogekissFrontpic: INCBIN "gfx/pokemon/togekiss/front.animated.2bpp.lz"
-TogekissBackpic:  INCBIN "gfx/pokemon/togekiss/back.2bpp.lz"
+TogekissCynthiaFrontpic: INCBIN "gfx/pokemon/togekiss_cynthia/front.animated.2bpp.lz"
+TogekissBackpic:
+TogekissCynthiaBackpic:  INCBIN "gfx/pokemon/togekiss/back.2bpp.lz"
 
 SECTION "Staryu Pics", ROMX
 StaryuFrontpic: INCBIN "gfx/pokemon/staryu/front.animated.2bpp.lz"
@@ -1081,6 +1085,10 @@ SECTION "PichuPlain Pics", ROMX
 PichuPlainFrontpic: INCBIN "gfx/pokemon/pichu_plain/front.animated.2bpp.lz"
 PichuPlainBackpic:  INCBIN "gfx/pokemon/pichu_plain/back.2bpp.lz"
 
+SECTION "PichuOlder Pics", ROMX
+PichuOlderFrontpic: INCBIN "gfx/pokemon/pichu_older/front.animated.2bpp.lz"
+PichuOlderBackpic:  INCBIN "gfx/pokemon/pichu_older/back.2bpp.lz"
+
 SECTION "PichuSpiky Pics", ROMX
 PichuSpikyFrontpic: INCBIN "gfx/pokemon/pichu_spiky/front.animated.2bpp.lz"
 PichuSpikyBackpic:  INCBIN "gfx/pokemon/pichu_spiky/back.2bpp.lz"
@@ -1321,7 +1329,9 @@ MukAlolanBackpic:  INCBIN "gfx/pokemon/muk_alolan/back.2bpp.lz"
 
 SECTION "RaichuPlain Pics", ROMX
 RaichuPlainFrontpic: INCBIN "gfx/pokemon/raichu_plain/front.animated.2bpp.lz"
-RaichuPlainBackpic:  INCBIN "gfx/pokemon/raichu_plain/back.2bpp.lz"
+RaichuSurgeFrontpic: INCBIN "gfx/pokemon/raichu_surge/front.animated.2bpp.lz"
+RaichuPlainBackpic:
+RaichuSurgeBackpic:  INCBIN "gfx/pokemon/raichu_plain/back.2bpp.lz"
 
 SECTION "RaichuAlolan Pics", ROMX
 RaichuAlolanFrontpic: INCBIN "gfx/pokemon/raichu_alolan/front.animated.2bpp.lz"
@@ -1556,3 +1566,35 @@ TaurosPaldeanFireBackpic:  INCBIN "gfx/pokemon/tauros_paldean_fire/back.2bpp.lz"
 SECTION "TaurosPaldeanWater Pics", ROMX
 TaurosPaldeanWaterFrontpic: INCBIN "gfx/pokemon/tauros_paldean_water/front.animated.2bpp.lz"
 TaurosPaldeanWaterBackpic:  INCBIN "gfx/pokemon/tauros_paldean_water/back.2bpp.lz"
+
+SECTION "Feebas Pics", ROMX
+FeebasFrontpic: INCBIN "gfx/pokemon/feebas/front.animated.2bpp.lz"
+FeebasBackpic:  INCBIN "gfx/pokemon/feebas/back.2bpp.lz"
+
+SECTION "Milotic Pics", ROMX
+MiloticFrontpic: INCBIN "gfx/pokemon/milotic/front.animated.2bpp.lz"
+MiloticBackpic:  INCBIN "gfx/pokemon/milotic/back.2bpp.lz"
+
+SECTION "Beldum Pics", ROMX
+BeldumFrontpic: INCBIN "gfx/pokemon/beldum/front.animated.2bpp.lz"
+BeldumBackpic:  INCBIN "gfx/pokemon/beldum/back.2bpp.lz"
+
+SECTION "Metang Pics", ROMX
+MetangFrontpic: INCBIN "gfx/pokemon/metang/front.animated.2bpp.lz"
+MetangBackpic:  INCBIN "gfx/pokemon/metang/back.2bpp.lz"
+
+SECTION "Metagross Pics", ROMX
+MetagrossFrontpic: INCBIN "gfx/pokemon/metagross/front.animated.2bpp.lz"
+MetagrossBackpic:  INCBIN "gfx/pokemon/metagross/back.2bpp.lz"
+
+SECTION "Gible Pics", ROMX
+GibleFrontpic: INCBIN "gfx/pokemon/gible/front.animated.2bpp.lz"
+GibleBackpic:  INCBIN "gfx/pokemon/gible/back.2bpp.lz"
+
+SECTION "Gabite Pics", ROMX
+GabiteFrontpic: INCBIN "gfx/pokemon/gabite/front.animated.2bpp.lz"
+GabiteBackpic:  INCBIN "gfx/pokemon/gabite/back.2bpp.lz"
+
+SECTION "Garchomp Pics", ROMX
+GarchompFrontpic: INCBIN "gfx/pokemon/garchomp/front.animated.2bpp.lz"
+GarchompBackpic:  INCBIN "gfx/pokemon/garchomp/back.2bpp.lz"

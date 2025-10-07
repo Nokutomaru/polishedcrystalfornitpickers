@@ -3287,12 +3287,12 @@ endc
 	learnset 1, CONFUSION ; LGPE move
 	learnset 10, HEADBUTT ; Mega Punch → TM move
 	learnset 20, METRONOME
-	learnset 30, PSYCHIC_M
+	learnset 30, BATON_PASS
 	learnset 40, BARRIER
 	learnset 50, ANCIENTPOWER
-	learnset 60, BATON_PASS ; Amnesia → Baton Pass
+	learnset 60, PSYCHIC_M
 	learnset 70, SAFEGUARD ; Me First → Mewtwo move
-	learnset 80, AMNESIA ; Baton Pass → Amnesia
+	learnset 80, AMNESIA
 	learnset 90, NASTY_PLOT
 	learnset 100, AURA_SPHERE
 
@@ -3716,6 +3716,44 @@ endc
 	learnset 23, SCARY_FACE ; event move
 	learnset 28, SING ; event move
 	learnset 38, PETAL_DANCE ; event move
+
+	evos_attacks PichuOlder
+	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
+	learnset 1, THUNDERSHOCK
+	learnset 1, AMNESIA
+	learnset 5, NASTY_PLOT ; event move
+	learnset 10, THUNDER_WAVE
+	learnset 13, PAIN_SPLIT ; Endeavor → similar move
+	learnset 18, WILD_CHARGE ; Volt Tackle → similar move
+	learnset 23, EXTREMESPEED ; Pikachu move
+	learnset 28, FUTURE_SIGHT ; Celebi move
+	learnset 34, BULK_UP
+	learnset 34, CALM_MIND
+	learnset 38, BATON_PASS
+	learnset 44, PETAL_DANCE ; event move
+	learnset 48, CLOSE_COMBAT
+	learnset 53, ANCIENTPOWER ; Celebi move
+	learnset 57, DAZZLINGLEAM
+	learnset 62, THUNDER ; Pikachu move
+
+	evos_attacks PichuSpiky
+	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, PIKACHU
+	learnset 1, SPARK ; ThunderShock → similar physical move
+	learnset 1, CHARM
+	learnset 1, AMNESIA
+	learnset 5, SCREECH ; Tail Whip → similar move
+	learnset 10, THUNDER_WAVE
+	learnset 13, PAIN_SPLIT ; Endeavor → similar move
+	learnset 18, WILD_CHARGE ; Volt Tackle → similar move
+	learnset 23, EXTREMESPEED ; Pikachu move
+	learnset 28, FUTURE_SIGHT ; Celebi move
+	learnset 34, NASTY_PLOT
+	learnset 38, PETAL_DANCE ; event move
+	learnset 44, VOLT_SWITCH
+	learnset 48, BATON_PASS
+	learnset 53, ANCIENTPOWER ; Celebi move
+	learnset 57, PLAY_ROUGH
+	learnset 62, THUNDER ; Pikachu move
 
 	evos_attacks Cleffa
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, CLEFAIRY
@@ -5236,8 +5274,8 @@ endc
 	learnset 1, METRONOME ; Heal Bell → new move
 	learnset 10, SAFEGUARD
 	learnset 19, ENERGY_BALL ; Magical Leaf → TM move
-	learnset 28, ANCIENTPOWER
-	learnset 37, BATON_PASS
+	learnset 28, BATON_PASS
+	learnset 37, ANCIENTPOWER
 	learnset 46, MOONBLAST ; Natural Gift → new move
 	learnset 55, LIGHT_SCREEN ; Heal Block → TM move
 	learnset 64, FUTURE_SIGHT
@@ -5935,6 +5973,131 @@ endc
 	learnset 44, SCREECH
 	learnset 48, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
 	learnset 53, OUTRAGE
+
+	evos_attacks Feebas
+	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, MILOTIC
+	learnset 1, SPLASH
+	learnset 15, TACKLE
+	learnset 30, REVERSAL ; Flail → event move
+
+	evos_attacks Milotic
+	learnset 1, TACKLE
+	learnset 1, REVERSAL ; Flail → event move
+	learnset 1, WATER_GUN
+	learnset 1, WATER_PULSE ; evolution move
+	learnset 1, WRAP
+	learnset 4, DISARM_VOICE
+	learnset 8, GUST ; Twister → new move
+	learnset 12, CALM_MIND ; Aqua Ring → new move
+	learnset 16, HYPNOSIS ; Attract → egg move
+	learnset 20, RECOVER
+	learnset 24, DRAGONBREATH ; Dragon Tail → egg move
+	learnset 28, AGILITY ; Recover → new move
+	learnset 32, AQUA_TAIL
+	learnset 36, SAFEGUARD
+	learnset 40, HURRICANE ; Surf → new move
+	learnset 44, RAIN_DANCE
+	learnset 48, HYDRO_PUMP
+	learnset 52, HYPER_BEAM
+
+	evos_attacks Beldum
+	evo_data EVOLVE_LEVEL, 20, METANG
+	learnset 1, TACKLE
+	learnset 1, TAKE_DOWN
+
+	evos_attacks Metang
+	evo_data EVOLVE_LEVEL, 45, METAGROSS
+	learnset 1, TACKLE
+	learnset 1, TAKE_DOWN
+	learnset 1, BULLET_PUNCH
+	learnset 1, CONFUSION ; evolution move
+	learnset 1, METAL_CLAW
+	learnset 1, HONE_CLAWS
+	learnset 6, ZEN_HEADBUTT
+	learnset 12, RAPID_SPIN ; Magnet Rise → new move
+	learnset 18, FLASH_CANNON
+	learnset 22, PURSUIT
+	learnset 26, DOUBLE_EDGE
+	learnset 29, FORESIGHT ; Miracle Eye → similar move
+	learnset 34, PSYCHIC_M
+	learnset 42, SCARY_FACE
+	learnset 50, IRON_HEAD ; Meteor Mash → TM move
+	learnset 58, DEFENSE_CURL ; Iron Defense → similar move
+	learnset 66, AGILITY
+	learnset 74, HYPER_BEAM
+
+	evos_attacks Metagross
+	learnset 1, TACKLE
+	learnset 1, TAKE_DOWN
+	learnset 1, CONFUSION
+	learnset 1, BULLET_PUNCH
+	learnset 1, CLOSE_COMBAT ; Hammer Arm → similar evolution move
+	learnset 1, EXPLOSION
+	learnset 1, METAL_CLAW
+	learnset 1, HONE_CLAWS
+	learnset 6, ZEN_HEADBUTT
+	learnset 12, RAPID_SPIN ; Magnet Rise → new move
+	learnset 18, FLASH_CANNON
+	learnset 22, PURSUIT
+	learnset 26, DOUBLE_EDGE
+	learnset 29, FORESIGHT ; Miracle Eye → similar move
+	learnset 34, PSYCHIC_M
+	learnset 42, SCARY_FACE
+	learnset 50, IRON_HEAD ; Meteor Mash → TM move
+	learnset 58, DEFENSE_CURL ; Iron Defense → similar move
+	learnset 66, AGILITY
+	learnset 74, HYPER_BEAM
+
+	evos_attacks Gible
+	evo_data EVOLVE_LEVEL, 24, GABITE
+	learnset 1, TACKLE
+	learnset 3, MUD_SLAP ; Sand Attack → similar move
+	learnset 7, DRAGONBREATH
+	learnset 13, SANDSTORM
+	learnset 15, TAKE_DOWN
+	learnset 18, DRAGON_DANCE
+	learnset 21, BULLDOZE ; Sand Tomb → TM move
+	learnset 25, DRAGON_RAGE
+	learnset 28, BITE
+	learnset 33, SLASH
+	learnset 36, DRAGON_CLAW
+	learnset 40, DIG
+	learnset 45, OUTRAGE ; Dragon Rush → new move
+
+	evos_attacks Gabite
+	evo_data EVOLVE_LEVEL, 48, GARCHOMP
+	learnset 1, TACKLE
+	learnset 1, MUD_SLAP ; Sand Attack → similar move
+	learnset 1, DOUBLE_KICK ; Dual Chop → similar evolution move
+	learnset 7, DRAGONBREATH
+	learnset 13, SANDSTORM
+	learnset 15, TAKE_DOWN
+	learnset 20, DRAGON_DANCE
+	learnset 26, BULLDOZE ; Sand Tomb → TM move
+	learnset 30, DRAGON_RAGE
+	learnset 34, BITE
+	learnset 37, SLASH
+	learnset 40, DRAGON_CLAW
+	learnset 44, DIG
+	learnset 49, OUTRAGE ; Dragon Rush → new move
+
+	evos_attacks Garchomp
+	learnset 1, TACKLE
+	learnset 1, CRUNCH ; evolution move
+	learnset 1, MUD_SLAP ; Sand Attack → similar move
+	learnset 1, DOUBLE_KICK ; Dual Chop → similar move
+	learnset 1, DRAGON_RAGE
+	learnset 12, DRAGONBREATH
+	learnset 16, SANDSTORM
+	learnset 19, TAKE_DOWN
+	learnset 22, DRAGON_DANCE
+	learnset 26, BULLDOZE ; Sand Tomb → TM move
+	learnset 35, FIRE_PUNCH ; Fire Fang → similar move
+	learnset 38, SLASH
+	learnset 45, DRAGON_CLAW
+	learnset 48, DIG
+	learnset 51, AQUA_TAIL ; TM move
+	learnset 55, OUTRAGE ; Dragon Rush → new move
 
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:

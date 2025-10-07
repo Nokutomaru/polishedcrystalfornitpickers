@@ -295,6 +295,14 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal GRAY, PURPLE ; ANNIHILAPE
+	iconpal BROWN, PURPLE ; FEEBAS
+	iconpal RED, BLUE ; MILOTIC
+	iconpal BLUE, GRAY ; BELDUM
+	iconpal BLUE, GRAY ; METANG
+	iconpal BLUE, GRAY ; METAGROSS
+	iconpal BLUE, BLACK ; GIBLE
+	iconpal BLUE, BLACK ; GABITE
+	iconpal BLUE, BLACK ; GARCHOMP
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
@@ -309,7 +317,17 @@ rept NUM_PIKACHU - 1
 	iconpal RED, BLUE
 endr
 
-	iconpal RED, BLUE ; PICHU, PICHU_SPIKY_EARED_FORM
+rept NUM_RAICHU - 1
+	iconpal ORANGE, AZURE
+endr
+
+rept NUM_GENGAR - 1
+	iconpal PURPLE, BLUE
+endr
+
+rept NUM_TOGEKISS - 1
+	iconpal WHITE, AZURE
+endr
 
 rept NUM_MAGIKARP - 1
 	iconpal RED, BROWN
@@ -322,6 +340,9 @@ endr
 	iconpal GRAY, BLACK ; MEWTWO, MEWTWO_ARMORED_FORM
 
 	iconpal AZURE, RED ; DUDUNSPARCE, DUDUNSPARCE_THREE_SEGMENT_FORM
+
+	iconpal ORANGE, ORANGE ; PICHU, PICHU_OLDER_FORM
+	iconpal RED, BLUE ; PICHU, PICHU_SPIKY_EARED_FORM
 
 	iconpal BLACK, RED ; RATTATA, ALOLAN_FORM
 	iconpal BLACK, RED ; RATICATE, ALOLAN_FORM

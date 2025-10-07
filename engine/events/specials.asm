@@ -463,8 +463,15 @@ RespawnOneOffs:
 
 	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_MOLTRES
 	farcall EngineFlagAction
-	ret nz
+	jr nz, .CaughtGalarianMoltres
 	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_MOLTRES
+.CaughtGalarianMoltres
+
+	ld de, ENGINE_PLAYER_CAUGHT_SAFARI_ZONE_GIBLE
+	farcall EngineFlagAction
+	ret nz
+	eventflagreset EVENT_SAFARI_ZONE_EAST_GIBLE
+	eventflagreset EVENT_FOUGHT_SAFARI_ZONE_GIBLE
 	ret
 
 RespawnRoamingRaikou:

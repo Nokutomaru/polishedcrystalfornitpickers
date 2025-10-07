@@ -291,6 +291,14 @@ FramesPointers:
 	dw FarigirafFrames
 	dw ClodsireFrames
 	dw AnnihilapeFrames
+	dw FeebasFrames
+	dw MiloticFrames
+	dw BeldumFrames
+	dw MetangFrames
+	dw MetagrossFrames
+	dw GibleFrames
+	dw GabiteFrames
+	dw GarchompFrames
 	assert_table_length NUM_SPECIES
 
 	dw UnownBFrames
@@ -332,7 +340,11 @@ FramesPointers:
 	dw PikachuChuchuFrames
 	dw PikachuSparkFrames
 
-	dw PichuSpikyFrames
+	dw RaichuSurgeFrames
+
+	dw GengarAgathaFrames
+
+	dw TogekissCynthiaFrames
 
 	dw MagikarpSkellyFrames
 	dw MagikarpCalico1Frames
@@ -361,6 +373,9 @@ FramesPointers:
 	dw MewtwoArmoredFrames
 
 	dw DudunsparceThreeSegmentFrames
+
+	dw PichuOlderFrames
+	dw PichuSpikyFrames
 
 	dw RattataAlolanFrames
 	dw RaticateAlolanFrames

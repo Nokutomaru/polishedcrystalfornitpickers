@@ -36,4 +36,7 @@ HardenUsers:
 	dp GLISCOR
 	dp CURSOLA
 	dp KLEAVOR
+	dp BELDUM
+	dp METANG
+	dp METAGROSS
 	db 0

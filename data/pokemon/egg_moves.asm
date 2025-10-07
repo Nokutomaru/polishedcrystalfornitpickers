@@ -1232,5 +1232,26 @@ MunchlaxEggSpeciesMoves:
 	db GUNK_SHOT
 	db $ff
 
+FeebasEggSpeciesMoves:
+	dp FEEBAS, PLAIN_FORM
+	db CONFUSE_RAY
+	db DRAGONBREATH
+	db HAZE
+	db HYPNOSIS
+	db MIRROR_COAT
+	db $ff
+
+GibleEggSpeciesMoves:
+	dp GIBLE, PLAIN_FORM
+	db BODY_SLAM
+	db DOUBLE_EDGE
+	db DRAGONBREATH
+	db IRON_HEAD
+	db METAL_CLAW
+	db OUTRAGE
+	db SCARY_FACE
+	db THRASH
+	db $ff
+
 NoEggSpeciesMoves:
 	db $ff

@@ -266,8 +266,9 @@ IntimidateAbility:
 
 .continue
 	call EndAbility
-	farcall CheckMirrorHerb
-	farjp CheckStatHerbsAfterIntimidate
+	farcall CheckStatHerbsAfterIntimidate
+	call SwitchTurn
+	farjp CheckMirrorHerb
 
 INCLUDE "data/abilities/no_intimidate_abilities.asm"
 

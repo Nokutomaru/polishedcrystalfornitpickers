@@ -291,6 +291,14 @@ BitmasksPointers:
 	dw FarigirafBitmasks
 	dw ClodsireBitmasks
 	dw AnnihilapeBitmasks
+	dw FeebasBitmasks
+	dw MiloticBitmasks
+	dw BeldumBitmasks
+	dw MetangBitmasks
+	dw MetagrossBitmasks
+	dw GibleBitmasks
+	dw GabiteBitmasks
+	dw GarchompBitmasks
 	assert_table_length NUM_SPECIES
 
 	dw UnownBBitmasks
@@ -332,7 +340,11 @@ BitmasksPointers:
 	dw PikachuChuchuBitmasks
 	dw PikachuSparkBitmasks
 
-	dw PichuSpikyBitmasks
+	dw RaichuSurgeBitmasks
+
+	dw GengarAgathaBitmasks
+
+	dw TogekissCynthiaBitmasks
 
 	dw MagikarpSkellyBitmasks
 	dw MagikarpCalico1Bitmasks
@@ -361,6 +373,9 @@ BitmasksPointers:
 	dw MewtwoArmoredBitmasks
 
 	dw DudunsparceThreeSegmentBitmasks
+
+	dw PichuOlderBitmasks
+	dw PichuSpikyBitmasks
 
 	dw RattataAlolanBitmasks
 	dw RaticateAlolanBitmasks

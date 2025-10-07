@@ -17,6 +17,7 @@ AlphabeticalPokedexOrder:
 	dp AZURILL
 	dp BAYLEEF
 	dp BEEDRILL
+	dp BELDUM
 	dp BELLOSSOM
 	dp BELLSPROUT
 	dp BLASTOISE
@@ -70,14 +71,18 @@ AlphabeticalPokedexOrder:
 	dp FARIGIRAF
 	dp FARFETCH_D
 	dp FEAROW
+	dp FEEBAS
 	dp FERALIGATR
 	dp FLAAFFY
 	dp FLAREON
 	dp FORRETRESS
 	dp FURRET
+	dp GABITE
+	dp GARCHOMP
 	dp GASTLY
 	dp GENGAR
 	dp GEODUDE
+	dp GIBLE
 	dp GIRAFARIG
 	dp GLACEON
 	dp GLIGAR
@@ -151,9 +156,12 @@ AlphabeticalPokedexOrder:
 	dp MAROWAK
 	dp MEGANIUM
 	dp MEOWTH
+	dp METAGROSS
+	dp METANG
 	dp METAPOD
 	dp MEW
 	dp MEWTWO
+	dp MILOTIC
 	dp MILTANK
 	dp MIME_JR_
 	dp MISDREAVUS

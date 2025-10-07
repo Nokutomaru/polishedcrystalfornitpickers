@@ -1816,3 +1816,43 @@ SECTION "UrsalunaBloodmoon Mini Icon", ROMX
 UrsalunaBloodmoonMini::     INCBIN "gfx/minis/ursaluna_bloodmoon.2bpp.lz"
 UrsalunaBloodmoonMiniMask:: INCBIN "gfx/minis/ursaluna_bloodmoon_mask.1bpp.lz"
 UrsalunaBloodmoonIcon::     INCBIN "gfx/icons/ursaluna_bloodmoon.2bpp.lz"
+
+SECTION "Feebas Mini Icon", ROMX
+FeebasMini::     INCBIN "gfx/minis/feebas.2bpp.lz"
+FeebasMiniMask:: INCBIN "gfx/minis/feebas_mask.1bpp.lz"
+FeebasIcon::     INCBIN "gfx/icons/feebas.2bpp.lz"
+
+SECTION "Milotic Mini Icon", ROMX
+MiloticMini::     INCBIN "gfx/minis/milotic.2bpp.lz"
+MiloticMiniMask:: INCBIN "gfx/minis/milotic_mask.1bpp.lz"
+MiloticIcon::     INCBIN "gfx/icons/milotic.2bpp.lz"
+
+SECTION "Beldum Mini Icon", ROMX
+BeldumMini::     INCBIN "gfx/minis/beldum.2bpp.lz"
+BeldumMiniMask:: INCBIN "gfx/minis/beldum_mask.1bpp.lz"
+BeldumIcon::     INCBIN "gfx/icons/beldum.2bpp.lz"
+
+SECTION "Metang Mini Icon", ROMX
+MetangMini::     INCBIN "gfx/minis/metang.2bpp.lz"
+MetangMiniMask:: INCBIN "gfx/minis/metang_mask.1bpp.lz"
+MetangIcon::     INCBIN "gfx/icons/metang.2bpp.lz"
+
+SECTION "Metagross Mini Icon", ROMX
+MetagrossMini::     INCBIN "gfx/minis/metagross.2bpp.lz"
+MetagrossMiniMask:: INCBIN "gfx/minis/metagross_mask.1bpp.lz"
+MetagrossIcon::     INCBIN "gfx/icons/metagross.2bpp.lz"
+
+SECTION "Gible Mini Icon", ROMX
+GibleMini::     INCBIN "gfx/minis/gible.2bpp.lz"
+GibleMiniMask:: INCBIN "gfx/minis/gible_mask.1bpp.lz"
+GibleIcon::     INCBIN "gfx/icons/gible.2bpp.lz"
+
+SECTION "Gabite Mini Icon", ROMX
+GabiteMini::     INCBIN "gfx/minis/gabite.2bpp.lz"
+GabiteMiniMask:: INCBIN "gfx/minis/gabite_mask.1bpp.lz"
+GabiteIcon::     INCBIN "gfx/icons/gabite.2bpp.lz"
+
+SECTION "Garchomp Mini Icon", ROMX
+GarchompMini::     INCBIN "gfx/minis/garchomp.2bpp.lz"
+GarchompMiniMask:: INCBIN "gfx/minis/garchomp_mask.1bpp.lz"
+GarchompIcon::     INCBIN "gfx/icons/garchomp.2bpp.lz"

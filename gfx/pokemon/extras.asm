@@ -239,6 +239,14 @@ OverqwilAnimationExtra:   INCLUDE "gfx/pokemon/overqwil/anim_idle.asm"
 FarigirafAnimationExtra:  INCLUDE "gfx/pokemon/farigiraf/anim_idle.asm"
 ClodsireAnimationExtra:   INCLUDE "gfx/pokemon/clodsire/anim_idle.asm"
 AnnihilapeAnimationExtra: INCLUDE "gfx/pokemon/annihilape/anim_idle.asm"
+FeebasAnimationExtra:     INCLUDE "gfx/pokemon/feebas/anim_idle.asm"
+MiloticAnimationExtra:    INCLUDE "gfx/pokemon/milotic/anim_idle.asm"
+BeldumAnimationExtra:     INCLUDE "gfx/pokemon/beldum/anim_idle.asm"
+MetangAnimationExtra:     INCLUDE "gfx/pokemon/metang/anim_idle.asm"
+MetagrossAnimationExtra:  INCLUDE "gfx/pokemon/metagross/anim_idle.asm"
+GibleAnimationExtra:      INCLUDE "gfx/pokemon/gible/anim_idle.asm"
+GabiteAnimationExtra:     INCLUDE "gfx/pokemon/gabite/anim_idle.asm"
+GarchompAnimationExtra:   INCLUDE "gfx/pokemon/garchomp/anim_idle.asm"
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -272,6 +280,7 @@ UnownExclamationAnimationExtra: INCLUDE "gfx/pokemon/unown_exclamation/anim_idle
 UnownQuestionAnimationExtra:    INCLUDE "gfx/pokemon/unown_question/anim_idle.asm"
 
 PichuPlainAnimationExtra: INCLUDE "gfx/pokemon/pichu_plain/anim_idle.asm"
+PichuOlderAnimationExtra: INCLUDE "gfx/pokemon/pichu_older/anim_idle.asm"
 PichuSpikyAnimationExtra: INCLUDE "gfx/pokemon/pichu_spiky/anim_idle.asm"
 
 PikachuSparkAnimationExtra:
@@ -280,6 +289,10 @@ PikachuFlyAnimationExtra:    INCLUDE "gfx/pokemon/pikachu_fly/anim_idle.asm"
 PikachuSurfAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_surf/anim_idle.asm"
 PikachuPikaAnimationExtra:   INCLUDE "gfx/pokemon/pikachu_pika/anim_idle.asm"
 PikachuChuchuAnimationExtra: INCLUDE "gfx/pokemon/pikachu_chuchu/anim_idle.asm"
+
+GengarAgathaAnimationExtra:  INCLUDE "gfx/pokemon/gengar_agatha/anim_idle.asm"
+
+TogekissCynthiaAnimationExtra:  INCLUDE "gfx/pokemon/togekiss_cynthia/anim_idle.asm"
 
 ArbokJohtoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_johto/anim_idle.asm"
 ArbokKantoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_kanto/anim_idle.asm"
@@ -325,6 +338,7 @@ RaticateAlolanAnimationExtra: INCLUDE "gfx/pokemon/raticate_alolan/anim_idle.asm
 
 RaichuPlainAnimationExtra:  INCLUDE "gfx/pokemon/raichu_plain/anim_idle.asm"
 RaichuAlolanAnimationExtra: INCLUDE "gfx/pokemon/raichu_alolan/anim_idle.asm"
+RaichuSurgeAnimationExtra:  INCLUDE "gfx/pokemon/raichu_surge/anim_idle.asm"
 
 SandshrewPlainAnimationExtra:  INCLUDE "gfx/pokemon/sandshrew_plain/anim_idle.asm"
 SandshrewAlolanAnimationExtra: INCLUDE "gfx/pokemon/sandshrew_alolan/anim_idle.asm"

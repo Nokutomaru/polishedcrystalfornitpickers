@@ -292,4 +292,12 @@ PokemonNames::
 	rawchar "Farigiraf@"
 	rawchar "Clodsire@@"
 	rawchar "Annihilape"
+	rawchar "Feebas@@@@"
+	rawchar "Milotic@@@"
+	rawchar "Beldum@@@@"
+	rawchar "Metang@@@@"
+	rawchar "Metagross@"
+	rawchar "Gible@@@@@"
+	rawchar "Gabite@@@@"
+	rawchar "Garchomp@@"
 	assert_table_length NUM_SPECIES + 1

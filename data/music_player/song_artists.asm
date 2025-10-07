@@ -28,4 +28,8 @@ SongArtists:
 	li "NotFroggestSpirit"
 	li "Toby Fox"
 	li "ShinkoNetCavy,      ShockSlayer"
+	li "Service Games"
+	li "Johnnyz"
+	li "Hudson Soft."
+	li "Dannye"
 	assert_list_length NUM_SONG_ARTISTS

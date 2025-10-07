@@ -295,6 +295,14 @@ PokemonPicPointers::
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
+	pics Feebas
+	pics Milotic
+	pics Beldum
+	pics Metang
+	pics Metagross
+	pics Gible
+	pics Gabite
+	pics Garchomp
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -336,7 +344,11 @@ PokemonPicPointers::
 	pics PikachuChuchu
 	pics PikachuSpark
 
-	pics PichuSpiky
+	pics RaichuSurge
+
+	pics GengarAgatha
+
+	pics TogekissCynthia
 
 	pics MagikarpSkelly
 	pics MagikarpCalico1
@@ -365,6 +377,9 @@ PokemonPicPointers::
 	pics MewtwoArmored
 
 	pics DudunsparceThreeSegment
+
+	pics PichuOlder
+	pics PichuSpiky
 
 	pics RattataAlolan
 	pics RaticateAlolan

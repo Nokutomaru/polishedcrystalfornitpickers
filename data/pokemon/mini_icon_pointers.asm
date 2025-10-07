@@ -295,6 +295,14 @@ MiniIconPointers:
 	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
+	mini_icon Feebas
+	mini_icon Milotic
+	mini_icon Beldum
+	mini_icon Metang
+	mini_icon Metagross
+	mini_icon Gible
+	mini_icon Gabite
+	mini_icon Garchomp
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -336,7 +344,11 @@ MiniIconPointers:
 	mini_icon Pikachu ; Chuchu
 	mini_icon Pikachu ; Spark
 
-	mini_icon Pichu ; Spiky
+	mini_icon Raichu ; Surge
+
+	mini_icon Gengar ; Agatha
+
+	mini_icon Togekiss ; Cynthia
 
 rept NUM_MAGIKARP - 1
 	mini_icon Magikarp
@@ -349,6 +361,9 @@ endr
 	mini_icon MewtwoArmored
 
 	mini_icon DudunsparceThreeSegment
+
+	mini_icon Pichu ; Older
+	mini_icon Pichu ; Spiky
 
 	mini_icon RattataAlolan
 	mini_icon RaticateAlolan

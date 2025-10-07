@@ -291,4 +291,12 @@ NewPokedexOrder:
 	dp MEWTWO
 	dp MEW
 	dp CELEBI
+	dp FEEBAS
+	dp MILOTIC
+	dp BELDUM
+	dp METANG
+	dp METAGROSS
+	dp GIBLE
+	dp GABITE
+	dp GARCHOMP
 	assert_table_length NUM_POKEMON

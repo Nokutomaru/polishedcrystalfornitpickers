@@ -315,8 +315,16 @@
 	const FARIGIRAF  ; 121
 	const CLODSIRE   ; 122
 	const ANNIHILAPE ; 123
-DEF NUM_SPECIES EQU const_value - 1 ; 123
-DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 121
+	const FEEBAS     ; 124
+	const MILOTIC	 ; 125
+	const BELDUM     ; 126
+	const METANG	 ; 127
+	const METAGROSS	 ; 128
+	const GIBLE      ; 129
+	const GABITE	 ; 12a
+	const GARCHOMP	 ; 12b
+DEF NUM_SPECIES EQU const_value - 1 ; 12b
+DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 129
 
 DEF CANCEL EQU -1
 
@@ -346,7 +354,7 @@ ENDM
 DEF NO_FORM EQU 0
 DEF PLAIN_FORM EQU 1
 
-DEF FIRST_COSMETIC_FORM_MON EQU const_value ; 124
+DEF FIRST_COSMETIC_FORM_MON EQU const_value ; 129
 
 ; unown
 	ext_const_def 1, UNOWN_A_FORM    ;     (01)
@@ -396,114 +404,130 @@ DEF NUM_ARBOK EQU ext_const_value - 1
 	ext_const PIKACHU_SPARK_FORM  ; 147 (6)
 DEF NUM_PIKACHU EQU ext_const_value - 1
 
-; pichu
+; raichu
 	ext_const_def 2
-	ext_const PICHU_SPIKY_EARED_FORM ; 148 (2)
+	ext_const RAICHU_SURGE_FORM    ; 148 (2)
+DEF NUM_RAICHU EQU ext_const_value - 1
+
+; gengar
+	ext_const_def 2
+	ext_const GENGAR_AGATHA_FORM    ; 149 (2)
+DEF NUM_GENGAR EQU ext_const_value - 1
+
+; togekiss
+	ext_const_def 2
+	ext_const TOGEKISS_CYNTHIA_FORM    ; 14a (2)
+DEF NUM_TOGEKISS EQU ext_const_value - 1
 
 ; magikarp
 	ext_const_def 2
-	ext_const MAGIKARP_SKELLY_FORM    ; 149 (02)
-	ext_const MAGIKARP_CALICO1_FORM   ; 14a (03)
-	ext_const MAGIKARP_CALICO2_FORM   ; 14b (04)
-	ext_const MAGIKARP_CALICO3_FORM   ; 14c (05)
-	ext_const MAGIKARP_TWO_TONE_FORM  ; 14d (06)
-	ext_const MAGIKARP_ORCA_FORM      ; 14e (07)
-	ext_const MAGIKARP_DAPPLES_FORM   ; 14f (08)
-	ext_const MAGIKARP_TIGER_FORM     ; 150 (09)
-	ext_const MAGIKARP_ZEBRA_FORM     ; 151 (0a)
-	ext_const MAGIKARP_STRIPE_FORM    ; 152 (0b)
-	ext_const MAGIKARP_BUBBLES_FORM   ; 153 (0c)
-	ext_const MAGIKARP_DIAMONDS_FORM  ; 154 (0d)
-	ext_const MAGIKARP_PATCHES_FORM   ; 155 (0e)
-	ext_const MAGIKARP_FOREHEAD1_FORM ; 156 (0f)
-	ext_const MAGIKARP_MASK1_FORM     ; 157 (10)
-	ext_const MAGIKARP_FOREHEAD2_FORM ; 158 (11)
-	ext_const MAGIKARP_MASK2_FORM     ; 159 (12)
-	ext_const MAGIKARP_SAUCY_FORM     ; 15a (13)
-	ext_const MAGIKARP_RAINDROP_FORM  ; 15b (14)
+	ext_const MAGIKARP_SKELLY_FORM    ; 14b (02)
+	ext_const MAGIKARP_CALICO1_FORM   ; 14c (03)
+	ext_const MAGIKARP_CALICO2_FORM   ; 14d (04)
+	ext_const MAGIKARP_CALICO3_FORM   ; 14e (05)
+	ext_const MAGIKARP_TWO_TONE_FORM  ; 14f (06)
+	ext_const MAGIKARP_ORCA_FORM      ; 150 (07)
+	ext_const MAGIKARP_DAPPLES_FORM   ; 151 (08)
+	ext_const MAGIKARP_TIGER_FORM     ; 152 (09)
+	ext_const MAGIKARP_ZEBRA_FORM     ; 153 (0a)
+	ext_const MAGIKARP_STRIPE_FORM    ; 154 (0b)
+	ext_const MAGIKARP_BUBBLES_FORM   ; 155 (0c)
+	ext_const MAGIKARP_DIAMONDS_FORM  ; 156 (0d)
+	ext_const MAGIKARP_PATCHES_FORM   ; 157 (0e)
+	ext_const MAGIKARP_FOREHEAD1_FORM ; 158 (0f)
+	ext_const MAGIKARP_MASK1_FORM     ; 159 (10)
+	ext_const MAGIKARP_FOREHEAD2_FORM ; 15a (11)
+	ext_const MAGIKARP_MASK2_FORM     ; 15b (12)
+	ext_const MAGIKARP_SAUCY_FORM     ; 15c (13)
+	ext_const MAGIKARP_RAINDROP_FORM  ; 15d (14)
 DEF NUM_MAGIKARP EQU ext_const_value - 1 ; 14
 
 DEF NUM_COSMETIC_FORMS EQU const_value - FIRST_COSMETIC_FORM_MON ; 38
 
-DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15c
+DEF FIRST_VARIANT_FORM_MON EQU const_value ; 15e
 
 ; gyarados
 	ext_const_def NUM_MAGIKARP + 1
-	ext_const GYARADOS_RED_FORM ; 15c (15)
+	ext_const GYARADOS_RED_FORM ; 15e (15)
 
 ; mewtwo
 	ext_const_def 2
-	ext_const MEWTWO_ARMORED_FORM ; 15d (2)
+	ext_const MEWTWO_ARMORED_FORM ; 15f (2)
 
 ; dudunsparce
 	ext_const_def 1, DUDUNSPARCE_TWO_SEGMENT_FORM ;     (1)
-	ext_const DUDUNSPARCE_THREE_SEGMENT_FORM      ; 15e (2)
+	ext_const DUDUNSPARCE_THREE_SEGMENT_FORM      ; 160 (2)
+
+; pichu
+	ext_const_def 2
+	ext_const PICHU_OLDER_FORM ; 161 (2)
+	ext_const PICHU_SPIKY_EARED_FORM ; 162 (3)
 
 ; alolan forms
-DEF ALOLAN_FORM EQU 2
-	const_skip ; 15f rattata
-	const_skip ; 160 raticate
-	const_skip ; 161 raichu
-	const_skip ; 162 sandshrew
-	const_skip ; 163 sandslash
-	const_skip ; 164 vulpix
-	const_skip ; 165 ninetales
-	const_skip ; 166 diglett
-	const_skip ; 167 dugtrio
-	const_skip ; 168 meowth
-	const_skip ; 169 persian
-	const_skip ; 16a geodude
-	const_skip ; 16b graveler
-	const_skip ; 16c golem
-	const_skip ; 16d grimer
-	const_skip ; 16e muk
-	const_skip ; 16f exeggutor
-	const_skip ; 170 marowak
+DEF ALOLAN_FORM EQU 3
+	const_skip ; 163 rattata
+	const_skip ; 164 raticate
+	const_skip ; 165 raichu
+	const_skip ; 166 sandshrew
+	const_skip ; 167 sandslash
+	const_skip ; 168 vulpix
+	const_skip ; 169 ninetales
+	const_skip ; 16a diglett
+	const_skip ; 16b dugtrio
+	const_skip ; 16c meowth
+	const_skip ; 16d persian
+	const_skip ; 16e geodude
+	const_skip ; 16f graveler
+	const_skip ; 170 golem
+	const_skip ; 171 grimer
+	const_skip ; 172 muk
+	const_skip ; 173 exeggutor
+	const_skip ; 174 marowak
 
 ; galarian forms
-DEF GALARIAN_FORM EQU 3
-	const_skip ; 171 meowth
-	const_skip ; 172 ponyta
-	const_skip ; 173 rapidash
-	const_skip ; 174 slowpoke
-	const_skip ; 175 slowbro
-	const_skip ; 176 farfetch'd
-	const_skip ; 177 weezing
-	const_skip ; 178 mr. mime
-	const_skip ; 179 articuno
-	const_skip ; 17a zapdos
-	const_skip ; 17b moltres
-	const_skip ; 17c slowking
-	const_skip ; 17d corsola
+DEF GALARIAN_FORM EQU 4
+	const_skip ; 175 meowth
+	const_skip ; 176 ponyta
+	const_skip ; 177 rapidash
+	const_skip ; 178 slowpoke
+	const_skip ; 179 slowbro
+	const_skip ; 17a farfetch'd
+	const_skip ; 17b weezing
+	const_skip ; 17c mr. mime
+	const_skip ; 17d articuno
+	const_skip ; 17e zapdos
+	const_skip ; 17f moltres
+	const_skip ; 180 slowking
+	const_skip ; 181 corsola
 
 ; hisuian forms
-DEF HISUIAN_FORM EQU 4
-	const_skip ; 17e growlithe
-	const_skip ; 17f arcanine
-	const_skip ; 180 voltorb
-	const_skip ; 181 electrode
-	const_skip ; 182 typhlosion
-	const_skip ; 183 qwilfish
-	const_skip ; 184 sneasel
+DEF HISUIAN_FORM EQU 5
+	const_skip ; 182 growlithe
+	const_skip ; 183 arcanine
+	const_skip ; 184 voltorb
+	const_skip ; 185 electrode
+	const_skip ; 186 typhlosion
+	const_skip ; 187 qwilfish
+	const_skip ; 188 sneasel
 
 ; paldean forms
-DEF PALDEAN_FORM EQU 5
-	const_skip ; 185 wooper
-	const_skip ; 186 tauros
+DEF PALDEAN_FORM EQU 6
+	const_skip ; 189 wooper
+	const_skip ; 18a tauros
 
 ; tauros
 	ext_const_def 2
-	ext_const TAUROS_PALDEAN_FIRE_FORM  ; 187 (2)
-	ext_const TAUROS_PALDEAN_WATER_FORM ; 188 (3)
+	ext_const TAUROS_PALDEAN_FIRE_FORM  ; 18b (2)
+	ext_const TAUROS_PALDEAN_WATER_FORM ; 18c (3)
 
 ; ursaluna
 	ext_const_def 2
-	ext_const URSALUNA_BLOODMOON_FORM ; 189 (2)
+	ext_const URSALUNA_BLOODMOON_FORM ; 18d (2)
 
 DEF NUM_VARIANT_FORMS EQU const_value - FIRST_VARIANT_FORM_MON ; 2e
 
 ; these constants include EGG and a dummy entry as species
-DEF NUM_UNIQUE_POKEMON EQU const_value - 1 ; 189
+DEF NUM_UNIQUE_POKEMON EQU const_value - 1 ; 18d
 DEF NUM_EXT_POKEMON EQU NUM_UNIQUE_POKEMON - NUM_COSMETIC_FORMS ; 150
 
 ; padding for wDexMons

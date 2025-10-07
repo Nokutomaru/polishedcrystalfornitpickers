@@ -292,6 +292,14 @@ PokedexDataPointerTable:
 	dba FarigirafPokedexEntry
 	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry
+	dba FeebasPokedexEntry
+	dba MiloticPokedexEntry
+	dba BeldumPokedexEntry
+	dba MetangPokedexEntry
+	dba MetagrossPokedexEntry
+	dba GiblePokedexEntry
+	dba GabitePokedexEntry
+	dba GarchompPokedexEntry
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
@@ -299,6 +307,9 @@ PokedexDataPointerTable:
 	dba MewtwoArmoredPokedexEntry
 
 	dba DudunsparcePokedexEntry
+
+	dba PichuOlderPokedexEntry
+	dba PichuSpikyPokedexEntry
 
 	dba RattataAlolanPokedexEntry
 	dba RaticateAlolanPokedexEntry

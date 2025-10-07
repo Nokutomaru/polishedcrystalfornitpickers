@@ -291,6 +291,14 @@ FootprintPointers::
 	dw FarigirafFootprint
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint
+	dw FeebasFootprint
+	dw MiloticFootprint
+	dw BeldumFootprint
+	dw MetangFootprint
+	dw MetagrossFootprint
+	dw GibleFootprint
+	dw GabiteFootprint
+	dw GarchompFootprint
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint
@@ -298,6 +306,9 @@ FootprintPointers::
 	dw MewtwoFootprint
 
 	dw DudunsparceFootprint
+
+	dw PichuFootprint
+	dw PichuFootprint
 
 	dw RattataFootprint
 	dw RaticateFootprint

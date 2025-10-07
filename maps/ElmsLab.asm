@@ -153,8 +153,7 @@ ElmCheckOddSouvenir:
 	iftrue ElmAskBattleScript
 	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
 	iffalsefwd ElmCheckTogepiEgg
-	scall ElmEggHatchedScript
-	jumpopenedtext ElmThoughtEggHatchedText
+	sjumpfwd ElmEggHatchedScript
 
 ElmEggHatchedScript:
 	setmonval TOGEPI
@@ -174,7 +173,9 @@ ElmCheckTogepiEgg:
 	checkevent EVENT_TOGEPI_HATCHED
 	iftrue ElmEggHatchedScript
 ElmCheckGotEggAgain:
-	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE ; why are we checking it again?
+	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE ; why are we checking it again?
+	iftrue_jumpopenedtext ElmThoughtEggHatchedText
+	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
 	iftrue_jumpopenedtext ElmWaitingEggHatchText
 	checkflag ENGINE_ZEPHYRBADGE
 	iftrue_jumpopenedtext ElmAideHasEggText
@@ -670,6 +671,8 @@ CopScript:
 	applymovement ELMSLAB_LYRA, LyraRunsInMovement
 	turnobject ELMSLAB_OFFICER, DOWN
 	showtext ElmsLabLyraTheftInnocentText
+	turnobject ELMSLAB_OFFICER, UP
+	showtext ElmsLabLyraTheftInnocentText2
 	pause 10
 	turnobject ELMSLAB_OFFICER, LEFT
 	opentext
@@ -1229,8 +1232,9 @@ ElmWaitingEggHatchText:
 	done
 
 ElmThoughtEggHatchedText:
-	text "<PLAYER>? I thought"
-	line "the Egg hatched."
+	text "Elm: <PLAYER>?"
+	line "I thought the"
+	cont "Egg hatched."
 
 	para "Where is the"
 	line "#mon?"
@@ -1559,7 +1563,7 @@ AideText_TheftTestimony:
 	cont "do that!"
 
 	para "…sigh… That"
-	line "stolen #mon."
+	line "stolen #mon…"
 
 	para "I wonder how it's"
 	line "doing."
@@ -1582,15 +1586,23 @@ ElmsLabOfficerText1:
 	line "the scene of the"
 	cont "crime…”"
 
-	para "Oh my… So you're"
-	line "the thief?"
+	para "Hold up… That"
+	line "#mon you"
+	cont "have…"
+
+	para "Isn't that one"
+	line "of the #mon"
+	cont "from the lab?"
+
+	para "So you must be"
+	line "the thief!"
 	done
 
 ElmsLabOfficerText2:
 	text "What?"
 
-	para "You battled a"
-	line "trainer like that?"
+	para "You battled this"
+	line "red-haired boy?"
 
 	para "Did you happen to"
 	line "get his name?"
@@ -1691,6 +1703,16 @@ ElmsLabLyraTheftInnocentText:
 	line "boy spying on the"
 	cont "building!"
 	done
+
+ElmsLabLyraTheftInnocentText2:
+	text "Elm: And I gave"
+	line "<PLAYER> that"
+	cont "#mon!"
+
+	para "It's not the"
+	line "stolen one!"
+	done
+
 
 ElmsLabLyraTheftGoodbyeText:
 	text "Lyra: <PLAYER>,"
