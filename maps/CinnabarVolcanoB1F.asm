@@ -4,6 +4,7 @@ CinnabarVolcanoB1F_MapScriptHeader:
 	def_callbacks
 	callback MAPCALLBACK_TILES, CinnabarVolcanoB1FBouldersLand
 	callback MAPCALLBACK_STONETABLE, CinnabarVolcanoB1FBouldersFall
+	callback MAPCALLBACK_OBJECTS, CinnabarVolcanoB1FTorkoal
 
 	def_warp_events
 	warp_event  9, 17, CINNABAR_VOLCANO_1F, 2
@@ -27,6 +28,7 @@ CinnabarVolcanoB1F_MapScriptHeader:
 
 	def_object_events
 	strengthboulder_event  6,  5, EVENT_BOULDER_IN_CINNABAR_VOLCANO_B1F
+	object_event 14, 2, SPRITE_MON_ICON, SPRITEMOVEDATA_POKEMON, 0, TORKOAL, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, NO_FORM, CinnabarVolcanoTorkoal, EVENT_CINNABAR_VOLCANO_B1F_TORKOAL
 	smashrock_event  8, 28
 	smashrock_event 28, 17
 	smashrock_event 27, 5
@@ -35,6 +37,7 @@ CinnabarVolcanoB1F_MapScriptHeader:
 
 	object_const_def
 	const CINNABARVOLCANOB1F_BOULDER
+	const CINNABARVOLCANOB1F_TORKOAL
 
 CinnabarVolcanoB1FBouldersLand:
 	checkevent EVENT_BOULDER_IN_CINNABAR_VOLCANO_1F_1
@@ -73,3 +76,29 @@ CinnabarVolcanoB1FBouldersFall:
 	text "The boulder fell"
 	line "through!"
 	done
+
+CinnabarVolcanoB1FTorkoal:
+	checkevent EVENT_FOUGHT_CINNABAR_VOLCANO_TORKOAL
+	iftruefwd .NoAppear
+	readvar VAR_WEEKDAY
+	ifequalfwd SATURDAY, .Appear
+.NoAppear:
+	disappear CINNABARVOLCANOB1F_TORKOAL
+	endcallback
+.Appear:
+	appear CINNABARVOLCANOB1F_TORKOAL
+	endcallback
+
+CinnabarVolcanoTorkoal:
+	faceplayer
+	cry TORKOAL
+	loadwildmon TORKOAL, 57
+	startbattle
+	disappear CINNABARVOLCANOB1F_TORKOAL
+	setevent EVENT_FOUGHT_CINNABAR_VOLCANO_TORKOAL
+	reloadmapafterbattle
+	special CheckBattleCaughtResult
+	iffalsefwd .nocatch
+	setflag ENGINE_PLAYER_CAUGHT_CINNABAR_VOLCANO_TORKOAL
+.nocatch
+	end

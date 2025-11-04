@@ -1,5 +1,5 @@
 DefaultMalePlayerName:
-	rawchar "Chris@@@"
+	rawchar "Gold@@@@"
 	db 0, 0, 0
 
 DefaultFemalePlayerName:
@@ -7,5 +7,5 @@ DefaultFemalePlayerName:
 	db 0, 0, 0
 
 DefaultEnbyPlayerName:
-	rawchar "Crys@@@@"
+	rawchar "Brass@@@"
 	db 0, 0, 0

@@ -363,7 +363,7 @@ Route22PastRivalRantText:
 	line "stronger man all"
 	cont "by myself!"
 
-	para "All by myself!"
+	para "ALL BY MYSELF!!!"
 	done
 
 Route22PastRivalInsultText:

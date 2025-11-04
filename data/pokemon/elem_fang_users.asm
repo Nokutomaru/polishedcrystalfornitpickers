@@ -1,0 +1,37 @@
+ElemFangUsers:
+; "Thunder/Fire/Ice Strike" = Thunder/Fire/Ice Punch + Thunder/Fire/Ice Fang
+	dp EKANS
+	dp ARBOK
+	dp VULPIX
+	dp NINETALES
+	dp GYARADOS
+	dp AERODACTYL
+	dp GROWLITHE
+	dp ARCANINE
+	dp RHYHORN
+	dp FLAREON
+	dp JOLTEON
+	dp GLACEON
+	dp CYNDAQUIL
+	dp QUILAVA
+	dp TOTODILE
+	dp CROCONAW
+	dp FERALIGATR
+	dp GLIGAR
+	dp GLISCOR
+	dp STEELIX
+	dp SNUBBULL
+	dp GRANBULL
+	dp SWINUB
+	dp PILOSWINE
+	dp MAMOSWINE
+	dp HOUNDOUR
+	dp HOUNDOOM
+	dp DONPHAN
+	dp ENTEI
+	dp RAIKOU
+	dp SUICUNE
+	dp GIBLE
+	dp GABITE
+	dp GARCHOMP
+	dw 0

@@ -166,9 +166,9 @@ MoveTutor:
 .MenuData2:
 	db $80 ; flags
 	db 4 ; items
-	db "Fire Punch@"
-	db "ThunderPunch@"
-	db "Ice Punch@"
+	db "Fire Strike@"
+	db "Volt Strike@"
+	db "Ice Strike@"
 	db "Cancel@"
 
 .TeachMove:

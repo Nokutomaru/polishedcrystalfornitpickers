@@ -4360,16 +4360,19 @@ WonderTradePromptText::
 
 SECTION "WonderTradeCantTradeSpikyEaredPichuText", ROMX
 WonderTradeCantTradeSpikyEaredPichuText::
-	text "This Pichu appears"
-	line "to have traveled"
-	cont "through time."
+	text "The #mon you"
+	line "want to trade"
+
+	para "appears to have"
+	line "traveled through"
+	cont "time."
 
 	para "It would be risky"
 	line "to transfer it,"
 
 	para "so it's best for"
-	line "Pichu to stay"
-	cont "where it is."
+	line "it to stay where"
+	cont "it is."
 	prompt
 
 ;SECTION "WonderTradeCantTradeEggText", ROMX

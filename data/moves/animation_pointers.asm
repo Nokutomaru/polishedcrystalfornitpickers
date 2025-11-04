@@ -268,6 +268,9 @@ endc
 	fardw BattleAnim_FuryAttack
 	fardw BattleAnim_MilkDrink
 	fardw BattleAnim_Withdraw
+	fardw BattleAnim_ThunderFang
+	fardw BattleAnim_FireFang
+	fardw BattleAnim_IceFang
 	fardw BattleAnim_Harden
 	fardw BattleAnim_Slp
 	fardw BattleAnim_Brn

@@ -796,18 +796,18 @@ VoltSwitchDescription:
 	done
 
 FirePunchDescription:
-	text "A fiery punch. May"
-	next "cause a burn."
+	text "Fiery punch/bite."
+	next "May cause a burn."
 	done
 
 IcePunchDescription:
-	text "An icy punch. May"
-	next "cause freezing."
+	text "An icy punch/bite."
+	next "May freeze."
 	done
 
 ThunderpunchDescription:
-	text "An electric punch."
-	next "It may paralyze."
+	text "Electric punch/bi-"
+	next "te. May paralyze."
 	done
 
 CounterDescription:

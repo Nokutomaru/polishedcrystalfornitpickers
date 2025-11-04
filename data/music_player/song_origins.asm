@@ -18,5 +18,11 @@ SongOrigins:
 	li "Go"
 	li "M02"
 	li "Prism"
+	li "TCG"
 	li "Undertale"
+	li "GalaxyFrc2"
+	li "ThunderBld"
+	li "DoubleTrgt"
+	li "ShadowDncr"
+	li "AlexKiddSW"
 	assert_list_length NUM_SONG_ORIGINS

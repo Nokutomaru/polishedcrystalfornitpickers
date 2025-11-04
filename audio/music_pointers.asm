@@ -153,7 +153,6 @@ Music:
 	dba Music_OreburghGateDPPt
 	dba Music_Route12BW
 	dba Music_RoadToReversalMountainB2W2
-	dba Music_ZinniaBattleORAS
 	dba Music_WallyEncounterORAS
 	dba Music_WallyBattleORAS
 	dba Music_SpikyEaredPichuHGSS
@@ -182,17 +181,24 @@ Music:
 	dba Music_MountCoronetDPPt
 	dba Music_ChampionBattleDPPt
 	dba Music_WCSBattleBW
-	dba Music_ChampionBattleB2W2
 	dba Music_Credits
 	dba Music_PostCredits
 	dba Music_Printer
 	dba Music_TitleScreenXY
-	dba Music_DewfordTownRSE
-	dba Music_MarineTubeB2W2
-	dba Music_LegendaryBattleXY
-	dba Music_WildBattlePrism
-	dba Music_TrainerBattlePrism
-	dba Music_GymLeaderBattlePrism
-	dba Music_PaletteBattlePrism
-	dba Music_Megalovania
+	dba Music_RBYTrainerBattle
+	dba Music_RBYFinalBattle
+	dba Music_KantoWildBattleFRLG
+	dba Music_KantoGymLeaderFRLG
+	dba Music_SeviiIslands
+	dba Music_BattleFrontierBrainDPPt
+	dba Music_GiovanniBattle
+	dba Music_IcePathHGSS
+	dba Music_Imakuni
+	dba Music_GF2_AloneFighter
+	dba Music_TDBL_ThunderBlade
+	dba Music_TDBL_BurningPoint
+	dba Music_Quartet_Round3
+	dba Music_Quartet_Round5
+	dba Music_ShaDanc_Airport
+	dba Music_AKSW_Round1
 	assert_table_length NUM_MUSIC_SONGS

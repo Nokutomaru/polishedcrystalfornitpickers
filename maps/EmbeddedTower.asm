@@ -2,6 +2,7 @@ EmbeddedTower_MapScriptHeader:
 	def_scene_scripts
 
 	def_callbacks
+	callback MAPCALLBACK_OBJECTS, EmbeddedTowerStevenCallback
 
 	def_warp_events
 	warp_event  6, 23, ROUTE_47, 6
@@ -18,6 +19,30 @@ EmbeddedTower_MapScriptHeader:
 	object_const_def
 	const EMBEDDEDTOWER_STEVEN1
 	const EMBEDDEDTOWER_STEVEN2
+
+EmbeddedTowerStevenCallback:
+	checkevent EVENT_RESTORED_POWER_TO_KANTO
+	iffalsefwd .Nothing
+	checkevent EVENT_BEAT_STEVEN
+	iffalsefwd .Nothing 
+	readvar VAR_WEEKDAY
+	ifequalfwd TUESDAY, .StevenDisappear
+	sjumpfwd .StevenAppear
+.StevenDisappear
+	disappear EMBEDDEDTOWER_STEVEN1
+	disappear EMBEDDEDTOWER_STEVEN2
+	endcallback
+.StevenAppear
+	checkevent EVENT_BEAT_ELITE_FOUR_AGAIN
+	iftruefwd .StevenAppear2 
+	appear EMBEDDEDTOWER_STEVEN1
+	endcallback
+.StevenAppear2
+	disappear EMBEDDEDTOWER_STEVEN1
+	appear EMBEDDEDTOWER_STEVEN2
+	endcallback
+.Nothing
+	endcallback
 
 EmbeddedTowerSteven1Script:
 	faceplayer
@@ -59,8 +84,10 @@ EmbeddedTowerSteven1Script:
 	jumpopenedtext EmbeddedTowerSteven1AfterText
 
 EmbeddedTowerSteven2Script:
+	checkevent EVENT_BEAT_ELITE_FOUR_AGAIN
+	iffalse_jumptextfaceplayer EmbeddedTowerSteven1AfterText
 	checkevent EVENT_BEAT_STEVEN
-	iftrue_jumptextfaceplayer EmbeddedTowerSteven2AfterText
+	iftrue_jumptextfaceplayer EmbeddedTowerSteven1AfterText
 	faceplayer
 	opentext
 	writetext EmbeddedTowerSteven2ChallengeText

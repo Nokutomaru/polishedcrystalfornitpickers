@@ -297,4 +297,32 @@ PokemonCries::
 	mon_cry CRY_GIRAFARIG,   $041,  $200 ; Farigiraf
 	mon_cry CRY_WOOPER,     -$0c6,  $140 ; Clodsire
 	mon_cry CRY_NIDOQUEEN,   $0af,  $0c0 ; Annihilape
+<<<<<<< HEAD
+<<<<<<< HEAD
+	mon_cry CRY_MAGCARGO,   -$15d,  $0e0 ; Torkoal
+	mon_cry CRY_GRIMER,      $130,  $105 ; Feebas
+	mon_cry CRY_BLASTOISE,   $170,  $115 ; Milotic
+	mon_cry CRY_DIGLETT,    -$050,  $05a ; Beldum
+	mon_cry CRY_AMPHAROS,    $23b,  $082 ; Metang
+	mon_cry CRY_TYPHLOSION,  $730,  $082 ; Metagross
+	mon_cry CRY_WOOPER,      $070,  $09b ; Gible
+	mon_cry CRY_TYROGUE,    -$080,  $0af ; Gabite
+	mon_cry CRY_TYROGUE,    -$180,  $100 ; Garchomp
+	mon_cry CRY_SLOWKING,    $240,  $0e0 ; Riolu
+	mon_cry CRY_ENTEI,       $02a,  $10b ; Lucario
+=======
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+	mon_cry CRY_GRIMER,      $100,  $091 ; Feebas
+	mon_cry CRY_SPINARAK,   -$091,  $276 ; Milotic
+	mon_cry CRY_DIGLETT,    -$050,  $05a ; Beldum
+	mon_cry CRY_AMPHAROS,    $23b,  $082 ; Metang
+	mon_cry CRY_TYPHLOSION,  $730,  $082 ; Metagross
+	mon_cry CRY_WOOPER,      $060,  $09b ; Gible
+	mon_cry CRY_TYROGUE,    -$080,  $0af ; Gabite
+	mon_cry CRY_TYROGUE,    -$180,  $100 ; Garchomp
+<<<<<<< HEAD
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES

@@ -42,6 +42,10 @@ CheckUniqueWildMove:
 	ld a, c
 	cp MAHOGANY_TOWN
 	jr z, .TeachMove ; assume this is for Explosion in TeamRocketBaseB1F
+	cp ILEX_FOREST
+	jr z, .TeachMove ; assume this is a Celebi in IlexForest
+	cp FARAWAY_ISLAND
+	jr z, .TeachMove ; assume this is a Mew in FarawayJungle
 	cp UNION_CAVE
 	jr z, .TeachMove ; assume this is a Lapras in UnionCaveB2F
 	ld a, b

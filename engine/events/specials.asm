@@ -463,8 +463,34 @@ RespawnOneOffs:
 
 	ld de, ENGINE_PLAYER_CAUGHT_GALARIAN_MOLTRES
 	farcall EngineFlagAction
-	ret nz
+	jr nz, .CaughtGalarianMoltres
 	eventflagreset EVENT_CHERRYGROVE_BAY_FOUGHT_GALARIAN_MOLTRES
+.CaughtGalarianMoltres
+
+	ld de, ENGINE_PLAYER_CAUGHT_SAFARI_ZONE_GIBLE
+	farcall EngineFlagAction
+<<<<<<< HEAD
+<<<<<<< HEAD
+	jr nz, .CaughtSafariZoneGible
+	eventflagreset EVENT_SAFARI_ZONE_EAST_GIBLE
+	eventflagreset EVENT_FOUGHT_SAFARI_ZONE_GIBLE
+.CaughtSafariZoneGible
+
+	ld de, ENGINE_PLAYER_CAUGHT_CINNABAR_VOLCANO_TORKOAL
+	farcall EngineFlagAction
+	ret nz
+	eventflagreset EVENT_CINNABAR_VOLCANO_B1F_TORKOAL
+	eventflagreset EVENT_FOUGHT_CINNABAR_VOLCANO_TORKOAL
+=======
+	ret nz
+	eventflagreset EVENT_SAFARI_ZONE_EAST_GIBLE
+	eventflagreset EVENT_FOUGHT_SAFARI_ZONE_GIBLE
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+	ret nz
+	eventflagreset EVENT_SAFARI_ZONE_EAST_GIBLE
+	eventflagreset EVENT_FOUGHT_SAFARI_ZONE_GIBLE
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	ret
 
 RespawnRoamingRaikou:

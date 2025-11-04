@@ -295,6 +295,29 @@ EvosAttacksPointers::
 	dw FarigirafEvosAttacks
 	dw ClodsireEvosAttacks
 	dw AnnihilapeEvosAttacks
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dw TorkoalEvosAttacks
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+	dw FeebasEvosAttacks
+	dw MiloticEvosAttacks
+	dw BeldumEvosAttacks
+	dw MetangEvosAttacks
+	dw MetagrossEvosAttacks
+	dw GibleEvosAttacks
+	dw GabiteEvosAttacks
+	dw GarchompEvosAttacks
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dw RioluEvosAttacks
+	dw LucarioEvosAttacks
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosEvosAttacks
@@ -302,6 +325,9 @@ EvosAttacksPointers::
 	dw MewtwoEvosAttacks
 
 	dw DudunsparceEvosAttacks
+
+	dw PichuOlderEvosAttacks
+	dw PichuSpikyEvosAttacks
 
 	dw RattataAlolanEvosAttacks
 	dw RaticatePlainEvosAttacks ; RaticateAlolan

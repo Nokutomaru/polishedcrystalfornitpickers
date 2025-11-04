@@ -291,4 +291,27 @@ NewPokedexOrder:
 	dp MEWTWO
 	dp MEW
 	dp CELEBI
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dp TORKOAL
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+	dp FEEBAS
+	dp MILOTIC
+	dp BELDUM
+	dp METANG
+	dp METAGROSS
+	dp GIBLE
+	dp GABITE
+	dp GARCHOMP
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dp RIOLU
+	dp LUCARIO
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_POKEMON

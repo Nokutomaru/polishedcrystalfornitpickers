@@ -292,6 +292,29 @@ PokedexDataPointerTable:
 	dba FarigirafPokedexEntry
 	dba ClodsirePokedexEntry
 	dba AnnihilapePokedexEntry
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dba TorkoalPokedexEntry
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+	dba FeebasPokedexEntry
+	dba MiloticPokedexEntry
+	dba BeldumPokedexEntry
+	dba MetangPokedexEntry
+	dba MetagrossPokedexEntry
+	dba GiblePokedexEntry
+	dba GabitePokedexEntry
+	dba GarchompPokedexEntry
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dba RioluPokedexEntry
+	dba LucarioPokedexEntry
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 	dba GyaradosRedPokedexEntry
@@ -299,6 +322,9 @@ PokedexDataPointerTable:
 	dba MewtwoArmoredPokedexEntry
 
 	dba DudunsparcePokedexEntry
+
+	dba PichuOlderPokedexEntry
+	dba PichuSpikyPokedexEntry
 
 	dba RattataAlolanPokedexEntry
 	dba RaticateAlolanPokedexEntry

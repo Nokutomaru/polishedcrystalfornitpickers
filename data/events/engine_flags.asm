@@ -291,5 +291,13 @@ EngineFlags:
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_GALARIAN_ZAPDOS_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_GALARIAN_MOLTRES_F
 	engine_flag wPlayerCaught2, PLAYER_CAUGHT_BLOODMOON_URSALUNA_F
+	engine_flag wPlayerCaught2, PLAYER_CAUGHT_SAFARI_ZONE_GIBLE_F
+<<<<<<< HEAD
+<<<<<<< HEAD
+	engine_flag wPlayerCaught2, PLAYER_CAUGHT_CINNABAR_VOLCANO_TORKOAL_F
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 	assert_table_length NUM_ENGINE_FLAGS

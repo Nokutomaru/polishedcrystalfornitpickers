@@ -272,35 +272,38 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const ANIM_FURY_ATTACK        ; $100
 	const ANIM_MILK_DRINK         ; $101
 	const ANIM_WITHDRAW           ; $102
-	const ANIM_HARDEN             ; $103
+	const ANIM_THUNDERFANG        ; $103
+	const ANIM_FIRE_FANG          ; $104
+	const ANIM_ICE_FANG           ; $105
+	const ANIM_HARDEN             ; $106
 
-	const ANIM_SLP                ; $104
-	const ANIM_BRN                ; $105
-	const ANIM_PSN                ; $106
-	const ANIM_SAP                ; $107
-	const ANIM_FRZ                ; $108
-	const ANIM_PAR                ; $109
-	const ANIM_IN_LOVE            ; $10a
-	const ANIM_IN_SANDSTORM       ; $10b
-	const ANIM_IN_HAIL            ; $10c
-	const ANIM_UNDER_CURSE        ; $10d
-	const ANIM_CONFUSED           ; $10e
-	const ANIM_STAT_UP            ; $10f
-	const ANIM_STAT_DOWN          ; $110
-	const ANIM_SHARPEN            ; $111
+	const ANIM_SLP                ; $107
+	const ANIM_BRN                ; $108
+	const ANIM_PSN                ; $109
+	const ANIM_SAP                ; $10a
+	const ANIM_FRZ                ; $10b
+	const ANIM_PAR                ; $10c
+	const ANIM_IN_LOVE            ; $10d
+	const ANIM_IN_SANDSTORM       ; $10e
+	const ANIM_IN_HAIL            ; $10f
+	const ANIM_UNDER_CURSE        ; $110
+	const ANIM_CONFUSED           ; $111
+	const ANIM_STAT_UP            ; $112
+	const ANIM_STAT_DOWN          ; $113
+	const ANIM_SHARPEN            ; $114
 
 	; These animations play no matter the battle animation settings
-	const ANIM_THROW_POKE_BALL    ; $112
-	const ANIM_SEND_OUT_MON       ; $113
-	const ANIM_RETURN_MON         ; $114
-	const ANIM_GHOST_TRANSFORM    ; $115
+	const ANIM_THROW_POKE_BALL    ; $115
+	const ANIM_SEND_OUT_MON       ; $116
+	const ANIM_RETURN_MON         ; $117
+	const ANIM_GHOST_TRANSFORM    ; $118
 
 	; Generic "hit" animations
-	const ANIM_MISS               ; $116
-	const ANIM_ENEMY_DAMAGE       ; $117
-	const ANIM_PLAYER_DAMAGE      ; $118
-	const ANIM_HIT_CONFUSION      ; $119
-	const ANIM_HELD_ITEM_TRIGGER  ; $11a
+	const ANIM_MISS               ; $119
+	const ANIM_ENEMY_DAMAGE       ; $11a
+	const ANIM_PLAYER_DAMAGE      ; $11b
+	const ANIM_HIT_CONFUSION      ; $11c
+	const ANIM_HELD_ITEM_TRIGGER  ; $11d
 
 DEF ANIM_AFFECTION EQU ANIM_IN_LOVE ; just an alias for now
 DEF NUM_BATTLE_ANIMS EQU const_value - 1

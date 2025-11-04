@@ -291,6 +291,29 @@ AnimationPointers:
 	dw FarigirafAnimation
 	dw ClodsireAnimation
 	dw AnnihilapeAnimation
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dw TorkoalAnimation
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+	dw FeebasAnimation
+	dw MiloticAnimation
+	dw BeldumAnimation
+	dw MetangAnimation
+	dw MetagrossAnimation
+	dw GibleAnimation
+	dw GabiteAnimation
+	dw GarchompAnimation
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dw RioluAnimation
+	dw LucarioAnimation
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimation
@@ -332,7 +355,19 @@ AnimationPointers:
 	dw PikachuChuchuAnimation
 	dw PikachuSparkAnimation
 
-	dw PichuSpikyAnimation
+	dw RaichuSurgeAnimation
+
+	dw GengarAgathaAnimation
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dw XatuWillAnimation
+=======
+	dw TogekissCynthiaAnimation
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+	dw TogekissCynthiaAnimation
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 	dw MagikarpSkellyAnimation
 	dw MagikarpCalico1Animation
@@ -361,6 +396,9 @@ AnimationPointers:
 	dw MewtwoArmoredAnimation
 
 	dw DudunsparceThreeSegmentAnimation
+
+	dw PichuOlderAnimation
+	dw PichuSpikyAnimation
 
 	dw RattataAlolanAnimation
 	dw RaticateAlolanAnimation

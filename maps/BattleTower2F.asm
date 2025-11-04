@@ -50,8 +50,8 @@ BattleTower2FCherylScript:
 	faceplayer
 	opentext
 	writethistext
-		text "Oh, hello,"
-		line "<PLAYER>."
+		text "Cheryl: Oh,"
+		line "hello, <PLAYER>."
 
 		para "It's been a long"
 		line "time… Hasn't it?"
@@ -123,13 +123,15 @@ BattleTower2FCherylScript:
 	done
 
 BattleTower2FRileyScript:
+	checkevent EVENT_GOT_RIOLU_EGG_FROM_RILEY
+	iffalsefwd .RioluEggReceive
 	checkflag ENGINE_RILEY_DONE_TODAY
 	iftrue_jumptextfaceplayer .AfterText
 	faceplayer
 	opentext
 	writethistext
-		text "Hi. Long time,"
-		line "no see."
+		text "Riley: Hello"
+		line "again, <PLAYER>."
 
 		para "That look you"
 		line "have… I take it"
@@ -157,7 +159,7 @@ BattleTower2FRileyScript:
 .StartBattle
 	startbattle
 	reloadmapafterbattle
-	jumpthistext
+	jumpthisopenedtext
 
 .AfterText:
 	text "If I weren't in"
@@ -172,6 +174,34 @@ BattleTower2FRileyScript:
 	para "Or, would we have"
 	line "met elsewhere?"
 	done
+
+.RioluEggReceive:
+	faceplayer
+	opentext
+	checkevent EVENT_LISTENED_TO_RIOLU_EGG_INTRO
+	iftruefwd .HeardRioluEggIntro
+	writetext .RioluEggIntroText
+	waitbutton
+	setevent EVENT_LISTENED_TO_RIOLU_EGG_INTRO
+.HeardRioluEggIntro
+	writetext .GiveRioluEggText
+	yesorno
+	iffalse_jumpopenedtext .RioluEggNoText
+	writetext .RioluEggYesText
+	promptbutton
+	waitsfx
+	giveegg RIOLU
+	iffalsefwd .PartyAndBoxFull
+	setevent EVENT_GOT_RIOLU_EGG_FROM_RILEY
+	writetext .DescribeEggText
+	waitbutton
+	closetext
+	end
+.PartyAndBoxFull:
+	writetext .PartyAndBoxFullText
+	waitbutton
+	closetext
+	end
 
 .BeatenText:
 	text "At times we bat-"
@@ -189,14 +219,80 @@ BattleTower2FRileyScript:
 	cont "till you're ready."
 	done
 
+.RioluEggIntroText:
+	text "Riley: Hi. Long"
+	line "time no see."
+
+	para "I hear people"
+	line "talking about"
+	cont "you, lately."
+
+	para "Turns out you're"
+	line "none other than"
+	cont "the Champion."
+
+	para "No wonder you and"
+	line "your team have"
+	cont "such strong auras."
+
+	para "Speaking of"
+	line "which…"
+	done
+
+.GiveRioluEggText:
+	text "Riley: I have a"
+	line "#mon Egg here."
+
+	para "And I think a"
+	line "trainer of your"
+	cont "skill would be"
+	cont "able to raise it."
+
+	para "So, would you take"
+	line "it with you?"
+	done
+
+.RioluEggYesText:
+	text "Thanks!"
+
+	para "Consider it a"
+	line "token of our"
+	cont "friendship."
+	done
+
+.RioluEggNoText:
+	text "I understand…"
+
+	para "I'll be here if"
+	line "you change your"
+	cont "mind."
+	done
+
+.DescribeEggText:
+	text "I'd like you to"
+	line "show the #mon"
+	cont "that's inside the"
+	cont "Egg all sorts of"
+	cont "new places."
+	done
+
+.PartyAndBoxFullText:
+	text "You don't have"
+	line "any room, though…"
+
+	para "And even your PC"
+	line "box is full…"
+	done
+
 BattleTower2FBuckScript:
 	checkflag ENGINE_BUCK_DONE_TODAY
 	iftrue_jumptextfaceplayer .AfterText
 	faceplayer
 	opentext
 	writethistext
-		text "Ehehehe! You're"
-		line "here at last!"
+		text "Buck: Ehehehe!"
+		line "You're here"
+		cont "at last!"
 
 		para "So we are going"
 		line "to battle?"
@@ -251,8 +347,9 @@ BattleTower2FMarleyScript:
 	faceplayer
 	opentext
 	writethistext
-		text "…Oh? A battle?"
-		line "With me?"
+		text "Marley: …Oh?"
+		line "A battle?"
+		cont "With me?"
 		done
 	yesorno
 	iffalse_jumpopenedtext .RefuseText
@@ -305,8 +402,9 @@ BattleTower2FMiraScript:
 	faceplayer
 	opentext
 	writethistext
-		text "<PLAYER>! Mira is"
-		line "stronger now!"
+		text "Mira: <PLAYER>!"
+		line "Mira is stronger"
+		cont "now!"
 
 		para "Please! Battle"
 		line "with Mira!"
@@ -367,8 +465,9 @@ BattleTower2FAnabelScript:
 	faceplayer
 	opentext
 	writethistext
-		text "You really did"
-		line "come to see me…"
+		text "Anabel: You"
+		line "really did come"
+		cont "to see me…"
 
 		para "I won't have to"
 		line "hold back against"

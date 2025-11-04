@@ -691,7 +691,7 @@ InitRoamMons:
 	ld [wRoamMon2Species], a
 
 ; level
-	ld a, 40
+	ld a, 45
 	ld [wRoamMon1Level], a
 	ld [wRoamMon2Level], a
 
@@ -1100,7 +1100,7 @@ RandomPhoneMon:
 	inc c
 .no_moves
 	; bc == size of mon sub-struct
-	ld b, 0
+	ld b, c
 
 	; c currently holds party size in bytes
 	ld a, c

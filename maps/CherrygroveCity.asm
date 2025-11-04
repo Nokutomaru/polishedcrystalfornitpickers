@@ -407,11 +407,11 @@ CherrygroveRivalTextAfter1:
 	done
 
 CherrygroveRivalTextAfter2:
-	text "I dropped my"
-	line "Trainer Card…"
+	text "Hey! My Trainer"
+	line "Card!"
 
-	para "Hey! Give it"
-	line "back!"
+	para "Give it back,"
+	line "you thief!"
 
 	para "Oh no… You saw"
 	line "my name…"

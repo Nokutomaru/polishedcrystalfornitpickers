@@ -199,6 +199,24 @@ CheckHowToEvolve:
 	call IsMonHoldingEverstone
 	jmp z, .dont_evolve_2
 
+	; Older form Pichu cannot evolve
+	ld a, [wTempMonSpecies]
+	cp LOW(PICHU)
+	jr nz, .not_older_pichu
+	ld a, [wTempMonForm]
+	assert !HIGH(PICHU)
+	and SPECIESFORM_MASK
+	cp PICHU_OLDER_FORM
+	jmp z, .dont_evolve_2
+
+.not_older_pichu
+	ld a, [wTempMonHappiness]
+	cp HAPPINESS_TO_EVOLVE
+	jmp c, .dont_evolve_2
+
+	call IsMonHoldingEverstone
+	jmp z, .dont_evolve_2
+
 	; Spiky-eared Pichu cannot evolve
 	ld a, [wTempMonSpecies]
 	cp LOW(PICHU)

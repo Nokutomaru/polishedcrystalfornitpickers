@@ -393,8 +393,9 @@ CeruleanGymSomethingUnderwaterText:
 	text "There's something"
 	line "under the water…"
 
-	para "Maybe that Rocket"
-	line "Grunt will talk?"
+	para "Maybe that shady"
+	line "guy knows what"
+	cont "it is?"
 
 	para "Where did he run"
 	line "off to?"

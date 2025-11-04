@@ -24,6 +24,19 @@ WonderTrade::
 	ld a, MON_SPECIES
 	call GetPartyParamLocationAndValue
 	cp LOW(PICHU)
+	jr nz, .not_olderform_pichu
+	assert MON_FORM == MON_EXTSPECIES
+	ld bc, MON_FORM - MON_SPECIES
+	add hl, bc
+	ld a, [hl]
+	and SPECIESFORM_MASK
+	cp HIGH(PICHU) << MON_EXTSPECIES_F | PICHU_OLDER_FORM
+	ld hl, .Text_WonderTradeCantTradeSpikyEaredPichu
+	jmp z, PrintText
+.not_olderform_pichu
+	ld a, MON_SPECIES
+	call GetPartyParamLocationAndValue
+	cp LOW(PICHU)
 	jr nz, .not_spiky_eared_pichu
 	assert MON_FORM == MON_EXTSPECIES
 	ld bc, MON_FORM - MON_SPECIES
@@ -92,8 +105,28 @@ DoWonderTrade:
 	ld a, [wCurPartySpecies]
 	ld [wPlayerTrademonSpecies], a
 
+	; If you got Bill's Eevee...
+	eventflagcheck EVENT_GOT_EEVEE
+	jr z, .do_wonder_trade2
+	; ...and haven't gotten the Pikachu-colored Pichu yet...
+	eventflagcheck EVENT_GOT_PIKACHU_COLORED_PICHU
+	jr nz, .do_wonder_trade2
+	; ...then receive a Pikachu-colored Pichu
+	call GetOlderFormPichu
+	jmp .compute_trademon_stats
+
+.do_wonder_trade2:
+	ld a, 1
+	ldh [hScriptVar], a
+
+	ld a, [wCurPartySpecies]
+	ld [wPlayerTrademonSpecies], a
+
 	; If you've beaten the Elite Four...
 	eventflagcheck EVENT_BEAT_ELITE_FOUR
+	jr z, .random_trademon
+	; ...and got the Pikachu-colored Pichu...
+	eventflagcheck EVENT_GOT_PIKACHU_COLORED_PICHU
 	jr z, .random_trademon
 	; ...and haven't gotten the GS Ball Pichu yet...
 	eventflagcheck EVENT_GOT_GS_BALL_FROM_POKECOM_CENTER
@@ -373,6 +406,146 @@ endr
 .EggString:
 	rawchar "Egg@@@@@@@@"
 
+GetOlderFormPichu:
+	ld a, 2
+	ldh [hScriptVar], a
+
+	assert !HIGH(PICHU)
+
+	ld a, LOW(PICHU)
+	ld [wOTTrademonSpecies], a
+	ld a, MALE | PICHU_OLDER_FORM ; Pikachu-colored variant
+	ld [wOTTrademonForm], a
+
+	ld a, [wPlayerTrademonSpecies]
+	ld c, a
+	ld a, [wPlayerTrademonForm]
+	ld b, a
+	ld de, wPlayerTrademonSpeciesName
+	call GetTradeMonName
+	call CopyTradeName
+
+	ld a, [wOTTrademonSpecies]
+	ld [wCurPartySpecies], a
+	ld c, a
+	ld a, [wOTTrademonForm]
+	ld [wCurForm], a
+	ld b, a
+	ld de, wOTTrademonSpeciesName
+	call GetTradeMonName
+	call CopyTradeName
+
+	ld hl, wPartyMonOTs
+	ld bc, NAME_LENGTH
+	call Trade_GetAttributeOfCurrentPartymon
+	ld de, wPlayerTrademonOTName
+	call CopyTradeOT
+
+	ld hl, wPlayerName
+	ld de, wPlayerTrademonSenderName
+	call CopyTradeOT
+
+	ld hl, wPartyMon1ID
+	ld bc, PARTYMON_STRUCT_LENGTH
+	call Trade_GetAttributeOfCurrentPartymon
+	ld de, wPlayerTrademonID
+	call Trade_CopyTwoBytes
+
+	ld hl, wPartyMon1DVs
+	ld bc, PARTYMON_STRUCT_LENGTH
+	call Trade_GetAttributeOfCurrentPartymon
+	ld de, wPlayerTrademonDVs
+	call Trade_CopyThreeBytes
+
+	ld hl, wPartyMon1Personality
+	ld bc, PARTYMON_STRUCT_LENGTH
+	call Trade_GetAttributeOfCurrentPartymon
+	ld de, wPlayerTrademonPersonality
+	call Trade_CopyTwoBytes
+
+	xor a
+	ld [wPlayerTrademonCaughtData], a
+	ld [wOTTrademonCaughtData], a
+
+	ld hl, wPartyMon1Level
+	ld bc, PARTYMON_STRUCT_LENGTH
+	call Trade_GetAttributeOfCurrentPartymon
+	ld a, 10
+	ld [wCurPartyLevel], a
+	xor a
+	ld [wMonType], a
+	ld [wPokemonWithdrawDepositParameter], a
+	predef RemoveMonFromParty
+	predef TryAddMonToParty
+
+	ld c, CHERISH_BALL
+	farcall SetGiftPartyMonCaughtData
+
+	ld a, [wOTTrademonSpecies]
+	ld c, a
+	ld a, [wOTTrademonForm]
+	ld b, a
+	ld de, wOTTrademonNickname
+	call GetTradeMonName
+	call CopyTradeName
+
+	ld hl, wPartyMonNicknames
+	ld bc, MON_NAME_LENGTH
+	call Trade_GetAttributeOfLastPartymon
+	ld hl, wOTTrademonNickname
+	call CopyTradeName
+
+	ld hl, wPlayerID
+	ld de, wOTTrademonID
+	call Trade_CopyTwoBytes
+
+	ld hl, wPartyMon1ID
+	ld bc, PARTYMON_STRUCT_LENGTH
+	call Trade_GetAttributeOfLastPartymon
+	ld hl, wOTTrademonID
+	call Trade_CopyTwoBytes
+
+	ld hl, wPlayerName
+	push hl
+	ld de, wOTTrademonOTName
+	call CopyTradeOT
+	pop hl
+	ld de, wOTTrademonSenderName
+	call CopyTradeOT
+
+	ld hl, wPartyMonOTs
+	ld bc, NAME_LENGTH
+	call Trade_GetAttributeOfLastPartymon
+	ld hl, wOTTrademonOTName
+	call CopyTradeOT
+
+	ld a, $ff
+	ld [wOTTrademonDVs], a
+	ld [wOTTrademonDVs + 1], a
+	ld [wOTTrademonDVs + 2], a
+
+	ld hl, wPartyMon1DVs
+	ld bc, PARTYMON_STRUCT_LENGTH
+	call Trade_GetAttributeOfLastPartymon
+	ld hl, wOTTrademonDVs
+	call Trade_CopyThreeBytes
+
+	ld a, SHINY_MASK | HIDDEN_ABILITY | JOLLY
+	ld [wOTTrademonPersonality], a
+
+	ld hl, wPartyMon1Personality
+	ld bc, PARTYMON_STRUCT_LENGTH
+	call Trade_GetAttributeOfLastPartymon
+	ld hl, wOTTrademonPersonality
+	call Trade_CopyTwoBytes
+
+	ld hl, wPartyMon1Item
+	ld bc, PARTYMON_STRUCT_LENGTH
+	call Trade_GetAttributeOfLastPartymon
+	xor a
+	ld [de], a
+	ret
+
 GetGSBallPichu:
 	ld a, 2
 	ldh [hScriptVar], a
@@ -445,7 +618,7 @@ GetGSBallPichu:
 	predef RemoveMonFromParty
 	predef TryAddMonToParty
 
-	ld c, ULTRA_BALL
+	ld c, CHERISH_BALL
 	farcall SetGiftPartyMonCaughtData
 
 	ld a, [wOTTrademonSpecies]
@@ -497,7 +670,7 @@ GetGSBallPichu:
 	ld hl, wOTTrademonDVs
 	call Trade_CopyThreeBytes
 
-	ld a, HIDDEN_ABILITY | QUIRKY
+	ld a, HIDDEN_ABILITY | NAUGHTY
 	ld [wOTTrademonPersonality], a
 
 	ld hl, wPartyMon1Personality

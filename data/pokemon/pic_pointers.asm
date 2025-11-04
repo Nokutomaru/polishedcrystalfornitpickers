@@ -295,6 +295,29 @@ PokemonPicPointers::
 	pics Farigiraf
 	pics Clodsire
 	pics Annihilape
+<<<<<<< HEAD
+<<<<<<< HEAD
+	pics Torkoal
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+	pics Feebas
+	pics Milotic
+	pics Beldum
+	pics Metang
+	pics Metagross
+	pics Gible
+	pics Gabite
+	pics Garchomp
+<<<<<<< HEAD
+<<<<<<< HEAD
+	pics Riolu
+	pics Lucario
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 	pics UnownB
@@ -336,7 +359,19 @@ PokemonPicPointers::
 	pics PikachuChuchu
 	pics PikachuSpark
 
-	pics PichuSpiky
+	pics RaichuSurge
+
+	pics GengarAgatha
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+	pics XatuWill
+=======
+	pics TogekissCynthia
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+	pics TogekissCynthia
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 	pics MagikarpSkelly
 	pics MagikarpCalico1
@@ -365,6 +400,9 @@ PokemonPicPointers::
 	pics MewtwoArmored
 
 	pics DudunsparceThreeSegment
+
+	pics PichuOlder
+	pics PichuSpiky
 
 	pics RattataAlolan
 	pics RaticateAlolan

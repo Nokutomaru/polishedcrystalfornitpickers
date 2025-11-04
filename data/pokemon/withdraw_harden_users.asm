@@ -10,6 +10,7 @@ WithdrawUsers:
 	dp CLOYSTER
 	dp OMANYTE
 	dp OMASTAR
+	dp TORKOAL
 	db 0
 
 HardenUsers:
@@ -36,4 +37,7 @@ HardenUsers:
 	dp GLISCOR
 	dp CURSOLA
 	dp KLEAVOR
+	dp BELDUM
+	dp METANG
+	dp METAGROSS
 	db 0

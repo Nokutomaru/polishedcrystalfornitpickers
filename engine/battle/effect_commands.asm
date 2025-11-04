@@ -4,6 +4,7 @@ INCLUDE "data/moves/continuous_moves.asm"
 INCLUDE "data/moves/critical_hit_moves.asm"
 INCLUDE "data/moves/reversal_power.asm"
 INCLUDE "data/pokemon/fury_attack_users.asm"
+INCLUDE "data/pokemon/elem_fang_users.asm"
 INCLUDE "data/pokemon/withdraw_harden_users.asm"
 INCLUDE "data/types/inverse_type_matchups.asm"
 INCLUDE "data/types/type_matchups.asm"
@@ -6055,6 +6056,8 @@ Confuse_CheckSwagger_ConfuseHit:
 	jmp PrintDidntAffect2
 
 BattleCommand_rechargenextturn:
+	call HasOpponentFainted
+	ret z
 	ld a, BATTLE_VARS_SUBSTATUS3
 	call GetBattleVarAddr
 	set SUBSTATUS_RECHARGE, [hl]
@@ -6733,6 +6736,18 @@ CheckBattleAnimSubstitution:
 	cp FURY_STRIKES
 	ld de, ANIM_FURY_ATTACK
 	ld hl, FuryAttackUsers
+	jr z, .check_species_list
+	cp THUNDERPUNCH
+	ld de, ANIM_THUNDERFANG
+	ld hl, ElemFangUsers
+	jr z, .check_species_list
+	cp FIRE_PUNCH
+	ld de, ANIM_FIRE_FANG
+	ld hl, ElemFangUsers
+	jr z, .check_species_list
+	cp ICE_PUNCH
+	ld de, ANIM_ICE_FANG
+	ld hl, ElemFangUsers
 	jr z, .check_species_list
 	cp DEFENSE_CURL
 	ret nz

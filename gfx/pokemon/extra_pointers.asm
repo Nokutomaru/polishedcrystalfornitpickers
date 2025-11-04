@@ -291,6 +291,29 @@ AnimationExtraPointers:
 	dw FarigirafAnimationExtra
 	dw ClodsireAnimationExtra
 	dw AnnihilapeAnimationExtra
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dw TorkoalAnimationExtra
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+	dw FeebasAnimationExtra
+	dw MiloticAnimationExtra
+	dw BeldumAnimationExtra
+	dw MetangAnimationExtra
+	dw MetagrossAnimationExtra
+	dw GibleAnimationExtra
+	dw GabiteAnimationExtra
+	dw GarchompAnimationExtra
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dw RioluAnimationExtra
+	dw LucarioAnimationExtra
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 	dw UnownBAnimationExtra
@@ -332,7 +355,19 @@ AnimationExtraPointers:
 	dw PikachuChuchuAnimationExtra
 	dw PikachuSparkAnimationExtra
 
-	dw PichuSpikyAnimationExtra
+	dw RaichuSurgeAnimationExtra
+
+	dw GengarAgathaAnimationExtra
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+	dw XatuWillAnimationExtra
+=======
+	dw TogekissCynthiaAnimationExtra
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+	dw TogekissCynthiaAnimationExtra
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 	dw MagikarpSkellyAnimationExtra
 	dw MagikarpCalico1AnimationExtra
@@ -361,6 +396,9 @@ AnimationExtraPointers:
 	dw MewtwoArmoredAnimationExtra
 
 	dw DudunsparceThreeSegmentAnimationExtra
+
+	dw PichuOlderAnimationExtra
+	dw PichuSpikyAnimationExtra
 
 	dw RattataAlolanAnimationExtra
 	dw RaticateAlolanAnimationExtra

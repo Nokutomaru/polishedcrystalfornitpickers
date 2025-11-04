@@ -1232,5 +1232,55 @@ MunchlaxEggSpeciesMoves:
 	db GUNK_SHOT
 	db $ff
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+TorkoalEggSpeciesMoves:
+	dp TORKOAL, PLAIN_FORM
+	db ANCIENTPOWER
+	db REVERSAL
+	db NASTY_PLOT
+	db FLARE_BLITZ
+	db $ff
+
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+FeebasEggSpeciesMoves:
+	dp FEEBAS, PLAIN_FORM
+	db CONFUSE_RAY
+	db DRAGONBREATH
+	db HAZE
+	db HYPNOSIS
+	db MIRROR_COAT
+	db $ff
+
+GibleEggSpeciesMoves:
+	dp GIBLE, PLAIN_FORM
+	db BODY_SLAM
+	db DOUBLE_EDGE
+	db DRAGONBREATH
+	db IRON_HEAD
+	db METAL_CLAW
+	db OUTRAGE
+	db SCARY_FACE
+	db THRASH
+	db $ff
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+RioluEggSpeciesMoves:
+	dp RIOLU, PLAIN_FORM
+	db CROSS_CHOP
+	db BITE
+	db HI_JUMP_KICK
+	db HONE_CLAWS
+	db MACH_PUNCH
+	db $ff
+
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 NoEggSpeciesMoves:
 	db $ff

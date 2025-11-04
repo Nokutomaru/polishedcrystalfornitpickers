@@ -333,9 +333,6 @@ INCLUDE "audio/music/rse/championbattle.asm"
 SECTION "Song - rse/evergrandecity", ROMX
 INCLUDE "audio/music/rse/evergrandecity.asm"
 
-SECTION "Song - rse/dewfordtown", ROMX
-INCLUDE "audio/music/rse/dewfordtown.asm"
-
 SECTION "Song - rse/frontierbrainbattle", ROMX
 INCLUDE "audio/music/rse/frontierbrainbattle.asm"
 
@@ -463,9 +460,6 @@ INCLUDE "audio/music/bw/trainerbattle.asm"
 SECTION "Song - bw/wcsbattle", ROMX
 INCLUDE "audio/music/bw/wcsbattle.asm"
 
-SECTION "Song - b2w2/championbattle", ROMX
-INCLUDE "audio/music/b2w2/championbattle.asm"
-
 SECTION "Song - b2w2/hiddengrotto", ROMX
 INCLUDE "audio/music/b2w2/hiddengrotto.asm"
 
@@ -477,9 +471,6 @@ INCLUDE "audio/music/b2w2/roadtoreversalmountain.asm"
 
 SECTION "Song - b2w2/whitetreehollow", ROMX
 INCLUDE "audio/music/b2w2/whitetreehollow.asm"
-
-SECTION "Song - b2w2/marinetube", ROMX
-INCLUDE "audio/music/b2w2/marinetube.asm"
 
 SECTION "Song - xy/bicycle", ROMX
 INCLUDE "audio/music/xy/bicycle.asm"
@@ -508,17 +499,11 @@ INCLUDE "audio/music/xy/titlescreen.asm"
 SECTION "Song - xy/scaryhouse", ROMX
 INCLUDE "audio/music/xy/scaryhouse.asm"
 
-SECTION "Song - xy/legendarybattle", ROMX
-INCLUDE "audio/music/xy/legendarybattle.asm"
-
 SECTION "Song - oras/wallybattle", ROMX
 INCLUDE "audio/music/oras/wallybattle.asm"
 
 SECTION "Song - oras/wallyencounter", ROMX
 INCLUDE "audio/music/oras/wallyencounter.asm"
-
-SECTION "Song - oras/zinniabattle", ROMX
-INCLUDE "audio/music/oras/zinniabattle.asm"
 
 SECTION "Song - oras/zinniaencounter", ROMX
 INCLUDE "audio/music/oras/zinniaencounter.asm"
@@ -538,18 +523,6 @@ INCLUDE "audio/music/sm/wildbattle.asm"
 SECTION "Song - swsh/gymleaderbattle", ROMX
 INCLUDE "audio/music/swsh/gymleaderbattle.asm"
 
-SECTION "Song - prism/wildbattle", ROMX
-INCLUDE "audio/music/prism/wildbattle.asm"
-
-SECTION "Song - prism/trainerbattle", ROMX
-INCLUDE "audio/music/prism/trainerbattle.asm"
-
-SECTION "Song - prism/gymleaderbattle", ROMX
-INCLUDE "audio/music/prism/gymleaderbattle.asm"
-
-SECTION "Song - prism/palettebattle", ROMX
-INCLUDE "audio/music/prism/palettebattle.asm"
-
 SECTION "Song - go/wildbattle", ROMX
 INCLUDE "audio/music/go/wildbattle.asm"
 
@@ -562,7 +535,52 @@ INCLUDE "audio/music/stadium/mewtwobattle.asm"
 SECTION "Song - m02/lugiassong", ROMX
 INCLUDE "audio/music/m02/lugiassong.asm"
 
-SECTION "Song - undertale/megalovania", ROMX
-INCLUDE "audio/music/undertale/megalovania.asm"
+SECTION "Song - rby/trainerbattle", ROMX
+INCLUDE "audio/music/rby/trainerbattle.asm"
+
+SECTION "Song - rby/finalbattle", ROMX
+INCLUDE "audio/music/rby/finalbattle.asm"
+
+SECTION "Song - frlg/wildbattle", ROMX
+INCLUDE "audio/music/frlg/wildbattle.asm"
+
+SECTION "Song - frlg/gymleader", ROMX
+INCLUDE "audio/music/frlg/FRLGGymLeader_EliteFour.asm"
+
+SECTION "Song - frlg/seviiIslands", ROMX
+INCLUDE "audio/music/frlg/seviiIslands.asm"
+
+SECTION "Song - dppt/frontierbrainbattle", ROMX
+INCLUDE "audio/music/dppt/frontierbrainbattle.asm"
+
+SECTION "Song - sm/giovannibattle", ROMX
+INCLUDE "audio/music/sm/giovannibattle.asm"
+
+SECTION "Song - hgss/icepath", ROMX
+INCLUDE "audio/music/hgss/icepath.asm"
+
+SECTION "Song - tcg/imakuni", ROMX
+INCLUDE "audio/music/tcg/imakuni.asm"
+
+SECTION "Song - gf2/alonefighter", ROMX
+INCLUDE "audio/music/gf2/alonefighter.asm"
+
+SECTION "Song - tdbl/thunderblade", ROMX
+INCLUDE "audio/music/tdbl/thunderblade.asm"
+
+SECTION "Song - tdbl/burningpoint", ROMX
+INCLUDE "audio/music/tdbl/burningpoint.asm"
+
+SECTION "Song - quartet/round3", ROMX
+INCLUDE "audio/music/quartet/round3.asm"
+
+SECTION "Song - quartet/round5", ROMX
+INCLUDE "audio/music/quartet/round5.asm"
+
+SECTION "Song - shadanc/airport", ROMX
+INCLUDE "audio/music/shadanc/airport.asm"
+
+SECTION "Song - aksw/round1", ROMX
+INCLUDE "audio/music/aksw/round1.asm"
 
 ENDSECTION

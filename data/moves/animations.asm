@@ -17,17 +17,11 @@ BattleAnim_Moonblast:
 	anim_wait 2
 	anim_obj ANIM_OBJ_RISING_SPARKLE, 36, 108, $6
 	anim_wait 2
-	anim_obj ANIM_OBJ_RISING_SPARKLE, 52, 108, $6
-	anim_wait 2
-	anim_obj ANIM_OBJ_RISING_SPARKLE, 28, 108, $6
-	anim_wait 2
 	anim_obj ANIM_OBJ_RISING_SPARKLE, 60, 108, $6
 	anim_wait 2
 	anim_obj ANIM_OBJ_RISING_SPARKLE, 20, 108, $6
 	anim_wait 2
-	anim_obj ANIM_OBJ_RISING_SPARKLE, 68, 108, $6
-	anim_wait 2
-	anim_loop 4, .loop
+	anim_loop 5, .loop
 	anim_wait 8
 	anim_sound 0, 1, SFX_GIGA_DRAIN
 	anim_obj ANIM_OBJ_FLASH_CANNON, 48, 96, $4
@@ -1066,6 +1060,43 @@ BattleAnim_Thunderpunch:
 	anim_sound 0, 1, SFX_THUNDER
 	anim_obj ANIM_OBJ_THUNDER3, -13, 0,   8, 4, $0
 	anim_wait 64
+	anim_ret
+
+BattleAnim_ThunderFang:
+	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_LIGHTNING
+	anim_call BattleAnimSub_ElemBite
+	anim_bgeffect ANIM_BG_FLASH_INVERTED, $0, $8, $2
+	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
+	anim_sound 0, 1, SFX_THUNDER
+	anim_obj ANIM_OBJ_THUNDER1, -15, 0,   8, 4, $0
+	anim_wait 48
+	anim_ret
+
+BattleAnim_IceFang:
+	anim_setobjpal PAL_BATTLE_OB_BLUE, PAL_BTLCUSTOM_ICE
+	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_ICE
+	anim_call BattleAnimSub_ElemBite
+	anim_call BattleAnimSub_Ice
+	anim_wait 32
+	anim_ret
+
+BattleAnim_FireFang:
+	anim_setobjpal PAL_BATTLE_OB_RED, PAL_BTLCUSTOM_FIRE
+	anim_3gfx ANIM_GFX_CUT, ANIM_GFX_HIT, ANIM_GFX_FIRE
+	anim_call BattleAnimSub_ElemBite
+	anim_call BattleAnimSub_Fire
+	anim_wait 16
+	anim_ret
+
+BattleAnimSub_ElemBite:
+	anim_obj ANIM_OBJ_BITE, -15, 0,   7, 0, $98
+	anim_obj ANIM_OBJ_BITE, -15, 0,   7, 0, $18
+	anim_wait 8
+	anim_sound 0, 1, SFX_BITE
+	anim_obj ANIM_OBJ_HIT_BIG_YFIX, -15, 0,   7, 0, $0
+	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $14, $2, $0
+	anim_wait 8
+	anim_clearobjs
 	anim_ret
 
 BattleAnim_Thundershock:
@@ -2221,7 +2252,22 @@ BattleAnim_Hurricane:
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $4, $0
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $4, $0
 	anim_obj ANIM_OBJ_HURRICANE, 132, 56, $38
+<<<<<<< HEAD
+<<<<<<< HEAD
 	anim_call BattleAnimSub_AgilityMinor
+=======
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+	anim_obj ANIM_OBJ_AGILITY, 8, 24, $10
+	anim_obj ANIM_OBJ_AGILITY, 8, 48, $2
+	anim_wait 4
+	anim_obj ANIM_OBJ_AGILITY, 8, 56, $c
+	anim_obj ANIM_OBJ_AGILITY, 8, 80, $4
+	anim_obj ANIM_OBJ_AGILITY, 8, 104, $e
+<<<<<<< HEAD
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
+=======
+>>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 .loop
 	anim_sound 0, 1, SFX_THUNDER
 	anim_wait 4
