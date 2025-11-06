@@ -291,13 +291,7 @@ FootprintPointers::
 	dw FarigirafFootprint
 	dw ClodsireFootprint
 	dw AnnihilapeFootprint
-<<<<<<< HEAD
-<<<<<<< HEAD
 	dw TorkoalFootprint
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	dw FeebasFootprint
 	dw MiloticFootprint
 	dw BeldumFootprint
@@ -306,14 +300,8 @@ FootprintPointers::
 	dw GibleFootprint
 	dw GabiteFootprint
 	dw GarchompFootprint
-<<<<<<< HEAD
-<<<<<<< HEAD
 	dw RioluFootprint
 	dw LucarioFootprint
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 	dw GyaradosFootprint

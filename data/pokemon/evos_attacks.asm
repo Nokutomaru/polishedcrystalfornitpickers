@@ -5991,8 +5991,6 @@ endc
 	learnset 48, GUNK_SHOT ; Stomping Tantrum → HGSS tutor move
 	learnset 53, OUTRAGE
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	evos_attacks Torkoal
 	learnset 1, EMBER
 	learnset 1, MUD_SLAP ; Smog → HGSS tutor move
@@ -6012,10 +6010,6 @@ endc
 	learnset 56, SHELL_SMASH
 	learnset 60, FIRE_BLAST
 
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	evos_attacks Feebas
 	evo_data EVOLVE_HAPPINESS, TR_ANYTIME, MILOTIC
 	learnset 1, SPLASH
@@ -6134,23 +6128,13 @@ endc
 	learnset 19, TAKE_DOWN
 	learnset 22, DRAGON_DANCE
 	learnset 26, BULLDOZE ; Sand Tomb → TM move
-<<<<<<< HEAD
-<<<<<<< HEAD
 	learnset 35, FIRE_PUNCH ; Fire Fang
-=======
-	learnset 35, FIRE_PUNCH ; Fire Fang → similar move
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
-	learnset 35, FIRE_PUNCH ; Fire Fang → similar move
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	learnset 38, SLASH
 	learnset 45, DRAGON_CLAW
 	learnset 48, DIG
 	learnset 51, AQUA_TAIL ; TM move
 	learnset 55, OUTRAGE ; Dragon Rush → new move
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	evos_attacks Riolu
 	evo_data EVOLVE_HAPPINESS, TR_MORNDAY, LUCARIO
 	learnset 1, ENDURE
@@ -6193,10 +6177,6 @@ endc
 	learnset 56, EXTREMESPEED
 	learnset 60, CLOSE_COMBAT
 
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	; Also terminates previous mon's learnset
 	EggEvosAttacks:
 	db -1 ; no more evolutions

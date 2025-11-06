@@ -1232,8 +1232,6 @@ MunchlaxEggSpeciesMoves:
 	db GUNK_SHOT
 	db $ff
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 TorkoalEggSpeciesMoves:
 	dp TORKOAL, PLAIN_FORM
 	db ANCIENTPOWER
@@ -1242,10 +1240,6 @@ TorkoalEggSpeciesMoves:
 	db FLARE_BLITZ
 	db $ff
 
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 FeebasEggSpeciesMoves:
 	dp FEEBAS, PLAIN_FORM
 	db CONFUSE_RAY
@@ -1267,8 +1261,6 @@ GibleEggSpeciesMoves:
 	db THRASH
 	db $ff
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 RioluEggSpeciesMoves:
 	dp RIOLU, PLAIN_FORM
 	db CROSS_CHOP
@@ -1278,9 +1270,5 @@ RioluEggSpeciesMoves:
 	db MACH_PUNCH
 	db $ff
 
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 NoEggSpeciesMoves:
 	db $ff

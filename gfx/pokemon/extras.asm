@@ -239,13 +239,7 @@ OverqwilAnimationExtra:   INCLUDE "gfx/pokemon/overqwil/anim_idle.asm"
 FarigirafAnimationExtra:  INCLUDE "gfx/pokemon/farigiraf/anim_idle.asm"
 ClodsireAnimationExtra:   INCLUDE "gfx/pokemon/clodsire/anim_idle.asm"
 AnnihilapeAnimationExtra: INCLUDE "gfx/pokemon/annihilape/anim_idle.asm"
-<<<<<<< HEAD
-<<<<<<< HEAD
 TorkoalAnimationExtra:    INCLUDE "gfx/pokemon/torkoal/anim_idle.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 FeebasAnimationExtra:     INCLUDE "gfx/pokemon/feebas/anim_idle.asm"
 MiloticAnimationExtra:    INCLUDE "gfx/pokemon/milotic/anim_idle.asm"
 BeldumAnimationExtra:     INCLUDE "gfx/pokemon/beldum/anim_idle.asm"
@@ -254,14 +248,8 @@ MetagrossAnimationExtra:  INCLUDE "gfx/pokemon/metagross/anim_idle.asm"
 GibleAnimationExtra:      INCLUDE "gfx/pokemon/gible/anim_idle.asm"
 GabiteAnimationExtra:     INCLUDE "gfx/pokemon/gabite/anim_idle.asm"
 GarchompAnimationExtra:   INCLUDE "gfx/pokemon/garchomp/anim_idle.asm"
-<<<<<<< HEAD
-<<<<<<< HEAD
 RioluAnimationExtra:      INCLUDE "gfx/pokemon/riolu/anim_idle.asm"
 LucarioAnimationExtra:    INCLUDE "gfx/pokemon/lucario/anim_idle.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 EggAnimationExtra:        INCLUDE "gfx/pokemon/egg/anim_idle.asm"
 
@@ -307,15 +295,7 @@ PikachuChuchuAnimationExtra: INCLUDE "gfx/pokemon/pikachu_chuchu/anim_idle.asm"
 
 GengarAgathaAnimationExtra:  INCLUDE "gfx/pokemon/gengar_agatha/anim_idle.asm"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 XatuWillAnimationExtra:       INCLUDE "gfx/pokemon/xatu_will/anim_idle.asm"
-=======
-TogekissCynthiaAnimationExtra:  INCLUDE "gfx/pokemon/togekiss_cynthia/anim_idle.asm"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
-TogekissCynthiaAnimationExtra:  INCLUDE "gfx/pokemon/togekiss_cynthia/anim_idle.asm"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 ArbokJohtoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_johto/anim_idle.asm"
 ArbokKantoAnimationExtra:  INCLUDE "gfx/pokemon/arbok_kanto/anim_idle.asm"

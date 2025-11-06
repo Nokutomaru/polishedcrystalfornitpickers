@@ -300,17 +300,7 @@ FarigirafFootprint:: INCBIN "gfx/footprints/farigiraf.1bpp.lz"
 ClodsireFootprint:: INCBIN "gfx/footprints/clodsire.1bpp.lz"
 AnnihilapeFootprint:: INCBIN "gfx/footprints/annihilape.1bpp.lz"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 TorkoalFootprint:: INCBIN "gfx/footprints/torkoal.1bpp.lz"
-=======
-FeebasFootprint::
-MiloticFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
-FeebasFootprint::
-MiloticFootprint:: INCBIN "gfx/footprints/blank.1bpp.lz"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 BeldumFootprint:: INCBIN "gfx/footprints/beldum.1bpp.lz"
 MetangFootprint:: INCBIN "gfx/footprints/metang.1bpp.lz"
@@ -319,12 +309,6 @@ MetagrossFootprint:: INCBIN "gfx/footprints/metagross.1bpp.lz"
 GibleFootprint:: INCBIN "gfx/footprints/gible.1bpp.lz"
 GabiteFootprint:: INCBIN "gfx/footprints/gabite.1bpp.lz"
 GarchompFootprint:: INCBIN "gfx/footprints/garchomp.1bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 RioluFootprint:: INCBIN "gfx/footprints/riolu.1bpp.lz"
 LucarioFootprint:: INCBIN "gfx/footprints/lucario.1bpp.lz"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed

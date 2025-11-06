@@ -239,13 +239,7 @@ OverqwilAnimation:   INCLUDE "gfx/pokemon/overqwil/anim.asm"
 FarigirafAnimation:  INCLUDE "gfx/pokemon/farigiraf/anim.asm"
 ClodsireAnimation:   INCLUDE "gfx/pokemon/clodsire/anim.asm"
 AnnihilapeAnimation: INCLUDE "gfx/pokemon/annihilape/anim.asm"
-<<<<<<< HEAD
-<<<<<<< HEAD
 TorkoalAnimation:    INCLUDE "gfx/pokemon/torkoal/anim.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 FeebasAnimation:     INCLUDE "gfx/pokemon/feebas/anim.asm"
 MiloticAnimation:    INCLUDE "gfx/pokemon/milotic/anim.asm"
 BeldumAnimation:     INCLUDE "gfx/pokemon/beldum/anim.asm"
@@ -254,14 +248,8 @@ MetagrossAnimation:  INCLUDE "gfx/pokemon/metagross/anim.asm"
 GibleAnimation:      INCLUDE "gfx/pokemon/gible/anim.asm"
 GabiteAnimation:     INCLUDE "gfx/pokemon/gabite/anim.asm"
 GarchompAnimation:   INCLUDE "gfx/pokemon/garchomp/anim.asm"
-<<<<<<< HEAD
-<<<<<<< HEAD
 RioluAnimation:      INCLUDE "gfx/pokemon/riolu/anim.asm"
 LucarioAnimation:    INCLUDE "gfx/pokemon/lucario/anim.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 EggAnimation:        INCLUDE "gfx/pokemon/egg/anim.asm"
 
@@ -307,15 +295,7 @@ PikachuSparkAnimation:  INCLUDE "gfx/pokemon/pikachu_spark/anim.asm"
 
 GengarAgathaAnimation:  INCLUDE "gfx/pokemon/gengar_agatha/anim.asm"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 XatuWillAnimation:       INCLUDE "gfx/pokemon/xatu_will/anim.asm"
-=======
-TogekissCynthiaAnimation:   INCLUDE "gfx/pokemon/togekiss_cynthia/anim.asm"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
-TogekissCynthiaAnimation:   INCLUDE "gfx/pokemon/togekiss_cynthia/anim.asm"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 ArbokJohtoAnimation:  INCLUDE "gfx/pokemon/arbok_johto/anim.asm"
 ArbokKantoAnimation:  INCLUDE "gfx/pokemon/arbok_kanto/anim.asm"

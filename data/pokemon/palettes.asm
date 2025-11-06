@@ -593,14 +593,8 @@ INCLUDE "gfx/pokemon/clodsire/normal.pal"
 INCLUDE "gfx/pokemon/clodsire/shiny.pal"
 INCLUDE "gfx/pokemon/annihilape/normal.pal"
 INCLUDE "gfx/pokemon/annihilape/shiny.pal"
-<<<<<<< HEAD
-<<<<<<< HEAD
 INCLUDE "gfx/pokemon/torkoal/normal.pal"
 INCLUDE "gfx/pokemon/torkoal/shiny.pal"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 INCLUDE "gfx/pokemon/feebas/normal.pal"
 INCLUDE "gfx/pokemon/feebas/shiny.pal"
 INCLUDE "gfx/pokemon/milotic/normal.pal"
@@ -617,16 +611,10 @@ INCLUDE "gfx/pokemon/gabite/normal.pal"
 INCLUDE "gfx/pokemon/gabite/shiny.pal"
 INCLUDE "gfx/pokemon/garchomp/normal.pal"
 INCLUDE "gfx/pokemon/garchomp/shiny.pal"
-<<<<<<< HEAD
-<<<<<<< HEAD
 INCLUDE "gfx/pokemon/riolu/normal.pal"
 INCLUDE "gfx/pokemon/riolu/shiny.pal"
 INCLUDE "gfx/pokemon/lucario/normal.pal"
 INCLUDE "gfx/pokemon/lucario/shiny.pal"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES + 1
 
 INCLUDE "gfx/pokemon/gyarados_red/normal.pal"

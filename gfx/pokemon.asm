@@ -353,14 +353,8 @@ GengarFrontpic: INCBIN "gfx/pokemon/gengar/front.animated.2bpp.lz"
 GengarAgathaFrontpic: INCBIN "gfx/pokemon/gengar_agatha/front.animated.2bpp.lz"
 GengarBackpic:
 GengarAgathaBackpic:  INCBIN "gfx/pokemon/gengar/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 GengarFrames:   INCLUDE "gfx/pokemon/gengar/frames.asm"
 GengarAgathaFrames:     INCLUDE "gfx/pokemon/gengar_agatha/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "Onix Pics", ROMX
 OnixFrontpic: INCBIN "gfx/pokemon/onix/front.animated.2bpp.lz"
@@ -464,20 +458,8 @@ TogeticFrames:   INCLUDE "gfx/pokemon/togetic/frames.asm"
 
 SECTION "Togekiss Pics", ROMX
 TogekissFrontpic: INCBIN "gfx/pokemon/togekiss/front.animated.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 TogekissBackpic:  INCBIN "gfx/pokemon/togekiss/back.2bpp.lz"
 TogekissFrames:   INCLUDE "gfx/pokemon/togekiss/frames.asm"
-=======
-TogekissCynthiaFrontpic: INCBIN "gfx/pokemon/togekiss_cynthia/front.animated.2bpp.lz"
-TogekissBackpic:
-TogekissCynthiaBackpic:  INCBIN "gfx/pokemon/togekiss/back.2bpp.lz"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
-TogekissCynthiaFrontpic: INCBIN "gfx/pokemon/togekiss_cynthia/front.animated.2bpp.lz"
-TogekissBackpic:
-TogekissCynthiaBackpic:  INCBIN "gfx/pokemon/togekiss/back.2bpp.lz"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "Staryu Pics", ROMX
 StaryuFrontpic: INCBIN "gfx/pokemon/staryu/front.animated.2bpp.lz"
@@ -1380,14 +1362,6 @@ PichuOlderFrontpic: INCBIN "gfx/pokemon/pichu_older/front.animated.2bpp.lz"
 PichuOlderBackpic:  INCBIN "gfx/pokemon/pichu_older/back.2bpp.lz"
 PichuOlderFrames:   INCLUDE "gfx/pokemon/pichu_older/frames.asm"
 
-SECTION "PichuOlder Pics", ROMX
-PichuOlderFrontpic: INCBIN "gfx/pokemon/pichu_older/front.animated.2bpp.lz"
-PichuOlderBackpic:  INCBIN "gfx/pokemon/pichu_older/back.2bpp.lz"
-
-SECTION "PichuOlder Pics", ROMX
-PichuOlderFrontpic: INCBIN "gfx/pokemon/pichu_older/front.animated.2bpp.lz"
-PichuOlderBackpic:  INCBIN "gfx/pokemon/pichu_older/back.2bpp.lz"
-
 SECTION "PichuSpiky Pics", ROMX
 PichuSpikyFrontpic: INCBIN "gfx/pokemon/pichu_spiky/front.animated.2bpp.lz"
 PichuSpikyBackpic:  INCBIN "gfx/pokemon/pichu_spiky/back.2bpp.lz"
@@ -1693,14 +1667,8 @@ RaichuPlainFrontpic: INCBIN "gfx/pokemon/raichu_plain/front.animated.2bpp.lz"
 RaichuSurgeFrontpic: INCBIN "gfx/pokemon/raichu_surge/front.animated.2bpp.lz"
 RaichuPlainBackpic:
 RaichuSurgeBackpic:  INCBIN "gfx/pokemon/raichu_plain/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 RaichuPlainFrames:   INCLUDE "gfx/pokemon/raichu_plain/frames.asm"
 RaichuSurgeFrames:  INCLUDE "gfx/pokemon/raichu_surge/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "RaichuAlolan Pics", ROMX
 RaichuAlolanFrontpic: INCBIN "gfx/pokemon/raichu_alolan/front.animated.2bpp.lz"
@@ -1993,101 +1961,51 @@ TaurosPaldeanFireFrames:   INCLUDE "gfx/pokemon/tauros_paldean_fire/frames.asm"
 SECTION "TaurosPaldeanWater Pics", ROMX
 TaurosPaldeanWaterFrontpic: INCBIN "gfx/pokemon/tauros_paldean_water/front.animated.2bpp.lz"
 TaurosPaldeanWaterBackpic:  INCBIN "gfx/pokemon/tauros_paldean_water/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 TaurosPaldeanWaterFrames:   INCLUDE "gfx/pokemon/tauros_paldean_water/frames.asm"
 
 SECTION "Torkoal Pics", ROMX
 TorkoalFrontpic: INCBIN "gfx/pokemon/torkoal/front.animated.2bpp.lz"
 TorkoalBackpic:  INCBIN "gfx/pokemon/torkoal/back.2bpp.lz"
 TorkoalFrames:   INCLUDE "gfx/pokemon/torkoal/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "Feebas Pics", ROMX
 FeebasFrontpic: INCBIN "gfx/pokemon/feebas/front.animated.2bpp.lz"
 FeebasBackpic:  INCBIN "gfx/pokemon/feebas/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 FeebasFrames:   INCLUDE "gfx/pokemon/feebas/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "Milotic Pics", ROMX
 MiloticFrontpic: INCBIN "gfx/pokemon/milotic/front.animated.2bpp.lz"
 MiloticBackpic:  INCBIN "gfx/pokemon/milotic/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 MiloticFrames:   INCLUDE "gfx/pokemon/milotic/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "Beldum Pics", ROMX
 BeldumFrontpic: INCBIN "gfx/pokemon/beldum/front.animated.2bpp.lz"
 BeldumBackpic:  INCBIN "gfx/pokemon/beldum/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 BeldumFrames:   INCLUDE "gfx/pokemon/beldum/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "Metang Pics", ROMX
 MetangFrontpic: INCBIN "gfx/pokemon/metang/front.animated.2bpp.lz"
 MetangBackpic:  INCBIN "gfx/pokemon/metang/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 MetangFrames:   INCLUDE "gfx/pokemon/metang/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "Metagross Pics", ROMX
 MetagrossFrontpic: INCBIN "gfx/pokemon/metagross/front.animated.2bpp.lz"
 MetagrossBackpic:  INCBIN "gfx/pokemon/metagross/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 MetagrossFrames:   INCLUDE "gfx/pokemon/metagross/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "Gible Pics", ROMX
 GibleFrontpic: INCBIN "gfx/pokemon/gible/front.animated.2bpp.lz"
 GibleBackpic:  INCBIN "gfx/pokemon/gible/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 GibleFrames:   INCLUDE "gfx/pokemon/gible/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "Gabite Pics", ROMX
 GabiteFrontpic: INCBIN "gfx/pokemon/gabite/front.animated.2bpp.lz"
 GabiteBackpic:  INCBIN "gfx/pokemon/gabite/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 GabiteFrames:   INCLUDE "gfx/pokemon/gabite/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 SECTION "Garchomp Pics", ROMX
 GarchompFrontpic: INCBIN "gfx/pokemon/garchomp/front.animated.2bpp.lz"
 GarchompBackpic:  INCBIN "gfx/pokemon/garchomp/back.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 GarchompFrames:   INCLUDE "gfx/pokemon/garchomp/frames.asm"
 
 SECTION "Riolu Pics", ROMX
@@ -2099,7 +2017,3 @@ SECTION "Lucario Pics", ROMX
 LucarioFrontpic: INCBIN "gfx/pokemon/lucario/front.animated.2bpp.lz"
 LucarioBackpic:  INCBIN "gfx/pokemon/lucario/back.2bpp.lz"
 LucarioFrames:   INCLUDE "gfx/pokemon/lucario/frames.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed

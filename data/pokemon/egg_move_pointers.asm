@@ -291,13 +291,7 @@ EggSpeciesMovesPointers::
 	dw GirafarigEggSpeciesMoves         ; Farigiraf
 	dw WooperPaldeanEggSpeciesMoves     ; Clodsire
 	dw MankeyEggSpeciesMoves            ; Annihilape
-<<<<<<< HEAD
-<<<<<<< HEAD
 	dw TorkoalEggSpeciesMoves           ; Torkoal
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	dw FeebasEggSpeciesMoves            ; Feebas
 	dw FeebasEggSpeciesMoves            ; Milotic
 	dw NoEggSpeciesMoves                ; Beldum
@@ -306,14 +300,8 @@ EggSpeciesMovesPointers::
 	dw GibleEggSpeciesMoves             ; Gible
 	dw GibleEggSpeciesMoves             ; Gabite
 	dw GibleEggSpeciesMoves             ; Garchomp
-<<<<<<< HEAD
-<<<<<<< HEAD
 	dw RioluEggSpeciesMoves             ; Riolu
 	dw RioluEggSpeciesMoves             ; Lucario
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 	dw MagikarpEggSpeciesMoves          ; Gyarados (Red Form)

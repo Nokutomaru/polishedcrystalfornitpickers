@@ -2895,8 +2895,6 @@ AnnihilapePokedexEntry::
 	next "ttered by its"
 	next "physical body.@"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 SECTION "TorkoalPokedexEntry", ROMX
 TorkoalPokedexEntry::
 	db "Coal@"
@@ -2907,10 +2905,6 @@ TorkoalPokedexEntry::
 	next "thick smokescreen"
 	next "if endangered.@"
 
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 SECTION "FeebasPokedexEntry", ROMX
 FeebasPokedexEntry::
 	db "Fish@"
@@ -2991,8 +2985,6 @@ GarchompPokedexEntry::
 	next "to fly at high"
 	next "speeds.@"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 SECTION "RioluPokedexEntry", ROMX
 RioluPokedexEntry::
 	db "Emanation@"
@@ -3013,10 +3005,6 @@ LucarioPokedexEntry::
 	next "them and employ"
 	next "them in battle.@"
 
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 SECTION "GyaradosRedPokedexEntry", ROMX
 GyaradosRedPokedexEntry::
 	db "Atrocious@"

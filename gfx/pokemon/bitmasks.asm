@@ -239,13 +239,7 @@ OverqwilBitmasks:   INCLUDE "gfx/pokemon/overqwil/bitmask.asm"
 FarigirafBitmasks:  INCLUDE "gfx/pokemon/farigiraf/bitmask.asm"
 ClodsireBitmasks:   INCLUDE "gfx/pokemon/clodsire/bitmask.asm"
 AnnihilapeBitmasks: INCLUDE "gfx/pokemon/annihilape/bitmask.asm"
-<<<<<<< HEAD
-<<<<<<< HEAD
 TorkoalBitmasks:    INCLUDE "gfx/pokemon/torkoal/bitmask.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 FeebasBitmasks:     INCLUDE "gfx/pokemon/feebas/bitmask.asm"
 MiloticBitmasks:    INCLUDE "gfx/pokemon/milotic/bitmask.asm"
 BeldumBitmasks:     INCLUDE "gfx/pokemon/beldum/bitmask.asm"
@@ -254,14 +248,8 @@ MetagrossBitmasks:  INCLUDE "gfx/pokemon/metagross/bitmask.asm"
 GibleBitmasks:      INCLUDE "gfx/pokemon/gible/bitmask.asm"
 GabiteBitmasks:     INCLUDE "gfx/pokemon/gabite/bitmask.asm"
 GarchompBitmasks:   INCLUDE "gfx/pokemon/garchomp/bitmask.asm"
-<<<<<<< HEAD
-<<<<<<< HEAD
 RioluBitmasks:      INCLUDE "gfx/pokemon/riolu/bitmask.asm"
 LucarioBitmasks:    INCLUDE "gfx/pokemon/lucario/bitmask.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 EggBitmasks:        INCLUDE "gfx/pokemon/egg/bitmask.asm"
 
@@ -307,15 +295,7 @@ PikachuSparkBitmasks:  INCLUDE "gfx/pokemon/pikachu_spark/bitmask.asm"
 
 GengarAgathaBitmasks:  INCLUDE "gfx/pokemon/gengar_agatha/bitmask.asm"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 XatuWillBitmasks:       INCLUDE "gfx/pokemon/xatu_will/bitmask.asm"
-=======
-TogekissCynthiaBitmasks:  INCLUDE "gfx/pokemon/togekiss_cynthia/bitmask.asm"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
-TogekissCynthiaBitmasks:  INCLUDE "gfx/pokemon/togekiss_cynthia/bitmask.asm"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 ArbokJohtoBitmasks:  INCLUDE "gfx/pokemon/arbok_johto/bitmask.asm"
 ArbokKantoBitmasks:  INCLUDE "gfx/pokemon/arbok_kanto/bitmask.asm"

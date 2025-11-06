@@ -296,13 +296,7 @@ endc
 	db  32, 100 ; Farigiraf
 	db  20, 100 ; Clodsire
 	db  56, 100 ; Annihilape
-<<<<<<< HEAD
-<<<<<<< HEAD
 	db 255, 255 ; Torkoal
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	db 255, 255 ; Feebas
 	db 255, 255 ; Milotic
 	db 255, 255 ; Beldum
@@ -311,12 +305,6 @@ endc
 	db 255, 255 ; Gible
 	db 255, 255 ; Gabite
 	db 255, 255 ; Garchomp
-<<<<<<< HEAD
-<<<<<<< HEAD
 	db 255, 255 ; Riolu
 	db 255, 255 ; Lucario
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES

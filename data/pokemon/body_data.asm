@@ -298,13 +298,7 @@ PokemonBodyData:
 	body_data  32, 1600, QUADRUPED,    YELLOW ; FARIGIRAF
 	body_data  18, 2230, QUADRUPED,    BROWN  ; CLODSIRE
 	body_data  12,  560, BIPEDAL_TAIL, GRAY   ; ANNIHILAPE
-<<<<<<< HEAD
-<<<<<<< HEAD
 	body_data   5,  804, QUADRUPED,    BROWN  ; TORKOAL
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	body_data   6,   74, FINS,         BROWN  ; FEEBAS
 	body_data  62, 1620, SERPENTINE,   PINK   ; MILOTIC
 	body_data   6,  952, HEAD_BASE,    BLUE   ; BELDUM
@@ -313,14 +307,8 @@ PokemonBodyData:
 	body_data   7,  205, BIPEDAL_TAIL, BLUE   ; GIBLE
 	body_data  14,  560, BIPEDAL_TAIL, BLUE   ; GABITE
 	body_data  19,  950, BIPEDAL_TAIL, BLUE   ; GARCHOMP
-<<<<<<< HEAD
-<<<<<<< HEAD
 	body_data   7,  202, BIPEDAL_TAIL, BLUE   ; RIOLU
 	body_data  12,  540, BIPEDAL_TAIL, BLUE   ; LUCARIO
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 	body_data  65, 2350, SERPENTINE,   RED    ; GYARADOS (GYARADOS_RED_FORM)

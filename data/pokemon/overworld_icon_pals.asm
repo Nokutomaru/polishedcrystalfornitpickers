@@ -295,13 +295,7 @@ OverworldMonIconColors::
 	iconpal BROWN, BLUE ; FARIGIRAF
 	iconpal BROWN, BLUE ; CLODSIRE
 	iconpal GRAY, PURPLE ; ANNIHILAPE
-<<<<<<< HEAD
-<<<<<<< HEAD
 	iconpal BROWN, ORANGE ; TORKOAL
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	iconpal BROWN, PURPLE ; FEEBAS
 	iconpal RED, BLUE ; MILOTIC
 	iconpal BLUE, GRAY ; BELDUM
@@ -310,14 +304,8 @@ OverworldMonIconColors::
 	iconpal BLUE, BLACK ; GIBLE
 	iconpal BLUE, BLACK ; GABITE
 	iconpal BLUE, BLACK ; GARCHOMP
-<<<<<<< HEAD
-<<<<<<< HEAD
 	iconpal BLUE, YELLOW ; RIOLU
 	iconpal BLUE, YELLOW ; LUCARIO
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 rept NUM_UNOWN - 1
@@ -340,18 +328,8 @@ rept NUM_GENGAR - 1
 	iconpal PURPLE, BLUE
 endr
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 rept NUM_XATU - 1
 	iconpal GREEN, RED
-=======
-rept NUM_TOGEKISS - 1
-	iconpal WHITE, AZURE
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
-rept NUM_TOGEKISS - 1
-	iconpal WHITE, AZURE
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 endr
 
 rept NUM_MAGIKARP - 1

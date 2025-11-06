@@ -292,13 +292,7 @@ PokemonNames::
 	rawchar "Farigiraf@"
 	rawchar "Clodsire@@"
 	rawchar "Annihilape"
-<<<<<<< HEAD
-<<<<<<< HEAD
 	rawchar "Torkoal@@@"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	rawchar "Feebas@@@@"
 	rawchar "Milotic@@@"
 	rawchar "Beldum@@@@"
@@ -307,12 +301,6 @@ PokemonNames::
 	rawchar "Gible@@@@@"
 	rawchar "Gabite@@@@"
 	rawchar "Garchomp@@"
-<<<<<<< HEAD
-<<<<<<< HEAD
 	rawchar "Riolu@@@@@"
 	rawchar "Lucario@@@"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES + 1

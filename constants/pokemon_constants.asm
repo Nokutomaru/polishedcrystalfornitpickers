@@ -314,8 +314,6 @@
 	const FARIGIRAF  ; 121
 	const CLODSIRE   ; 122
 	const ANNIHILAPE ; 123
-<<<<<<< HEAD
-<<<<<<< HEAD
 	const TORKOAL    ; 124
 	const FEEBAS     ; 125
 	const MILOTIC	 ; 126
@@ -329,23 +327,6 @@
 	const LUCARIO	 ; 12e
 DEF NUM_SPECIES EQU const_value - 1 ; 12e
 DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 12c
-=======
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-	const FEEBAS     ; 124
-	const MILOTIC	 ; 125
-	const BELDUM     ; 126
-	const METANG	 ; 127
-	const METAGROSS	 ; 128
-	const GIBLE      ; 129
-	const GABITE	 ; 12a
-	const GARCHOMP	 ; 12b
-DEF NUM_SPECIES EQU const_value - 1 ; 12b
-DEF NUM_POKEMON EQU NUM_SPECIES - (2 * HIGH(NUM_SPECIES)) ; 129
-<<<<<<< HEAD
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 DEF CANCEL EQU -1
 
@@ -435,8 +416,6 @@ DEF NUM_RAICHU EQU ext_const_value - 1
 	ext_const GENGAR_AGATHA_FORM    ; 149 (2)
 DEF NUM_GENGAR EQU ext_const_value - 1
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 ; xatu
 	ext_const_def 2
 	ext_const XATU_WILL_FORM    ; 14b (2)
@@ -457,40 +436,6 @@ DEF NUM_XATU EQU ext_const_value - 1
 	ext_const MAGIKARP_BUBBLES_FORM   ; 156 (0c)
 	ext_const MAGIKARP_DIAMONDS_FORM  ; 157 (0d)
 	ext_const MAGIKARP_PATCHES_FORM   ; 158 (0e)
-=======
-; togekiss
-	ext_const_def 2
-	ext_const TOGEKISS_CYNTHIA_FORM    ; 14a (2)
-DEF NUM_TOGEKISS EQU ext_const_value - 1
-
-; magikarp
-	ext_const_def 2
-=======
-; togekiss
-	ext_const_def 2
-	ext_const TOGEKISS_CYNTHIA_FORM    ; 14a (2)
-DEF NUM_TOGEKISS EQU ext_const_value - 1
-
-; magikarp
-	ext_const_def 2
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-	ext_const MAGIKARP_SKELLY_FORM    ; 14b (02)
-	ext_const MAGIKARP_CALICO1_FORM   ; 14c (03)
-	ext_const MAGIKARP_CALICO2_FORM   ; 14d (04)
-	ext_const MAGIKARP_CALICO3_FORM   ; 14e (05)
-	ext_const MAGIKARP_TWO_TONE_FORM  ; 14f (06)
-	ext_const MAGIKARP_ORCA_FORM      ; 150 (07)
-	ext_const MAGIKARP_DAPPLES_FORM   ; 151 (08)
-	ext_const MAGIKARP_TIGER_FORM     ; 152 (09)
-	ext_const MAGIKARP_ZEBRA_FORM     ; 153 (0a)
-	ext_const MAGIKARP_STRIPE_FORM    ; 154 (0b)
-	ext_const MAGIKARP_BUBBLES_FORM   ; 155 (0c)
-	ext_const MAGIKARP_DIAMONDS_FORM  ; 156 (0d)
-	ext_const MAGIKARP_PATCHES_FORM   ; 157 (0e)
-<<<<<<< HEAD
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	ext_const MAGIKARP_FOREHEAD1_FORM ; 158 (0f)
 	ext_const MAGIKARP_MASK1_FORM     ; 159 (10)
 	ext_const MAGIKARP_FOREHEAD2_FORM ; 15a (11)

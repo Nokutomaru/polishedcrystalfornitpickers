@@ -309,13 +309,7 @@ INCLUDE "gfx/pokemon/dudunsparce_two_segment/front.dimensions"
 INCLUDE "gfx/pokemon/farigiraf/front.dimensions"
 INCLUDE "gfx/pokemon/clodsire/front.dimensions"
 INCLUDE "gfx/pokemon/annihilape/front.dimensions"
-<<<<<<< HEAD
-<<<<<<< HEAD
 INCLUDE "gfx/pokemon/torkoal/front.dimensions"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 INCLUDE "gfx/pokemon/feebas/front.dimensions"
 INCLUDE "gfx/pokemon/milotic/front.dimensions"
 INCLUDE "gfx/pokemon/beldum/front.dimensions"
@@ -324,14 +318,8 @@ INCLUDE "gfx/pokemon/metagross/front.dimensions"
 INCLUDE "gfx/pokemon/gible/front.dimensions"
 INCLUDE "gfx/pokemon/gabite/front.dimensions"
 INCLUDE "gfx/pokemon/garchomp/front.dimensions"
-<<<<<<< HEAD
-<<<<<<< HEAD
 INCLUDE "gfx/pokemon/riolu/front.dimensions"
 INCLUDE "gfx/pokemon/lucario/front.dimensions"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_list_length NUM_SPECIES
 
 INCLUDE "gfx/pokemon/unown_b/front.dimensions"
@@ -377,15 +365,7 @@ INCLUDE "gfx/pokemon/raichu_surge/front.dimensions"
 
 INCLUDE "gfx/pokemon/gengar_agatha/front.dimensions"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 INCLUDE "gfx/pokemon/xatu_will/front.dimensions"
-=======
-INCLUDE "gfx/pokemon/togekiss_cynthia/front.dimensions"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
-INCLUDE "gfx/pokemon/togekiss_cynthia/front.dimensions"
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 INCLUDE "gfx/pokemon/magikarp_skelly/front.dimensions"
 INCLUDE "gfx/pokemon/magikarp_calico1/front.dimensions"

@@ -1817,17 +1817,11 @@ UrsalunaBloodmoonMini::     INCBIN "gfx/minis/ursaluna_bloodmoon.2bpp.lz"
 UrsalunaBloodmoonMiniMask:: INCBIN "gfx/minis/ursaluna_bloodmoon_mask.1bpp.lz"
 UrsalunaBloodmoonIcon::     INCBIN "gfx/icons/ursaluna_bloodmoon.2bpp.lz"
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 SECTION "Torkoal Mini Icon", ROMX
 TorkoalMini::     INCBIN "gfx/minis/torkoal.2bpp.lz"
 TorkoalMiniMask:: INCBIN "gfx/minis/torkoal_mask.1bpp.lz"
 TorkoalIcon::     INCBIN "gfx/icons/torkoal.2bpp.lz"
 
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 SECTION "Feebas Mini Icon", ROMX
 FeebasMini::     INCBIN "gfx/minis/feebas.2bpp.lz"
 FeebasMiniMask:: INCBIN "gfx/minis/feebas_mask.1bpp.lz"
@@ -1867,8 +1861,6 @@ SECTION "Garchomp Mini Icon", ROMX
 GarchompMini::     INCBIN "gfx/minis/garchomp.2bpp.lz"
 GarchompMiniMask:: INCBIN "gfx/minis/garchomp_mask.1bpp.lz"
 GarchompIcon::     INCBIN "gfx/icons/garchomp.2bpp.lz"
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 SECTION "Riolu Mini Icon", ROMX
 RioluMini::     INCBIN "gfx/minis/riolu.2bpp.lz"
@@ -1879,7 +1871,3 @@ SECTION "Lucario Mini Icon", ROMX
 LucarioMini::     INCBIN "gfx/minis/lucario.2bpp.lz"
 LucarioMiniMask:: INCBIN "gfx/minis/lucario_mask.1bpp.lz"
 LucarioIcon::     INCBIN "gfx/icons/lucario.2bpp.lz"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed

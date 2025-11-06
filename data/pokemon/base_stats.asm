@@ -326,13 +326,7 @@ INCLUDE "data/pokemon/base_stats/dudunsparce.asm"
 INCLUDE "data/pokemon/base_stats/farigiraf.asm"
 INCLUDE "data/pokemon/base_stats/clodsire.asm"
 INCLUDE "data/pokemon/base_stats/annihilape.asm"
-<<<<<<< HEAD
-<<<<<<< HEAD
 INCLUDE "data/pokemon/base_stats/torkoal.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 INCLUDE "data/pokemon/base_stats/feebas.asm"
 INCLUDE "data/pokemon/base_stats/milotic.asm"
 INCLUDE "data/pokemon/base_stats/beldum.asm"
@@ -341,14 +335,8 @@ INCLUDE "data/pokemon/base_stats/metagross.asm"
 INCLUDE "data/pokemon/base_stats/gible.asm"
 INCLUDE "data/pokemon/base_stats/gabite.asm"
 INCLUDE "data/pokemon/base_stats/garchomp.asm"
-<<<<<<< HEAD
-<<<<<<< HEAD
 INCLUDE "data/pokemon/base_stats/riolu.asm"
 INCLUDE "data/pokemon/base_stats/lucario.asm"
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 INCLUDE "data/pokemon/base_stats/gyarados.asm" ; red

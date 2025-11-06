@@ -2252,22 +2252,7 @@ BattleAnim_Hurricane:
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $4, $0
 	anim_bgeffect ANIM_BG_CYCLE_OBPALS_GRAY_AND_YELLOW, $0, $4, $0
 	anim_obj ANIM_OBJ_HURRICANE, 132, 56, $38
-<<<<<<< HEAD
-<<<<<<< HEAD
 	anim_call BattleAnimSub_AgilityMinor
-=======
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-	anim_obj ANIM_OBJ_AGILITY, 8, 24, $10
-	anim_obj ANIM_OBJ_AGILITY, 8, 48, $2
-	anim_wait 4
-	anim_obj ANIM_OBJ_AGILITY, 8, 56, $c
-	anim_obj ANIM_OBJ_AGILITY, 8, 80, $4
-	anim_obj ANIM_OBJ_AGILITY, 8, 104, $e
-<<<<<<< HEAD
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 .loop
 	anim_sound 0, 1, SFX_THUNDER
 	anim_wait 4

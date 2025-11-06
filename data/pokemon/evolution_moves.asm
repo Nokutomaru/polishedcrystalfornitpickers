@@ -295,13 +295,7 @@ endc
 	db NO_MOVE      ; FARIGIRAF
 	db MEGAHORN     ; CLODSIRE
 	db SHADOW_CLAW  ; ANNIHILAPE
-<<<<<<< HEAD
-<<<<<<< HEAD
 	db NO_MOVE      ; TORKOAL
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	db NO_MOVE      ; FEEBAS
 	db WATER_PULSE  ; MILOTIC
 	db NO_MOVE      ; BELDUM
@@ -310,14 +304,8 @@ endc
 	db NO_MOVE      ; GIBLE
 	db DOUBLE_KICK  ; GABITE
 	db CRUNCH       ; GARCHOMP
-<<<<<<< HEAD
-<<<<<<< HEAD
 	db NO_MOVE      ; RIOLU
 	db AURA_SPHERE  ; LUCARIO
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 	db BITE         ; GYARADOS, GYARADOS_RED_FORM

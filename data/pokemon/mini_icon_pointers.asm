@@ -295,13 +295,7 @@ MiniIconPointers:
 	mini_icon Farigiraf
 	mini_icon Clodsire
 	mini_icon Annihilape
-<<<<<<< HEAD
-<<<<<<< HEAD
 	mini_icon Torkoal
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	mini_icon Feebas
 	mini_icon Milotic
 	mini_icon Beldum
@@ -310,14 +304,8 @@ MiniIconPointers:
 	mini_icon Gible
 	mini_icon Gabite
 	mini_icon Garchomp
-<<<<<<< HEAD
-<<<<<<< HEAD
 	mini_icon Riolu
 	mini_icon Lucario
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 	assert_table_length NUM_SPECIES
 
 	mini_icon UnownB
@@ -363,15 +351,7 @@ MiniIconPointers:
 
 	mini_icon Gengar ; Agatha
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	mini_icon Xatu ; Will
-=======
-	mini_icon Togekiss ; Cynthia
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
-=======
-	mini_icon Togekiss ; Cynthia
->>>>>>> 070b40c543261ce6b59b6547ae33547af20c12ed
 
 rept NUM_MAGIKARP - 1
 	mini_icon Magikarp
