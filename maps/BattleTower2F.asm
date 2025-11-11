@@ -231,12 +231,14 @@ BattleTower2FRileyScript:
 	line "none other than"
 	cont "the Champion."
 
-	para "No wonder you and"
-	line "your team have"
-	cont "such strong auras."
+	para "I guess it was no"
+	line "coincidence I've"
+	cont "sensed such a"
+	cont "strong aura from"
+	cont "you and your team."
 
 	para "Speaking of"
-	line "which…"
+	line "aura…"
 	done
 
 .GiveRioluEggText:
