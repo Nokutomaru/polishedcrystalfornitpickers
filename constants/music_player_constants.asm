@@ -48,6 +48,7 @@ DEF NUM_MP_EDIT_FIELDS EQU const_value
 	const ORIGIN_QUARTET   ; 16
 	const ORIGIN_SHADANC   ; 17
 	const ORIGIN_AKSW      ; 18
+	const ORIGIN_ESWAT     ; 19
 DEF NUM_SONG_ORIGINS EQU const_value
 
 ; SongArtists indexes (see data/music_player/song_artists.asm)

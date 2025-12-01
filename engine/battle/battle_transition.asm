@@ -641,10 +641,10 @@ StartTrainerBattle_LoadPokeBallGraphics:
 
 	ld hl, .armored_mewtwo_pals
 	ld a, [wOtherTrainerClass]
-	cp GIOVANNI
+	cp GIOVANNI_YNG
 	jr nz, .not_armored_mewtwo
 	ld a, [wOtherTrainerID]
-	cp GIOVANNI1
+	cp GIOVANNI_YNG1
 	jr z, .got_palette
 
 .not_armored_mewtwo

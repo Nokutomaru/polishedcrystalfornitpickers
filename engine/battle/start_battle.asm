@@ -94,11 +94,11 @@ PlayBattleMusic:
 
 .not_rival2_4
 	ld a, [wOtherTrainerClass]
-	cp GIOVANNI
+	cp GIOVANNI_YNG
 	jr nz, .othertrainer
 	ld a, [wOtherTrainerID]
-	dec a ; Armored Mewtwo = GIOVANNI 1
-	ld e, MUSIC_MOTHER_BEAST_BATTLE_SM
+	dec a ; Armored Mewtwo = GIOVANNI_YNG 1
+	ld e, MUSIC_ESWAT_BOSS2
 	jr z, .done
 
 .othertrainer

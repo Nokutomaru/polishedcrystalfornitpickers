@@ -1,1 +1,1 @@
-Refer to the [Polished Crystal install guide](https://github.com/Rangi42/polishedcrystal/blob/master/INSTALL.md) if you want to build your own ROM.
+Refer to the [Polished Crystal install guide](https://github.com/Rangi42/polishedcrystal/blob/master/INSTALL.md) for instructions for building your own ROM.

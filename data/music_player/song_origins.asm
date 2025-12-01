@@ -25,4 +25,5 @@ SongOrigins:
 	li "DoubleTrgt"
 	li "ShadowDncr"
 	li "AlexKiddSW"
+	li "E-SWAT"
 	assert_list_length NUM_SONG_ORIGINS

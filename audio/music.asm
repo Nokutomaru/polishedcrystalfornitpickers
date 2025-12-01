@@ -511,9 +511,6 @@ INCLUDE "audio/music/oras/zinniaencounter.asm"
 SECTION "Song - sm/elitefourbattle", ROMX
 INCLUDE "audio/music/sm/elitefourbattle.asm"
 
-SECTION "Song - sm/motherbeastbattle", ROMX
-INCLUDE "audio/music/sm/motherbeastbattle.asm"
-
 SECTION "Song - sm/trainerbattle", ROMX
 INCLUDE "audio/music/sm/trainerbattle.asm"
 
@@ -553,9 +550,6 @@ INCLUDE "audio/music/frlg/seviiIslands.asm"
 SECTION "Song - dppt/frontierbrainbattle", ROMX
 INCLUDE "audio/music/dppt/frontierbrainbattle.asm"
 
-SECTION "Song - sm/giovannibattle", ROMX
-INCLUDE "audio/music/sm/giovannibattle.asm"
-
 SECTION "Song - hgss/icepath", ROMX
 INCLUDE "audio/music/hgss/icepath.asm"
 
@@ -582,5 +576,14 @@ INCLUDE "audio/music/shadanc/airport.asm"
 
 SECTION "Song - aksw/round1", ROMX
 INCLUDE "audio/music/aksw/round1.asm"
+
+SECTION "Song - eswat/round2", ROMX
+INCLUDE "audio/music/eswat/round2.asm"
+
+SECTION "Song - eswat/round3", ROMX
+INCLUDE "audio/music/eswat/round3.asm"
+
+SECTION "Song - eswat/boss2", ROMX
+INCLUDE "audio/music/eswat/boss2.asm"
 
 ENDSECTION

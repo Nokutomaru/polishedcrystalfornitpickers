@@ -64,14 +64,7 @@ TrainerClassDVsAndPersonality:
 	db  48, $AA, $CC, $EE, FEMALE ; hex maniac
 	db  48, $CC, $CC, $CC, MALE   ; sage
 	db  48, $CC, $CC, $CC, FEMALE ; medium
-	db  56, $DD, $DD, $DD, FEMALE ; kimono girl 1
-	db  56, $DD, $DD, $DD, FEMALE ; kimono girl 2
-	db  56, $DD, $DD, $DD, FEMALE ; kimono girl 3
-	db  56, $DD, $DD, $DD, FEMALE ; kimono girl 4
-	db  56, $DD, $DD, $DD, FEMALE ; kimono girl 5
-	db  56, $DD, $DD, $DD, FEMALE ; kimono girl 6
-	db  56, $DD, $DD, $DD, FEMALE ; kimono girl 7
-	db  56, $DD, $DD, $DD, FEMALE ; kimono girl 8
+	db  56, $DD, $DD, $DD, FEMALE ; kimono girl
 	db  56, $DD, $DD, $DD, MALE   ; elder
 	db  48, $CC, $CC, $CC, FEMALE ; sr&jr
 	db  48, $CC, $CC, $CC, MALE   ; couple
@@ -157,4 +150,5 @@ TrainerClassDVsAndPersonality:
 	db 192, $EE, $EE, $EE, MALE   ; imakuni
 	db 252, PERFECT_DVS,   MALE   ; lawrence
 	db 252, $EE, $EE, $EE, FEMALE ; rei
+	db 160, PERFECT_DVS,   MALE   ; giovanni_yng
 	assert_table_length NUM_TRAINER_CLASSES

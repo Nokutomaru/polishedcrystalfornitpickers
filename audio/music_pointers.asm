@@ -156,7 +156,6 @@ Music:
 	dba Music_WallyEncounterORAS
 	dba Music_WallyBattleORAS
 	dba Music_SpikyEaredPichuHGSS
-	dba Music_MotherBeastBattleSM
 	dba Music_FrostCavernXY
 	dba Music_PowerPlantXY
 	dba Music_ReversalMountainWhite2
@@ -191,7 +190,6 @@ Music:
 	dba Music_KantoGymLeaderFRLG
 	dba Music_SeviiIslands
 	dba Music_BattleFrontierBrainDPPt
-	dba Music_GiovanniBattle
 	dba Music_IcePathHGSS
 	dba Music_Imakuni
 	dba Music_GF2_AloneFighter
@@ -201,4 +199,7 @@ Music:
 	dba Music_Quartet_Round5
 	dba Music_ShaDanc_Airport
 	dba Music_AKSW_Round1
+	dba Music_ESwat_Round2
+	dba Music_ESwat_Round3
+	dba Music_ESwat_Boss2
 	assert_table_length NUM_MUSIC_SONGS

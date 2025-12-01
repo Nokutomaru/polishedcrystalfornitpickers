@@ -30,6 +30,7 @@ BossTrainers:
 	db WALKER
 	db LAWRENCE
 	db REI
+	db GIOVANNI_YNG
 JohtoGymLeaders:
 	db FALKNER
 	db WHITNEY

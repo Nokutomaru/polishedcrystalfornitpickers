@@ -62,14 +62,7 @@ TrainerPicPointers::
 	dba HexManiacPic
 	dba SagePic
 	dba MediumPic
-	dba KimonoGirl1Pic
-	dba KimonoGirl2Pic
-	dba KimonoGirl3Pic
-	dba KimonoGirl4Pic
-	dba KimonoGirl5Pic
-	dba KimonoGirl6Pic
-	dba KimonoGirl7Pic
-	dba KimonoGirl8Pic
+	dba KimonoGirlPic
 	dba ElderPic
 	dba SrAndJrPic
 	dba CouplePic
@@ -155,6 +148,7 @@ TrainerPicPointers::
 	dba ImakuniPic
 	dba LawrencePic
 	dba ReiPic
+	dba GiovanniYngPic
 	assert_table_length NUM_TRAINER_CLASSES
 	dba OmastarFossilPic
 	dba KabutopsFossilPic

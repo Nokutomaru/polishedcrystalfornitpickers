@@ -6,7 +6,6 @@ SoulHouse_MapScriptHeader:
 	def_warp_events
 	warp_event  4,  9, LAVENDER_TOWN, 6
 	warp_event  5,  9, LAVENDER_TOWN, 6
-	warp_event  4,  2, SOUL_HOUSE_B1F, 1
 
 	def_coord_events
 

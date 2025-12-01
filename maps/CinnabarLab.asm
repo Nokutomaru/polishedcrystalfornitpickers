@@ -20,7 +20,7 @@ CinnabarLab_MapScriptHeader:
 	bg_event  3, 11, BGEVENT_ITEM + BERSERK_GENE, EVENT_CINNABAR_LAB_HIDDEN_BERSERK_GENE
 
 	def_object_events
-	object_event 15,  6, SPRITE_GIOVANNI, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
+	object_event 15,  6, SPRITE_GIOVANNI_YNG, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 15,  4, SPRITE_ARMORED_MEWTWO, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 11,  6, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
 	object_event 20,  5, SPRITE_SCIENTIST, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CINNABAR_LAB_SCIENTIST1
@@ -92,7 +92,7 @@ CinnabarLabCelebiEventScript:
 	clearevent EVENT_TIME_TRAVELING
 	winlosstext CinnabarLabGiovanniBeatenText, 0
 	setlasttalked CINNABARLAB_GIOVANNI
-	loadtrainer GIOVANNI, GIOVANNI1
+	loadtrainer GIOVANNI_YNG, GIOVANNI_YNG1
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

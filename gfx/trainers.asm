@@ -184,15 +184,8 @@ SagePic: INCBIN "gfx/trainers/sage.2bpp.lz"
 SECTION "MediumPic", ROMX
 MediumPic: INCBIN "gfx/trainers/medium.2bpp.lz"
 
-SECTION "KimonoGirl1Pic", ROMX
-KimonoGirl1Pic:
-KimonoGirl2Pic:
-KimonoGirl3Pic:
-KimonoGirl4Pic:
-KimonoGirl5Pic:
-KimonoGirl6Pic:
-KimonoGirl7Pic:
-KimonoGirl8Pic: INCBIN "gfx/trainers/kimono_girl.2bpp.lz"
+SECTION "KimonoGirlPic", ROMX
+KimonoGirlPic: INCBIN "gfx/trainers/kimono_girl.2bpp.lz"
 
 SECTION "ElderPic", ROMX
 ElderPic: INCBIN "gfx/trainers/elder.2bpp.lz"
@@ -446,6 +439,9 @@ LawrencePic: INCBIN "gfx/trainers/lawrence.2bpp.lz"
 
 SECTION "ReiPic", ROMX
 ReiPic: INCBIN "gfx/trainers/rei.2bpp.lz"
+
+SECTION "GiovanniYngPic", ROMX
+GiovanniYngPic: INCBIN "gfx/trainers/giovanni_yng.2bpp.lz"
 
 SECTION "OmastarFossilPic", ROMX
 OmastarFossilPic: INCBIN "gfx/trainers/omastar_fossil.2bpp.lz"

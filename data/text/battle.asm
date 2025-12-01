@@ -2113,3 +2113,8 @@ LawrenceFinalPkmnText:
 ReiFinalPkmnText:
 	text "I'm not done yet."
 	prompt
+
+GiovanniYngFinalPkmnText:
+	text "My #mon is"
+	line "invincible!"
+	prompt

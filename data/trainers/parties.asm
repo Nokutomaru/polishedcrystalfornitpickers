@@ -2102,8 +2102,8 @@ TwinsGroup:
 	end_trainer
 
 	def_trainer AMYANDMIMI2, "Amy & Mimi"
-	tr_mon 10, LEDYBA
-	tr_mon 10, SPINARAK
+	tr_mon 13, LEDYBA
+	tr_mon 13, SPINARAK
 	end_trainer
 
 	def_trainer ANNANDANNE1, "Tori & Til"
@@ -4299,73 +4299,45 @@ MediumGroup:
 	end_trainer
 
 
-SECTION "KimonoGirl1Group", ROMX
-KimonoGirl1Group:
+SECTION "KimonoGirlGroup", ROMX
+KimonoGirlGroup:
 
-	def_trainer_class KIMONO_GIRL_1
+	def_trainer_class KIMONO_GIRL
 	def_trainer NAOKO, "Naoko"
 	tr_mon LEVEL_FROM_BADGES + 7, FLAREON @ LUM_BERRY
 	end_trainer
 
 
-SECTION "KimonoGirl2Group", ROMX
-KimonoGirl2Group:
-
-	def_trainer_class KIMONO_GIRL_2
 	def_trainer SAYO, "Sayo"
 	tr_mon LEVEL_FROM_BADGES + 7, ESPEON @ LUM_BERRY
 	end_trainer
 
 
-SECTION "KimonoGirl3Group", ROMX
-KimonoGirl3Group:
-
-	def_trainer_class KIMONO_GIRL_3
 	def_trainer ZUKI, "Zuki"
 	tr_mon LEVEL_FROM_BADGES + 7, UMBREON @ LUM_BERRY
 	end_trainer
 
 
-SECTION "KimonoGirl4Group", ROMX
-KimonoGirl4Group:
-
-	def_trainer_class KIMONO_GIRL_4
 	def_trainer KUNI, "Kuni"
 	tr_mon LEVEL_FROM_BADGES + 7, VAPOREON @ LUM_BERRY
 	end_trainer
 
 
-SECTION "KimonoGirl5Group", ROMX
-KimonoGirl5Group:
-
-	def_trainer_class KIMONO_GIRL_5
 	def_trainer MIKI, "Miki"
 	tr_mon LEVEL_FROM_BADGES + 7, JOLTEON @ LUM_BERRY
 	end_trainer
 
 
-SECTION "KimonoGirl6Group", ROMX
-KimonoGirl6Group:
-
-	def_trainer_class KIMONO_GIRL_6
 	def_trainer MAKO, "Mako"
 	tr_mon LEVEL_FROM_BADGES + 10, LEAFEON @ LUM_BERRY
 	end_trainer
 
 
-SECTION "KimonoGirl7Group", ROMX
-KimonoGirl7Group:
-
-	def_trainer_class KIMONO_GIRL_7
 	def_trainer AMI, "Ami"
 	tr_mon LEVEL_FROM_BADGES + 10, GLACEON @ LUM_BERRY
 	end_trainer
 
 
-SECTION "KimonoGirl8roup", ROMX
-KimonoGirl8Group:
-
-	def_trainer_class KIMONO_GIRL_8
 	def_trainer MINA, "Mina"
 	tr_mon LEVEL_FROM_BADGES + 10, SYLVEON @ LUM_BERRY
 	end_trainer
@@ -6793,7 +6765,7 @@ GiovanniGroup:
 
 	def_trainer_class GIOVANNI
 	def_trainer GIOVANNI1, "Giovanni"
-	tr_mon LEVEL_FROM_BADGES + 24, "?????", MEWTWO @ ARMOR_SUIT, MALE | MEWTWO_ARMORED_FORM
+	tr_mon LEVEL_FROM_BADGES + 20, "?????", MEWTWO @ ARMOR_SUIT, MALE | MEWTWO_ARMORED_FORM
 		tr_extra INSOMNIA, SATK_UP_ATK_DOWN
 		tr_moves SHADOW_BALL, PSYSTRIKE, NASTY_PLOT, AURA_SPHERE
 	end_trainer
@@ -7292,7 +7264,7 @@ MarleyGroup:
 	def_trainer 1, "Marley"
 	tr_mon LEVEL_FROM_BADGES + 5, ARCANINE
 		tr_evs 252 Spe ; maybe 252 since these are "stat trainers"?
-	tr_mon LEVEL_FROM_BADGES + 3, RAICHU
+	tr_mon LEVEL_FROM_BADGES + 3, DUGTRIO
 		tr_evs 252 Spe
 	tr_mon LEVEL_FROM_BADGES + 2, CROBAT
 		tr_evs 252 Spe
@@ -7300,23 +7272,25 @@ MarleyGroup:
 		tr_evs 252 Spe
 	tr_mon LEVEL_FROM_BADGES + 4, WEAVILE
 		tr_evs 252 Spe
+	tr_mon LEVEL_FROM_BADGES + 3, AERODACTYL
+		tr_evs 252 Spe
 	end_trainer
 
 	def_trainer 2, "Marley"
 	tr_mon LEVEL_FROM_BADGES + 8, ARCANINE
-	tr_mon LEVEL_FROM_BADGES + 7, PIDGEOT
-	tr_mon LEVEL_FROM_BADGES + 6, RAICHU
+	tr_mon LEVEL_FROM_BADGES + 6, DUGTRIO
 	tr_mon LEVEL_FROM_BADGES + 5, CROBAT
 	tr_mon LEVEL_FROM_BADGES + 5, ELECTRODE
+	tr_mon LEVEL_FROM_BADGES + 7, WEAVILE
 	tr_mon LEVEL_FROM_BADGES + 6, AERODACTYL
 	end_trainer
 
 	def_trainer 3, "Marley"
 	tr_mon LEVEL_FROM_BADGES + 10, ARCANINE
-	tr_mon LEVEL_FROM_BADGES + 9, PIDGEOT
-	tr_mon LEVEL_FROM_BADGES + 7, RAICHU
+	tr_mon LEVEL_FROM_BADGES + 7, DUGTRIO
 	tr_mon LEVEL_FROM_BADGES + 6, CROBAT
 	tr_mon LEVEL_FROM_BADGES + 6, ELECTRODE
+	tr_mon LEVEL_FROM_BADGES + 9, WEAVILE
 	tr_mon LEVEL_FROM_BADGES + 8, AERODACTYL
 	end_trainer
 
@@ -7326,13 +7300,13 @@ MiraGroup:
 
 	def_trainer_class MIRA
 	def_trainer 1, "Mira"
-	tr_mon LEVEL_FROM_BADGES + 6, TOGEKISS
+	tr_mon LEVEL_FROM_BADGES + 6, ALAKAZAM
 		tr_evs 252 SAt ; maybe 252 since these are "stat trainers"?
-	tr_mon LEVEL_FROM_BADGES + 5, ALAKAZAM
+	tr_mon LEVEL_FROM_BADGES + 5, TOGEKISS
 		tr_evs 252 SAt
-	tr_mon LEVEL_FROM_BADGES + 4, MAGMORTAR
+	tr_mon LEVEL_FROM_BADGES + 4, GENGAR
 		tr_evs 252 SAt
-	tr_mon LEVEL_FROM_BADGES + 3, VILEPLUME
+	tr_mon LEVEL_FROM_BADGES + 3, MAGMORTAR
 		tr_evs 252 SAt
 	tr_mon LEVEL_FROM_BADGES + 4, MAGNEZONE
 		tr_evs 252 SAt
@@ -7342,11 +7316,11 @@ MiraGroup:
 
 	def_trainer 2, "Mira"
 	tr_mon LEVEL_FROM_BADGES + 10, ALAKAZAM
+	tr_mon LEVEL_FROM_BADGES + 6, TOGEKISS
 	tr_mon LEVEL_FROM_BADGES + 9, GENGAR
-	tr_mon LEVEL_FROM_BADGES + 6, VILEPLUME
 	tr_mon LEVEL_FROM_BADGES + 8, MAGMORTAR
-	tr_mon LEVEL_FROM_BADGES + 6, PORYGON_Z
 	tr_mon LEVEL_FROM_BADGES + 8, MAGNEZONE
+	tr_mon LEVEL_FROM_BADGES + 6, PORYGON_Z
 	end_trainer
 
 
@@ -7982,6 +7956,16 @@ ReiGroup:
 		tr_moves FLARE_BLITZ, MEGAHORN, POISON_JAB, WILL_O_WISP
 	tr_mon LEVEL_FROM_BADGES + 10, NINETALES @ LEFTOVERS
 		tr_moves NASTY_PLOT, FIRE_BLAST, DARK_PULSE, SHADOW_BALL
+	end_trainer
+
+SECTION "GiovanniYngGroup", ROMX
+GiovanniYngGroup:
+
+	def_trainer_class GIOVANNI_YNG
+	def_trainer GIOVANNI_YNG1, "Giovanni"
+	tr_mon LEVEL_FROM_BADGES + 20, "?????", MEWTWO @ ARMOR_SUIT, MALE | MEWTWO_ARMORED_FORM
+		tr_extra INSOMNIA, SATK_UP_ATK_DOWN
+		tr_moves SHADOW_BALL, PSYSTRIKE, NASTY_PLOT, AURA_SPHERE
 	end_trainer
 
 ENDSECTION
