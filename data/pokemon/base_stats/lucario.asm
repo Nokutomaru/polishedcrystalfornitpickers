@@ -7,7 +7,7 @@
 	db NO_ITEM, NO_ITEM ; held items
 	dn GENDER_F12_5, HATCH_MEDIUM_SLOW ; gender ratio, step cycles to hatch
 
-	abilities_for RIOLU, STEADFAST, INNER_FOCUS, JUSTIFIED
+	abilities_for LUCARIO, STEADFAST, INNER_FOCUS, JUSTIFIED
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_GROUND, EGG_HUMANSHAPE ; egg groups
 

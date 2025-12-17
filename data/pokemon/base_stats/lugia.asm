@@ -1,11 +1,7 @@
 	db 106,  90, 130, 110,  90, 154 ; 680 BST
 	;   hp  atk  def  spe  sat  sdf
 
-if DEF(FAITHFUL)
 	db PSYCHIC, FLYING ; type
-else
-	db WATER, FLYING ; type
-endc
 	db 3 ; catch rate
 	db 220 ; base exp
 	db ALWAYS_ITEM_2, LUM_BERRY ; held items
