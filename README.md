@@ -4,7 +4,7 @@ This is a custom fork of [Pokémon Polished Crystal](https://github.com/Rangi42/
 
 This fork's goal is to "fix" small details that nobody else would care about, but make the game "literally unplayable" to me. Details such as: Steven without his Metagross, Cynthia without her Garchomp, Umbreon not being able to learn Knock Off, etc..
 
-## The current version of this fork is based on the 3.2.1 release.
+## The current version of this fork is based on the 3.2.3 release.
 
 ## Changes:
 
