@@ -38,6 +38,7 @@ This fork's goal is to "fix" small details that nobody else would care about, bu
 
 - [Everyone who worked on Polished Crystal and its other forks](https://github.com/Rangi42/polishedcrystal/graphs/contributors): Literally everything lmao. All I did was edit some .asm files with Notepad.
 - [Johnnyz](https://johnnyz.smspower.org/): I got a good portion of the new music tracks from him.
+- [TrainerDX](https://www.deviantart.com/trainerdx): I got his sprites for [Morty](https://www.deviantart.com/trainerdx/art/Gym-Leader-Morty-Remade-Pokemon-Battle-Sprite-1022817306) and the [Male Protagonist](https://www.deviantart.com/trainerdx/art/Pokemon-Trainer-Playable-Character-Base-Sprites-1028162165).
 
 ## Screenshots
 
