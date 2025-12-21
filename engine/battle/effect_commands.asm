@@ -621,7 +621,8 @@ _ResetTurn:
 	ld [hl], a
 	xor a
 	ld [wAlreadyDisobeyed], a
-	jmp DoMove
+	call DoMove
+	jmp EndMoveEffect
 
 MoveDisabled:
 	; Make sure any charged moves fail
@@ -6637,7 +6638,6 @@ BattleCommandJump:
 	call GetFarByte
 	cp b
 	jr z, .got_target
-.next
 	ld a, c
 	and a
 	inc hl
@@ -6655,7 +6655,7 @@ BattleCommandJump:
 	cp FIRST_MOVEARG_COMMAND
 	jr c, .target_valid
 	cp LAST_MOVEARG_COMMAND + 1
-	jr c, .next
+	jr c, .loop
 
 .target_valid
 	ld a, c
