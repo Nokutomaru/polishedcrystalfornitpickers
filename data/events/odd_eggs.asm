@@ -1,19 +1,20 @@
-DEF NUM_ODD_EGGS EQU 12
+DEF NUM_ODD_EGGS EQU 13
 DEF ODD_EGG_LENGTH EQU 10
 
 OddEggProbabilities:
 	table_width 1
-	db 11
+	db 10
 	db 18
-	db 27
-	db 36
-	db 45
-	db 54
-	db 63
-	db 72
+	db 26
+	db 34
+	db 42
+	db 50
+	db 58
+	db 66
+	db 74
 	db 81
-	db 90
-	db 97
+	db 89
+	db 95
 	db 100
 	assert_table_length NUM_ODD_EGGS
 
@@ -69,13 +70,18 @@ OddEggs:
 	db $BB, $BB, $BB ; DVs
 	db SHINY_MASK | HIDDEN_ABILITY | QUIRKY ; Personality
 
+	dp WYNAUT, IS_EGG_MASK | PLAIN_FORM
+	db SPLASH, COUNTER, MIRROR_COAT, DIZZY_PUNCH
+	db $BB, $BB, $BB ; DVs
+	db SHINY_MASK | HIDDEN_ABILITY | QUIRKY ; Personality
+
 	dp MUNCHLAX, IS_EGG_MASK | PLAIN_FORM
 	db SWEET_KISS, METRONOME, TACKLE, DIZZY_PUNCH
 	db $BB, $BB, $BB ; DVs
 	db SHINY_MASK | HIDDEN_ABILITY | QUIRKY ; Personality
 
 	dp RIOLU, IS_EGG_MASK | PLAIN_FORM
-	db ENDURE, DIZZY_PUNCH, QUICK_ATTACK, NO_MOVE
+	db ENDURE, QUICK_ATTACK, DIZZY_PUNCH, NO_MOVE
 	db $BB, $BB, $BB ; DVs
 	db SHINY_MASK | HIDDEN_ABILITY | QUIRKY ; Personality
 
