@@ -17,6 +17,7 @@ ElemFangUsers:
 	dp TOTODILE
 	dp CROCONAW
 	dp FERALIGATR
+	dp WOOPER
 	dp GLIGAR
 	dp GLISCOR
 	dp STEELIX

@@ -180,8 +180,7 @@ DoMove:
 .endturn_herb
 	call CheckEndMoveEffects
 	call CheckThroatSpray
-	call CheckPowerHerb
-	ret
+	jmp CheckPowerHerb
 
 ReadMoveScriptByte:
 	ld hl, wBattleScriptBufferLoc
@@ -276,12 +275,14 @@ BattleCommand_checkturn:
 	jr .fast_asleep
 
 .woke_up
+if !DEF(FAITHFUL)
 	; if user has Early Bird, display ability activation
 	; a is still (user's ability - EARLY_BIRD)
 	and a
 	jr nz, .woke_up_no_early_bird
 	farcall BeginAbility
 	farcall ShowAbilityActivation
+endc
 .woke_up_no_early_bird
 	ld hl, WokeUpText
 	call StdBattleTextbox
@@ -4323,6 +4324,13 @@ BattleCommand_damagecalc:
 .check_burn
 	bit BRN, a
 	jr z, .burn_done
+
+	; Burn should not halve physical attack if using Facade, or with Guts.
+	ld a, BATTLE_VARS_MOVE_ANIM
+	call GetBattleVar
+	cp FACADE
+	jr z, .burn_done
+
 	call GetTrueUserIgnorableAbility
 	cp GUTS
 	ln a, 1, 2 ; 1/2 = 50%
