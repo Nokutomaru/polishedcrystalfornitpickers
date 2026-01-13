@@ -173,8 +173,6 @@ ElmCheckTogepiEgg:
 	checkevent EVENT_TOGEPI_HATCHED
 	iftrue ElmEggHatchedScript
 ElmCheckGotEggAgain:
-	checkevent EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE ; why are we checking it again?
-	iftrue_jumpopenedtext ElmThoughtEggHatchedText
 	checkevent EVENT_GOT_TOGEPI_EGG_FROM_ELMS_AIDE
 	iftrue_jumpopenedtext ElmWaitingEggHatchText
 	checkflag ENGINE_ZEPHYRBADGE

@@ -77,9 +77,9 @@ OverworldMonIconColors::
 	iconpal GREEN, BROWN ; VICTREEBEL
 	iconpal BLUE, AZURE ; TENTACOOL
 	iconpal BLUE, AZURE ; TENTACRUEL
-	iconpal BROWN, RED ; GEODUDE
-	iconpal BROWN, RED ; GRAVELER
-	iconpal BROWN, RED ; GOLEM
+	iconpal BROWN, ORANGE ; GEODUDE
+	iconpal BROWN, ORANGE ; GRAVELER
+	iconpal BROWN, ORANGE ; GOLEM
 	iconpal RED, BLUE ; PONYTA
 	iconpal RED, BLUE ; RAPIDASH
 	iconpal PINK, PURPLE ; SLOWPOKE
@@ -166,7 +166,7 @@ OverworldMonIconColors::
 	iconpal AZURE, TEAL ; FERALIGATR
 	iconpal BROWN, PURPLE ; SENTRET
 	iconpal BROWN, RED ; FURRET
-	iconpal BROWN, RED ; HOOTHOOT
+	iconpal BROWN, GRAY ; HOOTHOOT
 	iconpal BROWN, GREEN ; NOCTOWL
 	iconpal RED, PINK ; LEDYBA
 	iconpal RED, PINK ; LEDIAN
@@ -215,7 +215,7 @@ OverworldMonIconColors::
 	iconpal PINK, BLUE ; SNUBBULL
 	iconpal PURPLE, GRAY ; GRANBULL
 	iconpal BLUE, PURPLE ; QWILFISH
-	iconpal RED, GRAY ; SCIZOR
+	iconpal RED, GREEN ; SCIZOR
 	iconpal RED, BLUE ; SHUCKLE
 	iconpal BLUE, PURPLE ; HERACROSS
 	iconpal BLUE, RED ; SNEASEL
@@ -265,7 +265,7 @@ OverworldMonIconColors::
 	iconpal GREEN, RED ; BONSLY
 	iconpal BLUE, GREEN ; MIME_JR_
 	iconpal RED, PINK ; HAPPINY
-	iconpal TEAL, BLUE ; MUNCHLAX
+	iconpal TEAL, BROWN ; MUNCHLAX
 	iconpal BLUE, TEAL ; MANTYKE
 	iconpal BLUE, RED ; WEAVILE
 	iconpal GRAY, BROWN ; MAGNEZONE
@@ -276,13 +276,13 @@ OverworldMonIconColors::
 	iconpal RED, BROWN ; MAGMORTAR
 	iconpal WHITE, AZURE ; TOGEKISS
 	iconpal RED, BLUE ; YANMEGA
-	iconpal GREEN, BROWN ; LEAFEON
+	iconpal GREEN, ORANGE ; LEAFEON
 	iconpal AZURE, BLUE ; GLACEON
 	iconpal PURPLE, GRAY ; GLISCOR
 	iconpal BROWN, GREEN ; MAMOSWINE
 	iconpal BLUE, PURPLE ; PORYGON_Z
 	iconpal PINK, AZURE ; SYLVEON
-	iconpal GRAY, BROWN ; PERRSERKER
+	iconpal GRAY, ORANGE ; PERRSERKER
 	iconpal GRAY, PINK ; CURSOLA
 	iconpal WHITE, RED ; SIRFETCH_D
 	iconpal BLUE, GRAY ; MR__RIME
@@ -349,7 +349,7 @@ endr
 
 	iconpal BLACK, RED ; RATTATA, ALOLAN_FORM
 	iconpal BLACK, RED ; RATICATE, ALOLAN_FORM
-	iconpal ORANGE, BROWN ; RAICHU, ALOLAN_FORM
+	iconpal ORANGE, BLUE ; RAICHU, ALOLAN_FORM
 	iconpal WHITE, GREEN ; SANDSHREW, ALOLAN_FORM
 	iconpal WHITE, GREEN ; SANDSLASH, ALOLAN_FORM
 	iconpal AZURE, RED ; VULPIX, ALOLAN_FORM
