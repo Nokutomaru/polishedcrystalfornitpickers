@@ -9,7 +9,7 @@ Music_ESwat_Round2_Ch1:
 	volume 7, 7
 	duty_cycle 1
 	note_type 12, 9, 7
-	tempo 133
+	tempo 131
 Music_ESwat_Round2_Ch1_loop:
 	octave 3
 	note C_, 1

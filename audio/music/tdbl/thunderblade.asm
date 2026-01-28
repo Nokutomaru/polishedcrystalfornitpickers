@@ -9,7 +9,7 @@ Music_TDBL_ThunderBlade_Ch1:
 	volume 7, 7
 	duty_cycle 1
 	note_type 12, 10, 7
-	tempo 147
+	tempo 146
 	stereo_panning TRUE, TRUE
 	rest 8
 Music_TDBL_ThunderBlade_Ch1_loop:

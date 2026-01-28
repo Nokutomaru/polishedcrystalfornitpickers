@@ -9,7 +9,7 @@ Music_GF2_AloneFighter_Ch1:
 	volume 7, 7
 	duty_cycle 2
 	note_type 12, 10, 7
-	tempo 136
+	tempo 138
 	rest 3
 	octave 2
 	note A_, 1

@@ -9,7 +9,7 @@ Music_TDBL_BurningPoint_Ch1:
 	volume 7, 7
 	duty_cycle 2
 	note_type 12, 10, 7
-	tempo 152
+	tempo 151
 	stereo_panning TRUE, TRUE
 	octave 3
 	note A_, 3

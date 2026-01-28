@@ -9,7 +9,7 @@ Music_Quartet_Round5_Ch1:
 	volume 7, 7
 	duty_cycle 1
 	note_type 12, 6, 7
-	tempo 129
+	tempo 128
 	stereo_panning TRUE, TRUE
 	rest 16
 	rest 16
