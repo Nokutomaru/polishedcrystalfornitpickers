@@ -1135,6 +1135,7 @@ SmoochumEggSpeciesMoves:
 	dp SMOOCHUM, PLAIN_FORM
 	db BULK_UP
 	db NASTY_PLOT
+	db FORESIGHT
 	db $ff
 
 ElekidEggSpeciesMoves:

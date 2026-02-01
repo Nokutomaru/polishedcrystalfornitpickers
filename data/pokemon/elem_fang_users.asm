@@ -1,5 +1,5 @@
 ElemFangUsers:
-; "Thunder/Fire/Ice Strike" = Thunder/Fire/Ice Punch + Thunder/Fire/Ice Fang
+; "Volt/Fire/Ice Strike" = Thunder/Fire/Ice Punch + Thunder/Fire/Ice Fang
 	dp EKANS
 	dp ARBOK
 	dp VULPIX

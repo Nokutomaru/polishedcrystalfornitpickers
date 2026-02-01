@@ -2111,8 +2111,9 @@ endc
 	learnset 21, CALM_MIND ; Meditate → TM move
 	learnset 25, PSYBEAM
 	learnset 29, TRI_ATTACK ; Wake-Up Slap → RBY TM move
-	learnset 33, BARRIER ; Psych Up → egg move
-	learnset 37, BELLY_DRUM ; Synchronoise → event move
+	learnset 32, BARRIER ; Psych Up → egg move
+	learnset 35, DREAM_EATER
+	learnset 38, BELLY_DRUM ; Synchronoise → event move
 	learnset 41, ZEN_HEADBUTT
 	learnset 45, SWAGGER
 	learnset 49, PSYCHIC_M
@@ -2130,8 +2131,9 @@ endc
 	learnset 21, CALM_MIND ; Meditate → TM move
 	learnset 25, PSYBEAM
 	learnset 29, TRI_ATTACK ; Wake-Up Slap → RBY TM move
-	learnset 33, BARRIER ; Psych Up → egg move
-	learnset 37, BELLY_DRUM ; Synchronoise → event move
+	learnset 32, BARRIER ; Psych Up → egg move
+	learnset 35, DREAM_EATER
+	learnset 38, BELLY_DRUM ; Synchronoise → event move
 	learnset 41, ZEN_HEADBUTT
 	learnset 45, SWAGGER
 	learnset 49, PSYCHIC_M
@@ -3269,6 +3271,7 @@ endc
 
 	evos_attacks Mewtwo
 	learnset 1, TELEPORT ; Psywave → RBY TM move
+	learnset 1, FORESIGHT ; Miracle Eye → similar move
 	learnset 1, AGILITY ; Sw/Sh move
 	learnset 1, FOCUS_ENERGY ; Laser Focus → similar move
 	learnset 1, CONFUSION
@@ -3826,6 +3829,7 @@ endc
 	evos_attacks Natu
 	evo_data EVOLVE_LEVEL, 25, XATU
 	learnset 1, PECK
+	learnset 1, FORESIGHT
 	learnset 1, LEER
 	learnset 6, NIGHT_SHADE
 	learnset 9, TELEPORT
@@ -3844,6 +3848,7 @@ endc
 	evos_attacks Xatu
 	learnset 1, AIR_SLASH ; evolution move
 	learnset 1, PECK
+	learnset 1, FORESIGHT
 	learnset 1, LEER
 	learnset 6, NIGHT_SHADE
 	learnset 9, TELEPORT
@@ -6067,7 +6072,7 @@ endc
 	learnset 1, TAKE_DOWN
 	learnset 1, CONFUSION
 	learnset 1, BULLET_PUNCH
-	learnset 1, CLOSE_COMBAT ; Hammer Arm → similar evolution move
+	learnset 1, CLOSE_COMBAT ; Hammer Arm → similar move ; evolution move
 	learnset 1, EXPLOSION
 	learnset 1, METAL_CLAW
 	learnset 1, HONE_CLAWS
@@ -6104,7 +6109,7 @@ endc
 	evo_data EVOLVE_LEVEL, 48, GARCHOMP
 	learnset 1, TACKLE
 	learnset 1, MUD_SLAP ; Sand Attack → similar move
-	learnset 1, DOUBLE_KICK ; Dual Chop → similar evolution move
+	learnset 1, DOUBLE_KICK ; Dual Chop → similar move ; evolution move
 	learnset 7, DRAGONBREATH
 	learnset 13, SANDSTORM
 	learnset 15, TAKE_DOWN
