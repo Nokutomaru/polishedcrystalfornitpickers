@@ -809,9 +809,10 @@ endc
 	learnset 23, SWIFT
 	learnset 25, SUPER_FANG ; Poison Fang → HGSS tutor move
 	learnset 29, MEAN_LOOK
-	learnset 31, LEECH_LIFE
+	learnset 31, VENOSHOCK
+	learnset 33, LEECH_LIFE
 	learnset 35, HAZE
-	learnset 37, VENOSHOCK
+	learnset 37, POISON_JAB
 	learnset 41, AIR_SLASH
 	learnset 43, PURSUIT ; Quick Guard → egg move
 
@@ -829,9 +830,10 @@ endc
 	learnset 24, SWIFT
 	learnset 27, SUPER_FANG ; Poison Fang → HGSS tutor move
 	learnset 32, MEAN_LOOK
-	learnset 35, LEECH_LIFE
-	learnset 40, HAZE
-	learnset 43, VENOSHOCK
+	learnset 35, VENOSHOCK
+	learnset 39, LEECH_LIFE
+	learnset 42, HAZE
+	learnset 45, POISON_JAB
 	learnset 48, AIR_SLASH
 	learnset 51, PURSUIT ; Quick Guard → egg move
 
@@ -3674,11 +3676,12 @@ endc
 	learnset 24, SWIFT
 	learnset 27, SUPER_FANG ; Poison Fang → HGSS tutor move
 	learnset 32, MEAN_LOOK
-	learnset 35, LEECH_LIFE
-	learnset 40, HAZE
-	learnset 43, VENOSHOCK
-	learnset 48, AIR_SLASH
-	learnset 51, CRUNCH ; Quick Guard → new move
+	learnset 35, VENOSHOCK
+	learnset 39, LEECH_LIFE
+	learnset 42, HAZE
+	learnset 45, POISON_JAB
+	learnset 49, AIR_SLASH
+	learnset 52, PURSUIT ; Quick Guard → new move
 
 	evos_attacks Chinchou
 	evo_data EVOLVE_LEVEL, 27, LANTURN

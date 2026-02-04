@@ -199,7 +199,7 @@ Music:
 	dba Music_Quartet_Round5
 	dba Music_ShaDanc_Airport
 	dba Music_AKSW_Round1
-	dba Music_ESwat_Round2
+	dba Music_AKSW_Round4
 	dba Music_ESwat_Round3
 	dba Music_ESwat_Boss2
 	assert_table_length NUM_MUSIC_SONGS

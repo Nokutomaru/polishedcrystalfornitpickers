@@ -199,7 +199,7 @@
 	const MUSIC_QUARTET_ROUND5  	           ; c3
 	const MUSIC_SHADANC_AIRPORT  	           ; c4
 	const MUSIC_AKSW_ROUND1  	           ; c5
-	const MUSIC_ESWAT_ROUND2  	           ; c6
+	const MUSIC_AKSW_ROUND4  	           ; c6
 	const MUSIC_ESWAT_ROUND3  	           ; c7
 	const MUSIC_ESWAT_BOSS2  	           ; c8
 DEF NUM_MUSIC_SONGS EQU const_value

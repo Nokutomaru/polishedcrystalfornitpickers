@@ -577,8 +577,8 @@ INCLUDE "audio/music/shadanc/airport.asm"
 SECTION "Song - aksw/round1", ROMX
 INCLUDE "audio/music/aksw/round1.asm"
 
-SECTION "Song - eswat/round2", ROMX
-INCLUDE "audio/music/eswat/round2.asm"
+SECTION "Song - aksw/round4", ROMX
+INCLUDE "audio/music/aksw/round4.asm"
 
 SECTION "Song - eswat/round3", ROMX
 INCLUDE "audio/music/eswat/round3.asm"
