@@ -611,5 +611,8 @@ CrysRunSpriteGFX:: INCBIN "gfx/sprites/crys_run.2bpp.lz"
 SECTION "ThortonSpriteGFX", ROMX
 ThortonSpriteGFX:: INCBIN "gfx/sprites/thorton.2bpp.lz"
 
+SECTION "BlankFruitSpriteGFX", ROMX
+BlankFruitSpriteGFX:: INCBIN "gfx/sprites/blank_fruit.2bpp.lz"
+
 SECTION "GiovanniYngSpriteGFX", ROMX
 GiovanniYngSpriteGFX:: INCBIN "gfx/sprites/giovanni_yng.2bpp.lz"

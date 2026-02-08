@@ -207,7 +207,8 @@
 	const SPRITE_CHRIS_RUN ; cb
 	const SPRITE_KRIS_RUN ; cc
 	const SPRITE_CRYS_RUN ; cd
-	const SPRITE_GIOVANNI_YNG ; ce
+	const SPRITE_BLANK_FRUIT ; ce
+	const SPRITE_GIOVANNI_YNG ; cf
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)
